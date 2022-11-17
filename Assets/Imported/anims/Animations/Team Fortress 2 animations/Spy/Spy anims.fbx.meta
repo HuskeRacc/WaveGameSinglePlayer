@@ -1,0 +1,4920 @@
+fileFormatVersion: 2
+guid: 2d5c8ba20f7f67742874ffdf459bd244
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bip_collar_L
+    100002: bip_collar_R
+    100004: bip_foot_L
+    100006: bip_foot_R
+    100008: bip_hand_L
+    100010: bip_hand_R
+    100012: bip_head
+    100014: bip_hip_L
+    100016: bip_hip_R
+    100018: bip_index_0_L
+    100020: bip_index_0_R
+    100022: bip_index_1_L
+    100024: bip_index_1_R
+    100026: bip_index_2_L
+    100028: bip_index_2_L_end
+    100030: bip_index_2_R
+    100032: bip_index_2_R_end
+    100034: bip_knee_L
+    100036: bip_knee_R
+    100038: bip_lowerArm_L
+    100040: bip_lowerArm_R
+    100042: bip_middle_0_L
+    100044: bip_middle_0_R
+    100046: bip_middle_1_L
+    100048: bip_middle_1_R
+    100050: bip_middle_2_L
+    100052: bip_middle_2_L_end
+    100054: bip_middle_2_R
+    100056: bip_middle_2_R_end
+    100058: bip_neck
+    100060: bip_pelvis
+    100062: bip_pinky_0_L
+    100064: bip_pinky_0_R
+    100066: bip_pinky_1_L
+    100068: bip_pinky_1_R
+    100070: bip_pinky_2_L
+    100072: bip_pinky_2_L_end
+    100074: bip_pinky_2_R
+    100076: bip_pinky_2_R_end
+    100078: bip_ring_0_L
+    100080: bip_ring_0_R
+    100082: bip_ring_1_L
+    100084: bip_ring_1_R
+    100086: bip_ring_2_L
+    100088: bip_ring_2_L_end
+    100090: bip_ring_2_R
+    100092: bip_ring_2_R_end
+    100094: bip_spine_0
+    100096: bip_spine_1
+    100098: bip_spine_2
+    100100: bip_spine_3
+    100102: bip_thumb_0_L
+    100104: bip_thumb_0_R
+    100106: bip_thumb_1_L
+    100108: bip_thumb_1_R
+    100110: bip_thumb_2_L
+    100112: bip_thumb_2_L_end
+    100114: bip_thumb_2_R
+    100116: bip_thumb_2_R_end
+    100118: bip_toe_L
+    100120: bip_toe_L_end
+    100122: bip_toe_R
+    100124: bip_toe_R_end
+    100126: bip_upperArm_L
+    100128: bip_upperArm_R
+    100130: effect_hand_L
+    100132: effect_hand_L_end
+    100134: effect_hand_R
+    100136: effect_hand_R_end
+    100138: hlp_suitArmpitBack_L
+    100140: hlp_suitArmpitBack_L_end
+    100142: hlp_suitArmpitBack_R
+    100144: hlp_suitArmpitBack_R_end
+    100146: hlp_suitArmTop_L
+    100148: hlp_suitArmTop_L_end
+    100150: hlp_suitArmTop_R
+    100152: hlp_suitArmTop_R_end
+    100154: hlp_thigh_L
+    100156: hlp_thigh_L_end
+    100158: hlp_thigh_R
+    100160: hlp_thigh_R_end
+    100162: medal_bone
+    100164: medal_bone_end
+    100166: mvm
+    100168: mvm_end
+    100170: prop_bone
+    100172: prop_bone_1
+    100174: prop_bone_1_end
+    100176: prop_bone_2
+    100178: prop_bone_2_end
+    100180: prop_bone_3
+    100182: prop_bone_3_end
+    100184: prop_bone_4
+    100186: prop_bone_4_end
+    100188: prop_bone_5
+    100190: prop_bone_5_end
+    100192: prop_bone_6
+    100194: prop_bone_6_end
+    100196: prop_bone_end
+    100198: prp_cig
+    100200: prp_cig_end
+    100202: prp_coat_back_0_L
+    100204: prp_coat_back_0_L_end
+    100206: prp_coat_back_0_R
+    100208: prp_coat_back_0_R_end
+    100210: prp_coat_front_0_L
+    100212: prp_coat_front_0_L_end
+    100214: prp_coat_front_0_R
+    100216: prp_coat_front_0_R_end
+    100218: prp_wristInner_L
+    100220: prp_wristInner_L_end
+    100222: prp_wristInner_R
+    100224: prp_wristInner_R_end
+    100226: prp_wristOuter_L
+    100228: prp_wristOuter_L_end
+    100230: prp_wristOuter_R
+    100232: prp_wristOuter_R_end
+    100234: //RootNode
+    100236: weapon_bone
+    100238: weapon_bone_1
+    100240: weapon_bone_1_end
+    100242: weapon_bone_2
+    100244: weapon_bone_2_end
+    100246: weapon_bone_3
+    100248: weapon_bone_3_end
+    100250: weapon_bone_end
+    100252: weapon_bone_L
+    100254: weapon_bone_L_end
+    400000: bip_collar_L
+    400002: bip_collar_R
+    400004: bip_foot_L
+    400006: bip_foot_R
+    400008: bip_hand_L
+    400010: bip_hand_R
+    400012: bip_head
+    400014: bip_hip_L
+    400016: bip_hip_R
+    400018: bip_index_0_L
+    400020: bip_index_0_R
+    400022: bip_index_1_L
+    400024: bip_index_1_R
+    400026: bip_index_2_L
+    400028: bip_index_2_L_end
+    400030: bip_index_2_R
+    400032: bip_index_2_R_end
+    400034: bip_knee_L
+    400036: bip_knee_R
+    400038: bip_lowerArm_L
+    400040: bip_lowerArm_R
+    400042: bip_middle_0_L
+    400044: bip_middle_0_R
+    400046: bip_middle_1_L
+    400048: bip_middle_1_R
+    400050: bip_middle_2_L
+    400052: bip_middle_2_L_end
+    400054: bip_middle_2_R
+    400056: bip_middle_2_R_end
+    400058: bip_neck
+    400060: bip_pelvis
+    400062: bip_pinky_0_L
+    400064: bip_pinky_0_R
+    400066: bip_pinky_1_L
+    400068: bip_pinky_1_R
+    400070: bip_pinky_2_L
+    400072: bip_pinky_2_L_end
+    400074: bip_pinky_2_R
+    400076: bip_pinky_2_R_end
+    400078: bip_ring_0_L
+    400080: bip_ring_0_R
+    400082: bip_ring_1_L
+    400084: bip_ring_1_R
+    400086: bip_ring_2_L
+    400088: bip_ring_2_L_end
+    400090: bip_ring_2_R
+    400092: bip_ring_2_R_end
+    400094: bip_spine_0
+    400096: bip_spine_1
+    400098: bip_spine_2
+    400100: bip_spine_3
+    400102: bip_thumb_0_L
+    400104: bip_thumb_0_R
+    400106: bip_thumb_1_L
+    400108: bip_thumb_1_R
+    400110: bip_thumb_2_L
+    400112: bip_thumb_2_L_end
+    400114: bip_thumb_2_R
+    400116: bip_thumb_2_R_end
+    400118: bip_toe_L
+    400120: bip_toe_L_end
+    400122: bip_toe_R
+    400124: bip_toe_R_end
+    400126: bip_upperArm_L
+    400128: bip_upperArm_R
+    400130: effect_hand_L
+    400132: effect_hand_L_end
+    400134: effect_hand_R
+    400136: effect_hand_R_end
+    400138: hlp_suitArmpitBack_L
+    400140: hlp_suitArmpitBack_L_end
+    400142: hlp_suitArmpitBack_R
+    400144: hlp_suitArmpitBack_R_end
+    400146: hlp_suitArmTop_L
+    400148: hlp_suitArmTop_L_end
+    400150: hlp_suitArmTop_R
+    400152: hlp_suitArmTop_R_end
+    400154: hlp_thigh_L
+    400156: hlp_thigh_L_end
+    400158: hlp_thigh_R
+    400160: hlp_thigh_R_end
+    400162: medal_bone
+    400164: medal_bone_end
+    400166: mvm
+    400168: mvm_end
+    400170: prop_bone
+    400172: prop_bone_1
+    400174: prop_bone_1_end
+    400176: prop_bone_2
+    400178: prop_bone_2_end
+    400180: prop_bone_3
+    400182: prop_bone_3_end
+    400184: prop_bone_4
+    400186: prop_bone_4_end
+    400188: prop_bone_5
+    400190: prop_bone_5_end
+    400192: prop_bone_6
+    400194: prop_bone_6_end
+    400196: prop_bone_end
+    400198: prp_cig
+    400200: prp_cig_end
+    400202: prp_coat_back_0_L
+    400204: prp_coat_back_0_L_end
+    400206: prp_coat_back_0_R
+    400208: prp_coat_back_0_R_end
+    400210: prp_coat_front_0_L
+    400212: prp_coat_front_0_L_end
+    400214: prp_coat_front_0_R
+    400216: prp_coat_front_0_R_end
+    400218: prp_wristInner_L
+    400220: prp_wristInner_L_end
+    400222: prp_wristInner_R
+    400224: prp_wristInner_R_end
+    400226: prp_wristOuter_L
+    400228: prp_wristOuter_L_end
+    400230: prp_wristOuter_R
+    400232: prp_wristOuter_R_end
+    400234: //RootNode
+    400236: weapon_bone
+    400238: weapon_bone_1
+    400240: weapon_bone_1_end
+    400242: weapon_bone_2
+    400244: weapon_bone_2_end
+    400246: weapon_bone_3
+    400248: weapon_bone_3_end
+    400250: weapon_bone_end
+    400252: weapon_bone_L
+    400254: weapon_bone_L_end
+    7400000: bodylayer_Item1_Overhand_Swing_skeleton|.1 saxxy_pose
+    7400002: bodylayer_Item1_Overhand_Swing_skeleton|03
+    7400004: bodylayer_Item1_Overhand_Swing_skeleton|04
+    7400006: bodylayer_Item1_Overhand_Swing_skeleton|05
+    7400008: bodylayer_Item1_Overhand_Swing_skeleton|a_reference
+    7400010: bodylayer_Item1_Overhand_Swing_skeleton|aerobic_A
+    7400012: bodylayer_Item1_Overhand_Swing_skeleton|aerobic_A_START
+    7400014: bodylayer_Item1_Overhand_Swing_skeleton|aerobic_B
+    7400016: bodylayer_Item1_Overhand_Swing_skeleton|aerobic_B_START
+    7400018: bodylayer_Item1_Overhand_Swing_skeleton|bodylayer_Item1_Overhand_Swing
+    7400020: bodylayer_Item1_Overhand_Swing_skeleton|bodylayer_ITEM1_Swing
+    7400022: bodylayer_Item1_Overhand_Swing_skeleton|brutallegend
+    7400024: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendin
+    7400026: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendinblend
+    7400028: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendinterior
+    7400030: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendout
+    7400032: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendoutblend
+    7400034: bodylayer_Item1_Overhand_Swing_skeleton|buy_a_life
+    7400036: bodylayer_Item1_Overhand_Swing_skeleton|conga
+    7400038: bodylayer_Item1_Overhand_Swing_skeleton|dieviolent
+    7400040: bodylayer_Item1_Overhand_Swing_skeleton|dosido_dance
+    7400042: bodylayer_Item1_Overhand_Swing_skeleton|dosido_intro
+    7400044: bodylayer_Item1_Overhand_Swing_skeleton|flip_start
+    7400046: bodylayer_Item1_Overhand_Swing_skeleton|flip_success_initiator
+    7400048: bodylayer_Item1_Overhand_Swing_skeleton|flip_success_receiver
+    7400050: bodylayer_Item1_Overhand_Swing_skeleton|headbutt_start
+    7400052: bodylayer_Item1_Overhand_Swing_skeleton|headbutt_success
+    7400054: bodylayer_Item1_Overhand_Swing_skeleton|hifiveSuccess
+    7400056: bodylayer_Item1_Overhand_Swing_skeleton|hifiveSuccessFull
+    7400058: bodylayer_Item1_Overhand_Swing_skeleton|highFiveStart
+    7400060: bodylayer_Item1_Overhand_Swing_skeleton|laugh
+    7400062: bodylayer_Item1_Overhand_Swing_skeleton|layer_dieviolent
+    7400064: bodylayer_Item1_Overhand_Swing_skeleton|MELEE_ALLCLASS_swing
+    7400066: bodylayer_Item1_Overhand_Swing_skeleton|melee_cheer
+    7400068: bodylayer_Item1_Overhand_Swing_skeleton|melee_cheer_armL
+    7400070: bodylayer_Item1_Overhand_Swing_skeleton|melee_cheer_runN_armL
+    7400072: bodylayer_Item1_Overhand_Swing_skeleton|melee_go
+    7400074: bodylayer_Item1_Overhand_Swing_skeleton|melee_go_armL
+    7400076: bodylayer_Item1_Overhand_Swing_skeleton|melee_go_runN_armL
+    7400078: bodylayer_Item1_Overhand_Swing_skeleton|melee_help
+    7400080: bodylayer_Item1_Overhand_Swing_skeleton|melee_help_armL
+    7400082: bodylayer_Item1_Overhand_Swing_skeleton|melee_help_runN_armL
+    7400084: bodylayer_Item1_Overhand_Swing_skeleton|Melee_Overhand_Swing
+    7400086: bodylayer_Item1_Overhand_Swing_skeleton|melee_positive
+    7400088: bodylayer_Item1_Overhand_Swing_skeleton|melee_positive_armL
+    7400090: bodylayer_Item1_Overhand_Swing_skeleton|melee_positive_runN_armL
+    7400092: bodylayer_Item1_Overhand_Swing_skeleton|Melee_Swing
+    7400094: bodylayer_Item1_Overhand_Swing_skeleton|primary_death_backstab
+    7400096: bodylayer_Item1_Overhand_Swing_skeleton|primary_death_burning
+    7400098: bodylayer_Item1_Overhand_Swing_skeleton|primary_death_headshot
+    7400100: bodylayer_Item1_Overhand_Swing_skeleton|ragdollspawn
+    7400102: bodylayer_Item1_Overhand_Swing_skeleton|rps_paper
+    7400104: bodylayer_Item1_Overhand_Swing_skeleton|rps_paper_lose
+    7400106: bodylayer_Item1_Overhand_Swing_skeleton|rps_paper_win
+    7400108: bodylayer_Item1_Overhand_Swing_skeleton|rps_rock
+    7400110: bodylayer_Item1_Overhand_Swing_skeleton|rps_rock_lose
+    7400112: bodylayer_Item1_Overhand_Swing_skeleton|rps_rock_win
+    7400114: bodylayer_Item1_Overhand_Swing_skeleton|rps_scissors
+    7400116: bodylayer_Item1_Overhand_Swing_skeleton|rps_scissors_lose
+    7400118: bodylayer_Item1_Overhand_Swing_skeleton|rps_scissors_win
+    7400120: bodylayer_Item1_Overhand_Swing_skeleton|rps_start
+    7400122: bodylayer_Item1_Overhand_Swing_skeleton|russian
+    7400124: bodylayer_Item1_Overhand_Swing_skeleton|secondary_cheer
+    7400126: bodylayer_Item1_Overhand_Swing_skeleton|secondary_cheer_armL
+    7400128: bodylayer_Item1_Overhand_Swing_skeleton|secondary_go
+    7400130: bodylayer_Item1_Overhand_Swing_skeleton|secondary_go_armL
+    7400132: bodylayer_Item1_Overhand_Swing_skeleton|secondary_go_runN_armL
+    7400134: bodylayer_Item1_Overhand_Swing_skeleton|secondary_help
+    7400136: bodylayer_Item1_Overhand_Swing_skeleton|secondary_help_armL
+    7400138: bodylayer_Item1_Overhand_Swing_skeleton|secondary_positive
+    7400140: bodylayer_Item1_Overhand_Swing_skeleton|secondary_positive_armL
+    7400142: bodylayer_Item1_Overhand_Swing_skeleton|secondary_taunt
+    7400144: bodylayer_Item1_Overhand_Swing_skeleton|SelectionMenu_Anim01
+    7400146: bodylayer_Item1_Overhand_Swing_skeleton|spy_replay
+    7400148: bodylayer_Item1_Overhand_Swing_skeleton|spy_replay_taunt
+    7400150: bodylayer_Item1_Overhand_Swing_skeleton|taunt01
+    7400152: bodylayer_Item1_Overhand_Swing_skeleton|taunt03
+    7400154: bodylayer_Item1_Overhand_Swing_skeleton|taunt04
+    7400156: bodylayer_Item1_Overhand_Swing_skeleton|taunt05
+    7400158: bodylayer_Item1_Overhand_Swing_skeleton|taunt06
+    7400160: bodylayer_Item1_Overhand_Swing_skeleton|taunt_buy_a_life
+    7400162: bodylayer_Item1_Overhand_Swing_skeleton|taunt_dosido_dance
+    7400164: bodylayer_Item1_Overhand_Swing_skeleton|taunt_dosido_intro
+    7400166: bodylayer_Item1_Overhand_Swing_skeleton|taunt_flip_success_initiator
+    7400168: bodylayer_Item1_Overhand_Swing_skeleton|taunt_flip_success_receiver
+    7400170: bodylayer_Item1_Overhand_Swing_skeleton|taunt_headbutt_start
+    7400172: bodylayer_Item1_Overhand_Swing_skeleton|taunt_headbutt_success
+    7400174: bodylayer_Item1_Overhand_Swing_skeleton|taunt_laugh
+    7400176: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_paper
+    7400178: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_paper_lose
+    7400180: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_paper_win
+    7400182: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_rock
+    7400184: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_rock_lose
+    7400186: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_rock_win
+    7400188: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_scissors
+    7400190: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_scissors_lose
+    7400192: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_scissors_win
+    7400194: bodylayer_Item1_Overhand_Swing_skeleton|taunt_vehicle_allclass_end
+    7400196: bodylayer_Item1_Overhand_Swing_skeleton|taunt_vehicle_allclass_honk
+    7400198: bodylayer_Item1_Overhand_Swing_skeleton|taunt_yetipunch
+    7400200: bodylayer_Item1_Overhand_Swing_skeleton|test_swingBlend
+    7400202: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_end
+    7400204: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_honk
+    7400206: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_spawn
+    7400208: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_start
+    7400210: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_start_layer
+    7400212: bodylayer_Item1_Overhand_Swing_skeleton|yeti
+    7400214: bodylayer_Item1_Overhand_Swing_skeleton|yeti_layer
+    7400216: bodylayer_Item1_Overhand_Swing_skeleton|yeti_prop
+    7400218: bodylayer_Item1_Overhand_Swing_skeleton|yetipunch
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|04'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'prp_cig' has translation
+      animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|05'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|a_reference' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|aerobic_A'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_3' has translation animation that will
+      be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|aerobic_A_START'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_3' has translation animation that will
+      be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|aerobic_B'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_3' has translation animation that will
+      be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|aerobic_B_START'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_3' has translation animation that will
+      be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|bodylayer_Item1_Overhand_Swing'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|bodylayer_ITEM1_Swing' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|brutallegendinblend'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|brutallegendinterior' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_0' has translation animation
+      that will be discarded.\n\t'bip_spine_1' has translation animation that will
+      be discarded.\n\t'bip_spine_2' has translation animation that will be discarded.\n\t'bip_spine_3'
+      has translation animation that will be discarded.\n\t'bip_spine_3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|brutallegendoutblend' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|buy_a_life'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|conga' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|dosido_dance'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_knee_L'
+      has translation animation that will be discarded.\n\t'bip_foot_L' has translation
+      animation that will be discarded.\n\t'bip_knee_R' has translation animation
+      that will be discarded.\n\t'bip_foot_R' has translation animation that will
+      be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|dosido_intro'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|flip_start' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_1' has translation animation that
+      will be discarded.\n\t'bip_spine_2' has translation animation that will be discarded.\n\t'bip_spine_3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|flip_success_initiator' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has translation
+      animation that will be discarded.\n\t'bip_spine_1' has translation animation
+      that will be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_lowerArm_L' has translation
+      animation that will be discarded.\n\t'bip_hand_L' has translation animation
+      that will be discarded.\n\t'bip_lowerArm_R' has translation animation that will
+      be discarded.\n\t'bip_hand_R' has translation animation that will be discarded.\n\t'bip_knee_R'
+      has translation animation that will be discarded.\n\t'bip_foot_R' has translation
+      animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|flip_success_receiver'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_1' has
+      translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_head' has translation
+      animation that will be discarded.\n\t'bip_lowerArm_L' has translation animation
+      that will be discarded.\n\t'bip_hand_L' has translation animation that will
+      be discarded.\n\t'bip_knee_L' has translation animation that will be discarded.\n\t'bip_foot_L'
+      has translation animation that will be discarded.\n\t'bip_knee_R' has translation
+      animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|headbutt_start'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_thumb_0_L'
+      has translation animation that will be discarded.\n\t'bip_index_0_L' has translation
+      animation that will be discarded.\n\t'bip_middle_0_L' has translation animation
+      that will be discarded.\n\t'bip_ring_0_L' has translation animation that will
+      be discarded.\n\t'bip_pinky_0_L' has translation animation that will be discarded.\n\t'bip_thumb_0_R'
+      has translation animation that will be discarded.\n\t'bip_index_0_R' has translation
+      animation that will be discarded.\n\t'bip_middle_0_R' has translation animation
+      that will be discarded.\n\t'bip_ring_0_R' has translation animation that will
+      be discarded.\n\t'bip_pinky_0_R' has translation animation that will be discarded.\n\t'bip_foot_L'
+      has translation animation that will be discarded.\n\t'bip_foot_R' has translation
+      animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|headbutt_success'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'prp_cig'
+      has translation animation that will be discarded.\n\t'bip_thumb_0_L' has translation
+      animation that will be discarded.\n\t'bip_thumb_1_L' has translation animation
+      that will be discarded.\n\t'bip_index_0_L' has translation animation that will
+      be discarded.\n\t'bip_index_1_L' has translation animation that will be discarded.\n\t'bip_index_2_L'
+      has translation animation that will be discarded.\n\t'bip_middle_0_L' has translation
+      animation that will be discarded.\n\t'bip_middle_1_L' has translation animation
+      that will be discarded.\n\t'bip_middle_2_L' has translation animation that will
+      be discarded.\n\t'bip_ring_0_L' has translation animation that will be discarded.\n\t'bip_ring_1_L'
+      has translation animation that will be discarded.\n\t'bip_ring_2_L' has translation
+      animation that will be discarded.\n\t'bip_pinky_0_L' has translation animation
+      that will be discarded.\n\t'bip_pinky_1_L' has translation animation that will
+      be discarded.\n\t'bip_index_0_R' has translation animation that will be discarded.\n\t'bip_middle_0_R'
+      has translation animation that will be discarded.\n\t'bip_middle_1_R' has translation
+      animation that will be discarded.\n\t'bip_ring_0_R' has translation animation
+      that will be discarded.\n\t'bip_pinky_0_R' has translation animation that will
+      be discarded.\n\t'bip_hip_L' has translation animation that will be discarded.\n\t'bip_hip_R'
+      has translation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|hifiveSuccess'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|hifiveSuccessFull' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_0' has translation animation
+      that will be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|highFiveStart'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|laugh' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|layer_dieviolent'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|melee_go' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|melee_help'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|melee_positive' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|primary_death_backstab'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|primary_death_burning' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_0' has translation animation
+      that will be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|primary_death_headshot'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'prp_cig'
+      has translation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|ragdollspawn'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|rps_paper' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' has translation animation that
+      will be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|rps_paper_lose'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|rps_paper_win' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_1' has translation animation
+      that will be discarded.\n\t'bip_spine_2' has translation animation that will
+      be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_knee_L' has translation animation
+      that will be discarded.\n\t'bip_foot_L' has translation animation that will
+      be discarded.\n\t'bip_knee_R' has translation animation that will be discarded.\n\t'bip_foot_R'
+      has translation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|rps_rock'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|rps_rock_lose' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|rps_rock_win'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_1' has
+      translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_knee_L' has translation
+      animation that will be discarded.\n\t'bip_foot_L' has translation animation
+      that will be discarded.\n\t'bip_knee_R' has translation animation that will
+      be discarded.\n\t'bip_foot_R' has translation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|rps_scissors' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_0' has translation animation
+      that will be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|rps_scissors_lose'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|rps_scissors_win' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_1' has translation animation
+      that will be discarded.\n\t'bip_spine_2' has translation animation that will
+      be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_knee_L' has translation animation
+      that will be discarded.\n\t'bip_foot_L' has translation animation that will
+      be discarded.\n\t'bip_knee_R' has translation animation that will be discarded.\n\t'bip_foot_R'
+      has translation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|rps_start'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|russian' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_1' has translation animation that
+      will be discarded.\n\t'bip_spine_2' has translation animation that will be discarded.\n\t'bip_spine_3'
+      has translation animation that will be discarded.\n\t'bip_spine_3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_head'
+      has translation animation that will be discarded.\n\t'bip_knee_L' has translation
+      animation that will be discarded.\n\t'bip_foot_L' has translation animation
+      that will be discarded.\n\t'bip_knee_R' has translation animation that will
+      be discarded.\n\t'bip_foot_R' has translation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|secondary_go' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|secondary_help'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|secondary_positive' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|secondary_taunt'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|SelectionMenu_Anim01' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'prp_cig' has translation animation
+      that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|spy_replay'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|spy_replay_taunt' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|taunt_vehicle_allclass_honk'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|test_swingBlend' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_end'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_honk' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_3' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_spawn'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_3' has translation animation that will
+      be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_start_layer'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'bodylayer_Item1_Overhand_Swing_skeleton|yeti_layer' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' has translation animation that
+      will be discarded.\n\t'bip_spine_1' has translation animation that will be discarded.\n\t'bip_spine_2'
+      has translation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|yeti_prop'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_3' has translation animation that will
+      be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'bodylayer_Item1_Overhand_Swing_skeleton|yetipunch'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_3' has translation animation that will
+      be discarded.\n\t'bip_spine_3' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|.1 saxxy_pose
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|.1 saxxy_pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|03
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|03
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|04
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|04
+      firstFrame: 0
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|05
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|05
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|a_reference
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|a_reference
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|aerobic_A
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|aerobic_A
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|aerobic_A_START
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|aerobic_A_START
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|aerobic_B
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|aerobic_B
+      firstFrame: 0
+      lastFrame: 138
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|aerobic_B_START
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|aerobic_B_START
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|bodylayer_Item1_Overhand_Swing
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|bodylayer_Item1_Overhand_Swing
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|bodylayer_ITEM1_Swing
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|bodylayer_ITEM1_Swing
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|brutallegend
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|brutallegend
+      firstFrame: 0
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendin
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendin
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendinblend
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendinblend
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendinterior
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendinterior
+      firstFrame: 0
+      lastFrame: 116
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendout
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendout
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendoutblend
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|brutallegendoutblend
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|buy_a_life
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|buy_a_life
+      firstFrame: 0
+      lastFrame: 191
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|conga
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|conga
+      firstFrame: 0
+      lastFrame: 345
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|dieviolent
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|dieviolent
+      firstFrame: 0
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|dosido_dance
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|dosido_dance
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|dosido_intro
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|dosido_intro
+      firstFrame: 0
+      lastFrame: 151
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|flip_start
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|flip_start
+      firstFrame: 0
+      lastFrame: 213
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|flip_success_initiator
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|flip_success_initiator
+      firstFrame: 0
+      lastFrame: 134
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|flip_success_receiver
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|flip_success_receiver
+      firstFrame: 0
+      lastFrame: 138
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|headbutt_start
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|headbutt_start
+      firstFrame: 0
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|headbutt_success
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|headbutt_success
+      firstFrame: 0
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|hifiveSuccess
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|hifiveSuccess
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|hifiveSuccessFull
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|hifiveSuccessFull
+      firstFrame: 0
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|highFiveStart
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|highFiveStart
+      firstFrame: 0
+      lastFrame: 86
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|laugh
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|laugh
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|layer_dieviolent
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|layer_dieviolent
+      firstFrame: 0
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|MELEE_ALLCLASS_swing
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|MELEE_ALLCLASS_swing
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|melee_cheer
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|melee_cheer
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|melee_cheer_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|melee_cheer_armL
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|melee_cheer_runN_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|melee_cheer_runN_armL
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|melee_go
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|melee_go
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|melee_go_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|melee_go_armL
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|melee_go_runN_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|melee_go_runN_armL
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|melee_help
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|melee_help
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|melee_help_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|melee_help_armL
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|melee_help_runN_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|melee_help_runN_armL
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|Melee_Overhand_Swing
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|Melee_Overhand_Swing
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|melee_positive
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|melee_positive
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|melee_positive_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|melee_positive_armL
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|melee_positive_runN_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|melee_positive_runN_armL
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|Melee_Swing
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|Melee_Swing
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|primary_death_backstab
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|primary_death_backstab
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|primary_death_burning
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|primary_death_burning
+      firstFrame: 0
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|primary_death_headshot
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|primary_death_headshot
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|ragdollspawn
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|ragdollspawn
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|rps_paper
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|rps_paper
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|rps_paper_lose
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|rps_paper_lose
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|rps_paper_win
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|rps_paper_win
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|rps_rock
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|rps_rock
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|rps_rock_lose
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|rps_rock_lose
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|rps_rock_win
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|rps_rock_win
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|rps_scissors
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|rps_scissors
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|rps_scissors_lose
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|rps_scissors_lose
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|rps_scissors_win
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|rps_scissors_win
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|rps_start
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|rps_start
+      firstFrame: 0
+      lastFrame: 128
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|russian
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|russian
+      firstFrame: 0
+      lastFrame: 688
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|secondary_cheer
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|secondary_cheer
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|secondary_cheer_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|secondary_cheer_armL
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|secondary_go
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|secondary_go
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|secondary_go_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|secondary_go_armL
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|secondary_go_runN_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|secondary_go_runN_armL
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|secondary_help
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|secondary_help
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|secondary_help_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|secondary_help_armL
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|secondary_positive
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|secondary_positive
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|secondary_positive_armL
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|secondary_positive_armL
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|secondary_taunt
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|secondary_taunt
+      firstFrame: 0
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|SelectionMenu_Anim01
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|SelectionMenu_Anim01
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|spy_replay
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|spy_replay
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|spy_replay_taunt
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|spy_replay_taunt
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt01
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt01
+      firstFrame: 0
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt03
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt03
+      firstFrame: 0
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt04
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt04
+      firstFrame: 0
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt05
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt05
+      firstFrame: 0
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt06
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt06
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_buy_a_life
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_buy_a_life
+      firstFrame: 0
+      lastFrame: 191
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_dosido_dance
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_dosido_dance
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_dosido_intro
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_dosido_intro
+      firstFrame: 0
+      lastFrame: 152
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_flip_success_initiator
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_flip_success_initiator
+      firstFrame: 0
+      lastFrame: 133
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_flip_success_receiver
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_flip_success_receiver
+      firstFrame: 0
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_headbutt_start
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_headbutt_start
+      firstFrame: 0
+      lastFrame: 153
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_headbutt_success
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_headbutt_success
+      firstFrame: 0
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_laugh
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_laugh
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_paper
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_paper
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_paper_lose
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_paper_lose
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_paper_win
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_paper_win
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_rock
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_rock
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_rock_lose
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_rock_lose
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_rock_win
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_rock_win
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_scissors
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_scissors
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_scissors_lose
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_scissors_lose
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_scissors_win
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_rps_scissors_win
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_vehicle_allclass_end
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_vehicle_allclass_end
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_vehicle_allclass_honk
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_vehicle_allclass_honk
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|taunt_yetipunch
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|taunt_yetipunch
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|test_swingBlend
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|test_swingBlend
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_end
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_end
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_honk
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_honk
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_spawn
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_spawn
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_start
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_start
+      firstFrame: 0
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_start_layer
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|vehicle_allclass_start_layer
+      firstFrame: 0
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|yeti
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|yeti
+      firstFrame: 0
+      lastFrame: 184
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|yeti_layer
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|yeti_layer
+      firstFrame: 0
+      lastFrame: 184
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|yeti_prop
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|yeti_prop
+      firstFrame: 0
+      lastFrame: 128
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bodylayer_Item1_Overhand_Swing_skeleton|yetipunch
+      takeName: bodylayer_Item1_Overhand_Swing_skeleton|yetipunch
+      firstFrame: 0
+      lastFrame: 161
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: bip_pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_spine_0
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_spine_1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_collar_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_collar_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_upperArm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_upperArm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_lowerArm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_lowerArm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: prp_cig
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_0_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_1_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_2_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_0_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_1_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_2_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_0_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_1_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_2_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_0_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_1_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_2_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_0_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_1_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_2_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_0_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_1_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_2_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_0_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_1_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_2_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_0_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_1_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_2_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_0_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_1_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_2_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_0_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_1_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_2_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_spine_2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Spy anims(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: bip_pelvis
+      parentName: Spy anims(Clone)
+      position: {x: 0, y: -0.000000038146972, z: 0.47138038}
+      rotation: {x: 0.70324576, y: -6.8973804e-10, z: -0.00000033763192, w: -0.7109468}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: bip_spine_0
+      parentName: bip_pelvis
+      position: {x: -1.715699e-18, y: -0.050054327, z: 5.3290704e-17}
+      rotation: {x: -0.12034261, y: -1.3001684e-10, z: -1.5750972e-11, w: 0.99273247}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: bip_spine_1
+      parentName: bip_spine_0
+      position: {x: -8.678613e-15, y: -0.051785104, z: 0.0000000035762764}
+      rotation: {x: -0.04094206, y: -0.0000000024788722, z: 0.000000003626829, w: 0.99916154}
+      scale: {x: 1, y: 1, z: 0.99999976}
+    - name: bip_spine_2
+      parentName: bip_spine_1
+      position: {x: -3.7214676e-15, y: -0.07272384, z: 0.000000028610224}
+      rotation: {x: 0.1479834, y: 0.000000021164169, z: 0.000000053334624, w: 0.98898983}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: bip_spine_3
+      parentName: bip_spine_2
+      position: {x: 5.684342e-16, y: -0.048786648, z: 0.000000020265583}
+      rotation: {x: 0.11286499, y: 0.000000015646858, z: 0.0000000057211422, w: 0.9936103}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: bip_neck
+      parentName: bip_spine_3
+      position: {x: 0.000000019073486, y: -0.04423133, z: -0.0000001311302}
+      rotation: {x: -0.0249857, y: 0.0000003110601, z: 0.00000037669338, w: 0.9996878}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000002}
+    - name: bip_head
+      parentName: bip_neck
+      position: {x: 0.0000000023842608, y: -0.028585821, z: 0.00000005722057}
+      rotation: {x: -0.080415554, y: -0.00000012309684, z: -0.0000002808921, w: 0.99676144}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999976}
+    - name: prp_cig
+      parentName: bip_head
+      position: {x: -0.010819366, y: 0.009364352, z: -0.05366897}
+      rotation: {x: 0.57300735, y: 0.24819306, z: -0.295005, w: 0.72321147}
+      scale: {x: 1.0000004, y: 0.99999976, z: 1}
+    - name: prp_cig_end
+      parentName: prp_cig
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_collar_L
+      parentName: bip_spine_3
+      position: {x: -0.008624377, y: -0.013431338, z: -0.031419914}
+      rotation: {x: 0.79043555, y: 0.5996777, z: -0.12468254, w: -0.0072552552}
+      scale: {x: 1.0000006, y: 0.999999, z: 1.0000004}
+    - name: bip_upperArm_L
+      parentName: bip_collar_L
+      position: {x: -0.00000037305057, y: -0.094766274, z: -0.00000016450882}
+      rotation: {x: 0.51949656, y: 0.5081956, z: 0.36569598, w: 0.58148694}
+      scale: {x: 0.99999946, y: 0.99999964, z: 1.0000007}
+    - name: bip_lowerArm_L
+      parentName: bip_upperArm_L
+      position: {x: -0.12527145, y: 0.00000000834465, z: -0.00000001579523}
+      rotation: {x: -0.7100588, y: 0.006776928, z: -0.02860428, w: 0.7035286}
+      scale: {x: 0.9999998, y: 0.99999964, z: 0.9999996}
+    - name: bip_hand_L
+      parentName: bip_lowerArm_L
+      position: {x: -0.1301349, y: 0.000000036358834, z: -0.000000038146972}
+      rotation: {x: -0.000000026341786, y: -0.000000036878507, z: -0.7071069, w: 0.7071067}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
+    - name: weapon_bone_L
+      parentName: bip_hand_L
+      position: {x: 0.027410338, y: -0.027325414, z: 0.011223831}
+      rotation: {x: 0.00016532443, y: -0.10575667, z: 0.0015448056, w: 0.99439085}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: weapon_bone_L_end
+      parentName: weapon_bone_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: effect_hand_L
+      parentName: bip_hand_L
+      position: {x: 0.011909461, y: -0.039840784, z: 0.0039392994}
+      rotation: {x: -0.3073067, y: -0.1268177, z: 0.94018734, w: -0.074348524}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: effect_hand_L_end
+      parentName: effect_hand_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_thumb_0_L
+      parentName: bip_hand_L
+      position: {x: 0.0024750626, y: -0.013428373, z: 0.01684739}
+      rotation: {x: -0.31578186, y: -0.30429906, z: 0.13829108, w: 0.8880088}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: bip_thumb_1_L
+      parentName: bip_thumb_0_L
+      position: {x: 8.9406965e-10, y: -0.0202162, z: 0.000000069141386}
+      rotation: {x: 0.038949423, y: -0, z: -0.0000017359843, w: 0.9992412}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: bip_thumb_2_L
+      parentName: bip_thumb_1_L
+      position: {x: 0.000000011995435, y: -0.011362209, z: 0.000000047683713}
+      rotation: {x: -1, y: -0.0000023205469, z: -0.00002433618, w: -0.000003296838}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: bip_thumb_2_L_end
+      parentName: bip_thumb_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_index_0_L
+      parentName: bip_hand_L
+      position: {x: -0.001976087, y: -0.045884456, z: 0.0132891275}
+      rotation: {x: -0.10104089, y: 0.86340165, z: -0.06756749, w: -0.48965612}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: bip_index_1_L
+      parentName: bip_index_0_L
+      position: {x: -0.000000011920928, y: -0.01754531, z: 0.000000035762785}
+      rotation: {x: 0.027054137, y: -0.00000056624384, z: -0.0000021383157, w: 0.999634}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999999}
+    - name: bip_index_2_L
+      parentName: bip_index_1_L
+      position: {x: 0.000000035762785, y: -0.012270112, z: 0.00000004053116}
+      rotation: {x: 1, y: 0.0000031158854, z: -0.000050657796, w: 0.0000012033737}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+    - name: bip_index_2_L_end
+      parentName: bip_index_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_middle_0_L
+      parentName: bip_hand_L
+      position: {x: 0.0037702906, y: -0.04207332, z: 0.00246737}
+      rotation: {x: -0.10245349, y: 0.8935733, z: -0.06759972, w: -0.43181065}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: bip_middle_1_L
+      parentName: bip_middle_0_L
+      position: {x: -0.0000000047683715, y: -0.023723215, z: 0.00000002503395}
+      rotation: {x: 0.025575617, y: -0.00000011920925, z: -0.0000011697407, w: 0.99967295}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.9999999}
+    - name: bip_middle_2_L
+      parentName: bip_middle_1_L
+      position: {x: 0.000000052452087, y: -0.0158008, z: -0.000000011920928}
+      rotation: {x: 1, y: 0.0000024133049, z: -0.000085704334, w: -0.0000005382045}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: bip_middle_2_L_end
+      parentName: bip_middle_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_ring_0_L
+      parentName: bip_hand_L
+      position: {x: 0.011710525, y: -0.038571563, z: -0.0074067973}
+      rotation: {x: -0.10157846, y: 0.91436464, z: -0.07244521, w: -0.38518924}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: bip_ring_1_L
+      parentName: bip_ring_0_L
+      position: {x: -0.000000019073486, y: -0.016906286, z: 0.0000000333786}
+      rotation: {x: 0.031131336, y: 0.00000026822093, z: -0.0000022500756, w: 0.9995153}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+    - name: bip_ring_2_L
+      parentName: bip_ring_1_L
+      position: {x: 0.0000000047683715, y: -0.014234366, z: -2.9802322e-10}
+      rotation: {x: 1, y: 0.00000014387683, z: -0.000002799803, w: -0.00000006332357}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: bip_ring_2_L_end
+      parentName: bip_ring_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_pinky_0_L
+      parentName: bip_hand_L
+      position: {x: 0.019661361, y: -0.03398177, z: -0.015474453}
+      rotation: {x: -0.10229854, y: 0.9243634, z: -0.06864416, w: -0.36107516}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: bip_pinky_1_L
+      parentName: bip_pinky_0_L
+      position: {x: 0.0000000047683715, y: -0.014378147, z: 0.000000007152557}
+      rotation: {x: 0.032861978, y: -0.00000020861626, z: 0.0000006183982, w: 0.9994599}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: bip_pinky_2_L
+      parentName: bip_pinky_1_L
+      position: {x: 0.0000000047683715, y: -0.010593936, z: -0.000000002235174}
+      rotation: {x: 1, y: 0.0000015906444, z: -0.0000071695854, w: 0.0000012293407}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: bip_pinky_2_L_end
+      parentName: bip_pinky_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_wristInner_L
+      parentName: bip_lowerArm_L
+      position: {x: -0.13695787, y: -0.025775846, z: 0.019518794}
+      rotation: {x: -0.19473833, y: -0.19534566, z: -0.6786186, w: 0.6807304}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999998}
+    - name: prp_wristInner_L_end
+      parentName: prp_wristInner_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_wristOuter_L
+      parentName: bip_lowerArm_L
+      position: {x: -0.1370915, y: 0.017250657, z: -0.011485891}
+      rotation: {x: -0.25756374, y: -0.25836655, z: -0.65734833, w: 0.6593943}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+    - name: prp_wristOuter_L_end
+      parentName: prp_wristOuter_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hlp_suitArmTop_L
+      parentName: bip_upperArm_L
+      position: {x: 0.009376334, y: -0.0053670416, z: -0.02363173}
+      rotation: {x: -0.49999994, y: -0.50000006, z: -0.49999988, w: 0.5000001}
+      scale: {x: 0.9999997, y: 0.99999976, z: 0.9999998}
+    - name: hlp_suitArmTop_L_end
+      parentName: hlp_suitArmTop_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hlp_suitArmpitBack_L
+      parentName: bip_upperArm_L
+      position: {x: -0.019408075, y: -0.017996246, z: 0.029635638}
+      rotation: {x: -0.3523431, y: -0.6130696, z: -0.35234305, w: 0.61306965}
+      scale: {x: 0.99999964, y: 0.99999994, z: 0.9999995}
+    - name: hlp_suitArmpitBack_L_end
+      parentName: hlp_suitArmpitBack_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_collar_R
+      parentName: bip_spine_3
+      position: {x: 0.008624396, y: -0.013431498, z: -0.031419877}
+      rotation: {x: 0.007255046, y: -0.124682225, z: -0.59967756, w: 0.79043573}
+      scale: {x: 0.99999964, y: 1.0000005, z: 1.0000001}
+    - name: bip_upperArm_R
+      parentName: bip_collar_R
+      position: {x: -0.00000010333955, y: 0.09476625, z: 0}
+      rotation: {x: 0.36569554, y: -0.5814873, z: -0.51949656, w: 0.5081955}
+      scale: {x: 1, y: 0.99999964, z: 1.0000001}
+    - name: bip_lowerArm_R
+      parentName: bip_upperArm_R
+      position: {x: -0.12527157, y: -0.000000008940696, z: 0.000000019371509}
+      rotation: {x: 0.0046177655, y: -0.01543501, z: 0.025018364, w: 0.9995572}
+      scale: {x: 1, y: 1.0000001, z: 0.9999997}
+    - name: bip_hand_R
+      parentName: bip_lowerArm_R
+      position: {x: -0.13013507, y: 0.000000014305114, z: 0.0000000077486035}
+      rotation: {x: -0.5000001, y: 0.49999988, z: 0.49999967, w: 0.50000036}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: weapon_bone
+      parentName: bip_hand_R
+      position: {x: -0.020722637, y: 0.037968736, z: -0.01711913}
+      rotation: {x: -0.49854064, y: -0.11428155, z: -0.08231802, w: 0.85534835}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: weapon_bone_end
+      parentName: weapon_bone
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_1
+      parentName: bip_hand_R
+      position: {x: -0.031188233, y: 0.027313802, z: 0.0063385963}
+      rotation: {x: 0.00016517643, y: -0.1057567, z: 0.0015448431, w: 0.99439085}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: weapon_bone_1_end
+      parentName: weapon_bone_1
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_2
+      parentName: bip_hand_R
+      position: {x: -0.034245696, y: 0.027304295, z: 0.020550298}
+      rotation: {x: 0.00016517643, y: -0.1057567, z: 0.0015448431, w: 0.99439085}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: weapon_bone_2_end
+      parentName: weapon_bone_2
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_3
+      parentName: bip_hand_R
+      position: {x: -0.037612185, y: 0.02729378, z: 0.036198188}
+      rotation: {x: 0.00016517643, y: -0.1057567, z: 0.0015448431, w: 0.99439085}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: weapon_bone_3_end
+      parentName: weapon_bone_3
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: effect_hand_R
+      parentName: bip_hand_R
+      position: {x: -0.011909955, y: 0.03984003, z: -0.0039400435}
+      rotation: {x: 0.12681948, y: -0.30731007, z: 0.07434828, w: 0.940186}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: effect_hand_R_end
+      parentName: effect_hand_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_thumb_0_R
+      parentName: bip_hand_R
+      position: {x: -0.002474935, y: 0.0134278815, z: -0.0168471}
+      rotation: {x: -0.39480504, y: -0.13392226, z: 0.12250741, w: 0.9006585}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: bip_thumb_1_R
+      parentName: bip_thumb_0_R
+      position: {x: -0.00000004053116, y: 0.020216903, z: 0.00000011920929}
+      rotation: {x: 0.034011763, y: 0.0000028610214, z: 0.000016447148, w: 0.9994215}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: bip_thumb_2_R
+      parentName: bip_thumb_1_R
+      position: {x: 0.00000042915343, y: 0.011361322, z: 0.00000019073485}
+      rotation: {x: 0.029247543, y: 0.0000049689825, z: -0.00001666174, w: 0.9995722}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: bip_thumb_2_R_end
+      parentName: bip_thumb_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_index_0_R
+      parentName: bip_hand_R
+      position: {x: 0.001976894, y: 0.045883868, z: -0.013288655}
+      rotation: {x: -0.07842183, y: 0.8434076, z: -0.080583975, w: -0.525376}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_index_1_R
+      parentName: bip_index_0_R
+      position: {x: -0.00000009298324, y: 0.017545983, z: 0.00000072956084}
+      rotation: {x: 0.02709279, y: 0.000003844498, z: 0.000016137952, w: 0.99963295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_index_2_R
+      parentName: bip_index_1_R
+      position: {x: 0.00000037908552, y: 0.012269397, z: 0.00000031948088}
+      rotation: {x: 0.016096873, y: 0.000008994157, z: -0.000013878958, w: 0.9998705}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: bip_index_2_R_end
+      parentName: bip_index_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_middle_0_R
+      parentName: bip_hand_R
+      position: {x: -0.0037700103, y: 0.04207312, z: -0.0024666882}
+      rotation: {x: -0.07351042, y: 0.85896295, z: -0.08720375, w: -0.4991739}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: bip_middle_1_R
+      parentName: bip_middle_0_R
+      position: {x: -0.00000065505503, y: 0.0237234, z: -0.000000023841856}
+      rotation: {x: 0.008632817, y: 0.000005751844, z: 0.00003422794, w: 0.9999628}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: bip_middle_2_R
+      parentName: bip_middle_1_R
+      position: {x: 0.00000065952537, y: 0.01580063, z: 0.00000019788742}
+      rotation: {x: 0.013004402, y: 0.000014540011, z: -0.000021461577, w: 0.9999154}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+    - name: bip_middle_2_R_end
+      parentName: bip_middle_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_ring_0_R
+      parentName: bip_hand_R
+      position: {x: -0.011710146, y: 0.038571153, z: 0.007407002}
+      rotation: {x: -0.079665974, y: 0.90000516, z: -0.086677894, w: -0.41967982}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_ring_1_R
+      parentName: bip_ring_0_R
+      position: {x: -0.00000008106232, y: 0.016906766, z: 0.00000039577483}
+      rotation: {x: 0.007679534, y: 0.000007390973, z: 0.000012658532, w: 0.9999705}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: bip_ring_2_R
+      parentName: bip_ring_1_R
+      position: {x: 0.0000003218651, y: 0.014234042, z: -0.00000020503997}
+      rotation: {x: 0.019220741, y: 0.000006187899, z: -0.000012636531, w: 0.9998153}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: bip_ring_2_R_end
+      parentName: bip_ring_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_pinky_0_R
+      parentName: bip_hand_R
+      position: {x: -0.019660875, y: 0.03398161, z: 0.015474763}
+      rotation: {x: -0.08844274, y: 0.9484718, z: -0.081919715, w: -0.2930329}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: bip_pinky_1_R
+      parentName: bip_pinky_0_R
+      position: {x: 0.00000027179718, y: 0.01437788, z: -0.000000007152557}
+      rotation: {x: 0.0044084294, y: 0.000010848043, z: -0.0000073984247, w: 0.99999034}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.9999999}
+    - name: bip_pinky_2_R
+      parentName: bip_pinky_1_R
+      position: {x: 0.000000014305114, y: 0.010594267, z: 0.00000017881393}
+      rotation: {x: 0.0060522566, y: 0.0000012909053, z: -0.0000013110891, w: 0.9999817}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: bip_pinky_2_R_end
+      parentName: bip_pinky_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_wristInner_R
+      parentName: bip_lowerArm_R
+      position: {x: -0.13695781, y: -0.019519277, z: 0.025775675}
+      rotation: {x: -0.34172538, y: 0.34364802, z: 0.61904997, w: 0.6179862}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: prp_wristInner_R_end
+      parentName: prp_wristInner_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_wristOuter_R
+      parentName: bip_lowerArm_R
+      position: {x: -0.13709143, y: 0.0114857955, z: -0.017250828}
+      rotation: {x: -0.2821229, y: 0.2841368, z: 0.6483871, w: 0.6475084}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: prp_wristOuter_R_end
+      parentName: prp_wristOuter_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hlp_suitArmTop_R
+      parentName: bip_upperArm_R
+      position: {x: 0.005647129, y: 0.005322839, z: -0.025291538}
+      rotation: {x: -0.50000006, y: 0.49999994, z: 0.49999988, w: 0.5000001}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1}
+    - name: hlp_suitArmTop_R_end
+      parentName: hlp_suitArmTop_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hlp_suitArmpitBack_R
+      parentName: bip_upperArm_R
+      position: {x: -0.019408135, y: 0.017996281, z: 0.02963575}
+      rotation: {x: -0.3523432, y: 0.6130695, z: 0.35234305, w: 0.6130697}
+      scale: {x: 0.99999976, y: 1, z: 1}
+    - name: hlp_suitArmpitBack_R_end
+      parentName: hlp_suitArmpitBack_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: medal_bone
+      parentName: bip_spine_2
+      position: {x: -0.03388027, y: -0.020542689, z: -0.07452042}
+      rotation: {x: 0.97714317, y: -0.010873924, z: -0.11294354, w: 0.17976867}
+      scale: {x: 1.0000002, y: 1, z: 0.99999976}
+    - name: medal_bone_end
+      parentName: medal_bone
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_hip_L
+      parentName: bip_pelvis
+      position: {x: -0.050061233, y: 0.031500336, z: -0.008615509}
+      rotation: {x: 0.73893124, y: -0.6641519, z: -0.10285678, w: 0.047994047}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: bip_knee_L
+      parentName: bip_hip_L
+      position: {x: -0.22299518, y: 0.000000013411045, z: -0.00000003695488}
+      rotation: {x: 0.7067924, y: -0.021076111, z: 0.021076113, w: 0.70679283}
+      scale: {x: 1, y: 0.99999976, z: 1.0000001}
+    - name: bip_foot_L
+      parentName: bip_knee_L
+      position: {x: -0.18044943, y: -0.000000009536743, z: 0.000000013709068}
+      rotation: {x: 0.7385609, y: 0.08771182, z: 0.65954316, w: -0.10879902}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: bip_toe_L
+      parentName: bip_foot_L
+      position: {x: -0.000000005003681, y: -0.070709616, z: -0.0000000047683715}
+      rotation: {x: -0.20635329, y: 0.000000043049607, z: 0.000000043828845, w: 0.9784776}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
+    - name: bip_toe_L_end
+      parentName: bip_toe_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_hip_R
+      parentName: bip_pelvis
+      position: {x: 0.0500612, y: 0.031500418, z: -0.00861551}
+      rotation: {x: -0.5423567, y: 0.5564409, z: 0.48856634, w: -0.39689502}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: bip_knee_R
+      parentName: bip_hip_R
+      position: {x: -0.2229953, y: -0.000000009536743, z: -0.000000013113022}
+      rotation: {x: 0.000000047052716, y: 0.000001957579, z: -0.029806593, w: 0.9995557}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: bip_foot_R
+      parentName: bip_knee_R
+      position: {x: -0.18044917, y: -0.000000011920928, z: -5.9604643e-10}
+      rotation: {x: -0.6595438, y: 0.108799286, z: 0.7385604, w: 0.08771183}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: bip_toe_R
+      parentName: bip_foot_R
+      position: {x: -0.00000046920968, y: 0.07070951, z: 0.00000002682209}
+      rotation: {x: -0.20635329, y: 0.000000007752903, z: 0.000000018885402, w: 0.9784776}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1}
+    - name: bip_toe_R_end
+      parentName: bip_toe_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mvm
+      parentName: bip_pelvis
+      position: {x: -0.048578177, y: -0.0072752833, z: 0.03300363}
+      rotation: {x: -0.22627704, y: 0.003340734, z: 0.974047, w: 0.004481737}
+      scale: {x: 0.9999998, y: 1, z: 1.0000001}
+    - name: mvm_end
+      parentName: mvm
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hlp_thigh_L
+      parentName: bip_pelvis
+      position: {x: -0.042951826, y: 0.035843335, z: -0.061179493}
+      rotation: {x: 0.9999852, y: -6.937894e-13, z: 1.3096524e-10, w: 0.0054453393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hlp_thigh_L_end
+      parentName: hlp_thigh_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hlp_thigh_R
+      parentName: bip_pelvis
+      position: {x: 0.042951792, y: 0.035843268, z: -0.0611795}
+      rotation: {x: -0.005445474, y: -1.3096522e-10, z: -6.937831e-13, w: 0.9999852}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hlp_thigh_R_end
+      parentName: hlp_thigh_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_coat_front_0_L
+      parentName: bip_pelvis
+      position: {x: -0.08061433, y: -0.007274534, z: -0.01153581}
+      rotation: {x: 0.5637437, y: 0.12723793, z: 0.8160675, w: -0.0061241123}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: prp_coat_front_0_L_end
+      parentName: prp_coat_front_0_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_coat_front_0_R
+      parentName: bip_pelvis
+      position: {x: 0.080614336, y: -0.0072745467, z: -0.0115358075}
+      rotation: {x: -0.56374365, y: 0.12723798, z: 0.81606746, w: 0.0061241323}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: prp_coat_front_0_R_end
+      parentName: prp_coat_front_0_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_coat_back_0_L
+      parentName: bip_pelvis
+      position: {x: -0.03754348, y: 0.009380796, z: 0.03964685}
+      rotation: {x: 0.99369204, y: 0.05326437, z: 0.09773381, w: -0.013679905}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: prp_coat_back_0_L_end
+      parentName: prp_coat_back_0_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_coat_back_0_R
+      parentName: bip_pelvis
+      position: {x: 0.037543476, y: 0.00938081, z: 0.039646845}
+      rotation: {x: 0.99369204, y: -0.05326438, z: -0.09773367, w: -0.013680031}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: prp_coat_back_0_R_end
+      parentName: prp_coat_back_0_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone
+      parentName: bip_pelvis
+      position: {x: -2.3592432e-15, y: 0.46698844, z: -0.00827193}
+      rotation: {x: 0.9999852, y: 7.273311e-13, z: 1.3096514e-10, w: -0.0054453393}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: prop_bone_end
+      parentName: prop_bone
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_1
+      parentName: bip_pelvis
+      position: {x: -2.3592432e-15, y: 0.46698844, z: -0.00827193}
+      rotation: {x: 0.9999852, y: 7.273311e-13, z: 1.3096514e-10, w: -0.0054453393}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: prop_bone_1_end
+      parentName: prop_bone_1
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_2
+      parentName: bip_pelvis
+      position: {x: -2.3592432e-15, y: 0.46698844, z: -0.00827193}
+      rotation: {x: 0.9999852, y: 7.273311e-13, z: 1.3096514e-10, w: -0.0054453393}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: prop_bone_2_end
+      parentName: prop_bone_2
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_3
+      parentName: bip_pelvis
+      position: {x: -2.3592432e-15, y: 0.46698844, z: -0.00827193}
+      rotation: {x: 0.9999852, y: 7.273311e-13, z: 1.3096514e-10, w: -0.0054453393}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: prop_bone_3_end
+      parentName: prop_bone_3
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_4
+      parentName: bip_pelvis
+      position: {x: -2.3592432e-15, y: 0.46698844, z: -0.00827193}
+      rotation: {x: 0.9999852, y: 7.273311e-13, z: 1.3096514e-10, w: -0.0054453393}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: prop_bone_4_end
+      parentName: prop_bone_4
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_5
+      parentName: bip_pelvis
+      position: {x: -2.3592432e-15, y: 0.46698844, z: -0.00827193}
+      rotation: {x: 0.9999852, y: 7.273311e-13, z: 1.3096514e-10, w: -0.0054453393}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: prop_bone_5_end
+      parentName: prop_bone_5
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_6
+      parentName: bip_pelvis
+      position: {x: -2.3592432e-15, y: 0.46698844, z: -0.00827193}
+      rotation: {x: 0.9999852, y: 7.273311e-13, z: 1.3096514e-10, w: -0.0054453393}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: prop_bone_6_end
+      parentName: prop_bone_6
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

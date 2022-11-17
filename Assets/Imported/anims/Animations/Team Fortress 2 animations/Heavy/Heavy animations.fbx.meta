@@ -1,0 +1,5138 @@
+fileFormatVersion: 2
+guid: 23102dd98d8fdf54594ab1c3cc4408ae
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bip_collar_L
+    100002: bip_collar_R
+    100004: bip_foot_L
+    100006: bip_foot_R
+    100008: bip_hand_L
+    100010: bip_hand_R
+    100012: bip_head
+    100014: bip_head_end
+    100016: bip_hip_L
+    100018: bip_hip_R
+    100020: bip_index_0_L
+    100022: bip_index_0_R
+    100024: bip_index_1_L
+    100026: bip_index_1_R
+    100028: bip_index_2_L
+    100030: bip_index_2_L_end
+    100032: bip_index_2_R
+    100034: bip_index_2_R_end
+    100036: bip_knee_L
+    100038: bip_knee_R
+    100040: bip_lowerArm_L
+    100042: bip_lowerArm_R
+    100044: bip_middle_0_L
+    100046: bip_middle_0_R
+    100048: bip_middle_1_L
+    100050: bip_middle_1_R
+    100052: bip_middle_2_L
+    100054: bip_middle_2_L_end
+    100056: bip_middle_2_R
+    100058: bip_middle_2_R_end
+    100060: bip_neck
+    100062: bip_pelvis
+    100064: bip_pinky_0_L
+    100066: bip_pinky_0_R
+    100068: bip_pinky_1_L
+    100070: bip_pinky_1_R
+    100072: bip_pinky_2_L
+    100074: bip_pinky_2_L_end
+    100076: bip_pinky_2_R
+    100078: bip_pinky_2_R_end
+    100080: bip_ring_0_L
+    100082: bip_ring_0_R
+    100084: bip_ring_1_L
+    100086: bip_ring_1_R
+    100088: bip_ring_2_L
+    100090: bip_ring_2_L_end
+    100092: bip_ring_2_R
+    100094: bip_ring_2_R_end
+    100096: bip_spine_0
+    100098: bip_spine_1
+    100100: bip_spine_2
+    100102: bip_spine_3
+    100104: bip_thumb_0_L
+    100106: bip_thumb_0_R
+    100108: bip_thumb_1_L
+    100110: bip_thumb_1_R
+    100112: bip_thumb_2_L
+    100114: bip_thumb_2_L_end
+    100116: bip_thumb_2_R
+    100118: bip_thumb_2_R_end
+    100120: bip_toe_L
+    100122: bip_toe_L_end
+    100124: bip_toe_R
+    100126: bip_toe_R_end
+    100128: bip_upperArm_L
+    100130: bip_upperArm_R
+    100132: effect_hand_L
+    100134: effect_hand_L_end
+    100136: effect_hand_R
+    100138: effect_hand_R_end
+    100140: //RootNode
+    100142: medal_bone
+    100144: medal_bone_end
+    100146: mvm
+    100148: mvm_end
+    100150: prop_bone
+    100152: prop_bone_1
+    100154: prop_bone_1_end
+    100156: prop_bone_2
+    100158: prop_bone_2_end
+    100160: prop_bone_3
+    100162: prop_bone_3_end
+    100164: prop_bone_4
+    100166: prop_bone_4_end
+    100168: prop_bone_5
+    100170: prop_bone_5_end
+    100172: prop_bone_6
+    100174: prop_bone_6_end
+    100176: prop_bone_end
+    100178: prp_bullet_backLower
+    100180: prp_bullet_backLower_end
+    100182: prp_bullet_backUpper
+    100184: prp_bullet_backUpper_end
+    100186: prp_bullet_chestLower
+    100188: prp_bullet_chestLower_end
+    100190: prp_bullet_chestUpper
+    100192: prp_bullet_chestUpper_end
+    100194: prp_bullet_shoulder
+    100196: prp_bullet_shoulder_end
+    100198: prp_bullet_side
+    100200: prp_bullet_side_end
+    100202: prp_pack
+    100204: prp_pack_end
+    100206: weapon_bone
+    100208: weapon_bone_1
+    100210: weapon_bone_1_end
+    100212: weapon_bone_2
+    100214: weapon_bone_2_end
+    100216: weapon_bone_3
+    100218: weapon_bone_3_end
+    100220: weapon_bone_4
+    100222: weapon_bone_4_end
+    100224: weapon_bone_end
+    100226: weapon_bone_L
+    100228: weapon_bone_L_end
+    400000: bip_collar_L
+    400002: bip_collar_R
+    400004: bip_foot_L
+    400006: bip_foot_R
+    400008: bip_hand_L
+    400010: bip_hand_R
+    400012: bip_head
+    400014: bip_head_end
+    400016: bip_hip_L
+    400018: bip_hip_R
+    400020: bip_index_0_L
+    400022: bip_index_0_R
+    400024: bip_index_1_L
+    400026: bip_index_1_R
+    400028: bip_index_2_L
+    400030: bip_index_2_L_end
+    400032: bip_index_2_R
+    400034: bip_index_2_R_end
+    400036: bip_knee_L
+    400038: bip_knee_R
+    400040: bip_lowerArm_L
+    400042: bip_lowerArm_R
+    400044: bip_middle_0_L
+    400046: bip_middle_0_R
+    400048: bip_middle_1_L
+    400050: bip_middle_1_R
+    400052: bip_middle_2_L
+    400054: bip_middle_2_L_end
+    400056: bip_middle_2_R
+    400058: bip_middle_2_R_end
+    400060: bip_neck
+    400062: bip_pelvis
+    400064: bip_pinky_0_L
+    400066: bip_pinky_0_R
+    400068: bip_pinky_1_L
+    400070: bip_pinky_1_R
+    400072: bip_pinky_2_L
+    400074: bip_pinky_2_L_end
+    400076: bip_pinky_2_R
+    400078: bip_pinky_2_R_end
+    400080: bip_ring_0_L
+    400082: bip_ring_0_R
+    400084: bip_ring_1_L
+    400086: bip_ring_1_R
+    400088: bip_ring_2_L
+    400090: bip_ring_2_L_end
+    400092: bip_ring_2_R
+    400094: bip_ring_2_R_end
+    400096: bip_spine_0
+    400098: bip_spine_1
+    400100: bip_spine_2
+    400102: bip_spine_3
+    400104: bip_thumb_0_L
+    400106: bip_thumb_0_R
+    400108: bip_thumb_1_L
+    400110: bip_thumb_1_R
+    400112: bip_thumb_2_L
+    400114: bip_thumb_2_L_end
+    400116: bip_thumb_2_R
+    400118: bip_thumb_2_R_end
+    400120: bip_toe_L
+    400122: bip_toe_L_end
+    400124: bip_toe_R
+    400126: bip_toe_R_end
+    400128: bip_upperArm_L
+    400130: bip_upperArm_R
+    400132: effect_hand_L
+    400134: effect_hand_L_end
+    400136: effect_hand_R
+    400138: effect_hand_R_end
+    400140: //RootNode
+    400142: medal_bone
+    400144: medal_bone_end
+    400146: mvm
+    400148: mvm_end
+    400150: prop_bone
+    400152: prop_bone_1
+    400154: prop_bone_1_end
+    400156: prop_bone_2
+    400158: prop_bone_2_end
+    400160: prop_bone_3
+    400162: prop_bone_3_end
+    400164: prop_bone_4
+    400166: prop_bone_4_end
+    400168: prop_bone_5
+    400170: prop_bone_5_end
+    400172: prop_bone_6
+    400174: prop_bone_6_end
+    400176: prop_bone_end
+    400178: prp_bullet_backLower
+    400180: prp_bullet_backLower_end
+    400182: prp_bullet_backUpper
+    400184: prp_bullet_backUpper_end
+    400186: prp_bullet_chestLower
+    400188: prp_bullet_chestLower_end
+    400190: prp_bullet_chestUpper
+    400192: prp_bullet_chestUpper_end
+    400194: prp_bullet_shoulder
+    400196: prp_bullet_shoulder_end
+    400198: prp_bullet_side
+    400200: prp_bullet_side_end
+    400202: prp_pack
+    400204: prp_pack_end
+    400206: weapon_bone
+    400208: weapon_bone_1
+    400210: weapon_bone_1_end
+    400212: weapon_bone_2
+    400214: weapon_bone_2_end
+    400216: weapon_bone_3
+    400218: weapon_bone_3_end
+    400220: weapon_bone_4
+    400222: weapon_bone_4_end
+    400224: weapon_bone_end
+    400226: weapon_bone_L
+    400228: weapon_bone_L_end
+    7400000: brutallegendin_skeleton|.1 saxxy_pose
+    7400002: brutallegendin_skeleton|01
+    7400004: brutallegendin_skeleton|02
+    7400006: brutallegendin_skeleton|03
+    7400008: brutallegendin_skeleton|04
+    7400010: brutallegendin_skeleton|05
+    7400012: brutallegendin_skeleton|07_Halloween
+    7400014: brutallegendin_skeleton|a_reference
+    7400016: brutallegendin_skeleton|aerobic_A
+    7400018: brutallegendin_skeleton|aerobic_A_START
+    7400020: brutallegendin_skeleton|aerobic_B
+    7400022: brutallegendin_skeleton|aerobic_B_START
+    7400024: brutallegendin_skeleton|brutallegend
+    7400026: brutallegendin_skeleton|brutallegendin
+    7400028: brutallegendin_skeleton|brutallegendinblend
+    7400030: brutallegendin_skeleton|brutallegendinterior
+    7400032: brutallegendin_skeleton|brutallegendout
+    7400034: brutallegendin_skeleton|brutallegendoutblend
+    7400036: brutallegendin_skeleton|conga
+    7400038: brutallegendin_skeleton|diesimple
+    7400040: brutallegendin_skeleton|dieviolent
+    7400042: brutallegendin_skeleton|dosido_dance
+    7400044: brutallegendin_skeleton|dosido_intro
+    7400046: brutallegendin_skeleton|flip_start
+    7400048: brutallegendin_skeleton|flip_success_initiator
+    7400050: brutallegendin_skeleton|flip_success_receiver
+    7400052: brutallegendin_skeleton|freeze
+    7400054: brutallegendin_skeleton|gesture_MELEE_positive
+    7400056: brutallegendin_skeleton|headbutt_start
+    7400058: brutallegendin_skeleton|headbutt_success
+    7400060: brutallegendin_skeleton|heavy_replay
+    7400062: brutallegendin_skeleton|highFiveStart
+    7400064: brutallegendin_skeleton|highFiveSuccess
+    7400066: brutallegendin_skeleton|highFiveSuccessFull
+    7400068: brutallegendin_skeleton|laugh
+    7400070: brutallegendin_skeleton|layer_dieviolent
+    7400072: brutallegendin_skeleton|layer_gesture_MELEE_positive
+    7400074: brutallegendin_skeleton|MELEE_cheer
+    7400076: brutallegendin_skeleton|MELEE_cheer_armL
+    7400078: brutallegendin_skeleton|MELEE_go
+    7400080: brutallegendin_skeleton|MELEE_go_armL
+    7400082: brutallegendin_skeleton|MELEE_help
+    7400084: brutallegendin_skeleton|MELEE_help_armL
+    7400086: brutallegendin_skeleton|PRIMARY_cheer
+    7400088: brutallegendin_skeleton|PRIMARY_cheer_armL
+    7400090: brutallegendin_skeleton|PRIMARY_death_backstab
+    7400092: brutallegendin_skeleton|PRIMARY_death_burning
+    7400094: brutallegendin_skeleton|PRIMARY_death_headshot
+    7400096: brutallegendin_skeleton|PRIMARY_go
+    7400098: brutallegendin_skeleton|PRIMARY_go_armL
+    7400100: brutallegendin_skeleton|PRIMARY_help
+    7400102: brutallegendin_skeleton|PRIMARY_help_armL
+    7400104: brutallegendin_skeleton|PRIMARY_positive
+    7400106: brutallegendin_skeleton|PRIMARY_positive_armL
+    7400108: brutallegendin_skeleton|ragdollspawn
+    7400110: brutallegendin_skeleton|rps_paper
+    7400112: brutallegendin_skeleton|rps_paper_lose
+    7400114: brutallegendin_skeleton|rps_paper_win
+    7400116: brutallegendin_skeleton|rps_rock
+    7400118: brutallegendin_skeleton|rps_rock_lose
+    7400120: brutallegendin_skeleton|rps_rock_win
+    7400122: brutallegendin_skeleton|rps_scissors
+    7400124: brutallegendin_skeleton|rps_scissors_lose
+    7400126: brutallegendin_skeleton|rps_scissors_win
+    7400128: brutallegendin_skeleton|rps_start
+    7400130: brutallegendin_skeleton|russian
+    7400132: brutallegendin_skeleton|SECONDARY_cheer
+    7400134: brutallegendin_skeleton|SECONDARY_cheer_armL
+    7400136: brutallegendin_skeleton|SECONDARY_go
+    7400138: brutallegendin_skeleton|SECONDARY_go_armL
+    7400140: brutallegendin_skeleton|SECONDARY_help
+    7400142: brutallegendin_skeleton|SECONDARY_help_armL
+    7400144: brutallegendin_skeleton|SECONDARY_positive
+    7400146: brutallegendin_skeleton|SECONDARY_positive_armL
+    7400148: brutallegendin_skeleton|selectionMenu_Anim01
+    7400150: brutallegendin_skeleton|table_flip_intro
+    7400152: brutallegendin_skeleton|table_flip_outro
+    7400154: brutallegendin_skeleton|taunt01
+    7400156: brutallegendin_skeleton|taunt02
+    7400158: brutallegendin_skeleton|taunt03
+    7400160: brutallegendin_skeleton|taunt04
+    7400162: brutallegendin_skeleton|taunt05
+    7400164: brutallegendin_skeleton|taunt06
+    7400166: brutallegendin_skeleton|taunt07_Halloween
+    7400168: brutallegendin_skeleton|taunt_dosido_dance
+    7400170: brutallegendin_skeleton|taunt_dosido_intro
+    7400172: brutallegendin_skeleton|taunt_flip_success_initiator
+    7400174: brutallegendin_skeleton|taunt_flip_success_receiver
+    7400176: brutallegendin_skeleton|taunt_headbutt_start
+    7400178: brutallegendin_skeleton|taunt_headbutt_success
+    7400180: brutallegendin_skeleton|taunt_highFiveSuccess
+    7400182: brutallegendin_skeleton|taunt_highFiveSuccessFull
+    7400184: brutallegendin_skeleton|taunt_laugh
+    7400186: brutallegendin_skeleton|taunt_rps_paper
+    7400188: brutallegendin_skeleton|taunt_rps_paper_lose
+    7400190: brutallegendin_skeleton|taunt_rps_paper_win
+    7400192: brutallegendin_skeleton|taunt_rps_rock
+    7400194: brutallegendin_skeleton|taunt_rps_rock_lose
+    7400196: brutallegendin_skeleton|taunt_rps_rock_win
+    7400198: brutallegendin_skeleton|taunt_rps_scissors
+    7400200: brutallegendin_skeleton|taunt_rps_scissors_lose
+    7400202: brutallegendin_skeleton|taunt_rps_scissors_win
+    7400204: brutallegendin_skeleton|taunt_table_flip_intro
+    7400206: brutallegendin_skeleton|taunt_table_flip_outro
+    7400208: brutallegendin_skeleton|taunt_vehicle_allclass_end
+    7400210: brutallegendin_skeleton|taunt_vehicle_allclass_honk
+    7400212: brutallegendin_skeleton|taunt_yetipunch
+    7400214: brutallegendin_skeleton|vehicle_allclass_end
+    7400216: brutallegendin_skeleton|vehicle_allclass_honk
+    7400218: brutallegendin_skeleton|vehicle_allclass_spawn
+    7400220: brutallegendin_skeleton|vehicle_allclass_start
+    7400222: brutallegendin_skeleton|vehicle_allclass_start_layer
+    7400224: brutallegendin_skeleton|yeti
+    7400226: brutallegendin_skeleton|yeti_layer
+    7400228: brutallegendin_skeleton|yeti_prop
+    7400230: brutallegendin_skeleton|yetipunch
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'brutallegendin_skeleton|01' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|02' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|03'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|04' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'bip_spine_2' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|05' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|07_Halloween' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|a_reference'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|aerobic_A' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' has translation animation that will be
+      discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_1' has translation animation
+      that will be discarded.\n\t'bip_spine_2' has translation animation that will
+      be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_3' has translation animation
+      that will be discarded.\n\nClip 'brutallegendin_skeleton|aerobic_A_START' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|aerobic_B'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|aerobic_B_START'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|brutallegendinblend'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|brutallegendinterior' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' has translation animation that
+      will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|brutallegendoutblend'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|conga' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_head' has translation
+      animation that will be discarded.\n\t'bip_knee_R' has translation animation
+      that will be discarded.\n\t'bip_foot_R' has translation animation that will
+      be discarded.\n\nClip 'brutallegendin_skeleton|diesimple' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_0' has translation animation
+      that will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|dosido_dance' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' has translation animation that will be
+      discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_knee_L' has translation
+      animation that will be discarded.\n\t'bip_foot_L' has translation animation
+      that will be discarded.\n\t'bip_knee_R' has translation animation that will
+      be discarded.\n\t'bip_foot_R' has translation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|dosido_intro' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'bip_knee_L'
+      has translation animation that will be discarded.\n\t'bip_foot_L' has translation
+      animation that will be discarded.\n\t'bip_knee_R' has translation animation
+      that will be discarded.\n\t'bip_foot_R' has translation animation that will
+      be discarded.\n\nClip 'brutallegendin_skeleton|flip_start' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_0' has translation animation
+      that will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_lowerArm_R'
+      has translation animation that will be discarded.\n\t'bip_hand_R' has translation
+      animation that will be discarded.\n\t'bip_knee_L' has translation animation
+      that will be discarded.\n\t'bip_foot_L' has translation animation that will
+      be discarded.\n\nClip 'brutallegendin_skeleton|flip_success_initiator' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has translation
+      animation that will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|flip_success_receiver'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\t'bip_head' has translation animation that
+      will be discarded.\n\t'bip_lowerArm_L' has translation animation that will be
+      discarded.\n\t'bip_hand_L' has translation animation that will be discarded.\n\t'bip_knee_L'
+      has translation animation that will be discarded.\n\t'bip_foot_L' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|freeze' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|gesture_MELEE_positive' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|headbutt_start' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'bip_spine_0' has translation animation that
+      will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'bip_hip_L'
+      has translation animation that will be discarded.\n\t'bip_hip_R' has translation
+      animation that will be discarded.\n\t'bip_toe_R' has translation animation that
+      will be discarded.\n\nClip 'brutallegendin_skeleton|headbutt_success' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_upperArm_L'
+      has translation animation that will be discarded.\n\t'bip_lowerArm_L' has translation
+      animation that will be discarded.\n\t'bip_hand_L' has translation animation
+      that will be discarded.\n\t'bip_middle_1_L' has translation animation that will
+      be discarded.\n\t'bip_middle_2_L' has translation animation that will be discarded.\n\t'bip_upperArm_R'
+      has translation animation that will be discarded.\n\t'bip_lowerArm_R' has translation
+      animation that will be discarded.\n\t'bip_hand_R' has translation animation
+      that will be discarded.\n\t'bip_hip_L' has translation animation that will be
+      discarded.\n\nClip 'brutallegendin_skeleton|heavy_replay' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|highFiveStart' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|highFiveSuccess'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|highFiveSuccessFull' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|laugh' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_1' has translation animation
+      that will be discarded.\n\t'bip_spine_2' has translation animation that will
+      be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_3' has translation animation
+      that will be discarded.\n\nClip 'brutallegendin_skeleton|layer_dieviolent' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|layer_gesture_MELEE_positive' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|MELEE_cheer'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|MELEE_cheer_armL' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|MELEE_go'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|MELEE_go_armL' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_2' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|MELEE_help'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|MELEE_help_armL' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|PRIMARY_cheer'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|PRIMARY_cheer_armL' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|PRIMARY_death_backstab'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|PRIMARY_death_burning' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|PRIMARY_death_headshot'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|PRIMARY_go' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|PRIMARY_go_armL'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_2' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|PRIMARY_help' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|PRIMARY_help_armL'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_2' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|PRIMARY_positive' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|PRIMARY_positive_armL' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|ragdollspawn'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|rps_paper' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|rps_paper_lose'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_head' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|rps_paper_win'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_head' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|rps_rock'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|rps_rock_lose' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_head' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|rps_rock_win'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_head' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|rps_scissors'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|rps_scissors_lose' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_head' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|rps_scissors_win'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_head' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|rps_start'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|russian' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_1' has translation animation
+      that will be discarded.\n\t'bip_spine_2' has translation animation that will
+      be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_head' has translation animation that
+      will be discarded.\n\t'bip_knee_L' has translation animation that will be discarded.\n\t'bip_foot_L'
+      has translation animation that will be discarded.\n\t'bip_knee_R' has translation
+      animation that will be discarded.\n\t'bip_foot_R' has translation animation
+      that will be discarded.\n\nClip 'brutallegendin_skeleton|SECONDARY_cheer' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|SECONDARY_cheer_armL' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|SECONDARY_go'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|SECONDARY_go_armL' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|SECONDARY_help'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|SECONDARY_help_armL' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|SECONDARY_positive'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|SECONDARY_positive_armL' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|selectionMenu_Anim01'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|table_flip_intro' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'bip_spine_0' has translation animation that
+      will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|table_flip_outro'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|taunt06'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|taunt_vehicle_allclass_honk' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|vehicle_allclass_end' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' has translation animation that
+      will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|vehicle_allclass_honk'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|vehicle_allclass_spawn'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|vehicle_allclass_start_layer'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'brutallegendin_skeleton|yeti_layer' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' has translation animation that will be
+      discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'brutallegendin_skeleton|yeti_prop'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'brutallegendin_skeleton|yetipunch'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|.1 saxxy_pose
+      takeName: brutallegendin_skeleton|.1 saxxy_pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|01
+      takeName: brutallegendin_skeleton|01
+      firstFrame: 0
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|02
+      takeName: brutallegendin_skeleton|02
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|03
+      takeName: brutallegendin_skeleton|03
+      firstFrame: 0
+      lastFrame: 107
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|04
+      takeName: brutallegendin_skeleton|04
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|05
+      takeName: brutallegendin_skeleton|05
+      firstFrame: 0
+      lastFrame: 127
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|07_Halloween
+      takeName: brutallegendin_skeleton|07_Halloween
+      firstFrame: 0
+      lastFrame: 87
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|a_reference
+      takeName: brutallegendin_skeleton|a_reference
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|aerobic_A
+      takeName: brutallegendin_skeleton|aerobic_A
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|aerobic_A_START
+      takeName: brutallegendin_skeleton|aerobic_A_START
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|aerobic_B
+      takeName: brutallegendin_skeleton|aerobic_B
+      firstFrame: 0
+      lastFrame: 188
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|aerobic_B_START
+      takeName: brutallegendin_skeleton|aerobic_B_START
+      firstFrame: 0
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|brutallegend
+      takeName: brutallegendin_skeleton|brutallegend
+      firstFrame: 0
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|brutallegendin
+      takeName: brutallegendin_skeleton|brutallegendin
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|brutallegendinblend
+      takeName: brutallegendin_skeleton|brutallegendinblend
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|brutallegendinterior
+      takeName: brutallegendin_skeleton|brutallegendinterior
+      firstFrame: 0
+      lastFrame: 116
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|brutallegendout
+      takeName: brutallegendin_skeleton|brutallegendout
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|brutallegendoutblend
+      takeName: brutallegendin_skeleton|brutallegendoutblend
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|conga
+      takeName: brutallegendin_skeleton|conga
+      firstFrame: 0
+      lastFrame: 345
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|diesimple
+      takeName: brutallegendin_skeleton|diesimple
+      firstFrame: 0
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|dieviolent
+      takeName: brutallegendin_skeleton|dieviolent
+      firstFrame: 0
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|dosido_dance
+      takeName: brutallegendin_skeleton|dosido_dance
+      firstFrame: 0
+      lastFrame: 267
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|dosido_intro
+      takeName: brutallegendin_skeleton|dosido_intro
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|flip_start
+      takeName: brutallegendin_skeleton|flip_start
+      firstFrame: 0
+      lastFrame: 213
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|flip_success_initiator
+      takeName: brutallegendin_skeleton|flip_success_initiator
+      firstFrame: 0
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|flip_success_receiver
+      takeName: brutallegendin_skeleton|flip_success_receiver
+      firstFrame: 0
+      lastFrame: 196
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|freeze
+      takeName: brutallegendin_skeleton|freeze
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|gesture_MELEE_positive
+      takeName: brutallegendin_skeleton|gesture_MELEE_positive
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|headbutt_start
+      takeName: brutallegendin_skeleton|headbutt_start
+      firstFrame: 0
+      lastFrame: 216
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|headbutt_success
+      takeName: brutallegendin_skeleton|headbutt_success
+      firstFrame: 0
+      lastFrame: 173
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|heavy_replay
+      takeName: brutallegendin_skeleton|heavy_replay
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|highFiveStart
+      takeName: brutallegendin_skeleton|highFiveStart
+      firstFrame: 0
+      lastFrame: 86
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|highFiveSuccess
+      takeName: brutallegendin_skeleton|highFiveSuccess
+      firstFrame: 0
+      lastFrame: 114
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|highFiveSuccessFull
+      takeName: brutallegendin_skeleton|highFiveSuccessFull
+      firstFrame: 0
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|laugh
+      takeName: brutallegendin_skeleton|laugh
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|layer_dieviolent
+      takeName: brutallegendin_skeleton|layer_dieviolent
+      firstFrame: 0
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|layer_gesture_MELEE_positive
+      takeName: brutallegendin_skeleton|layer_gesture_MELEE_positive
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|MELEE_cheer
+      takeName: brutallegendin_skeleton|MELEE_cheer
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|MELEE_cheer_armL
+      takeName: brutallegendin_skeleton|MELEE_cheer_armL
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|MELEE_go
+      takeName: brutallegendin_skeleton|MELEE_go
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|MELEE_go_armL
+      takeName: brutallegendin_skeleton|MELEE_go_armL
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|MELEE_help
+      takeName: brutallegendin_skeleton|MELEE_help
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|MELEE_help_armL
+      takeName: brutallegendin_skeleton|MELEE_help_armL
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|PRIMARY_cheer
+      takeName: brutallegendin_skeleton|PRIMARY_cheer
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|PRIMARY_cheer_armL
+      takeName: brutallegendin_skeleton|PRIMARY_cheer_armL
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|PRIMARY_death_backstab
+      takeName: brutallegendin_skeleton|PRIMARY_death_backstab
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|PRIMARY_death_burning
+      takeName: brutallegendin_skeleton|PRIMARY_death_burning
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|PRIMARY_death_headshot
+      takeName: brutallegendin_skeleton|PRIMARY_death_headshot
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|PRIMARY_go
+      takeName: brutallegendin_skeleton|PRIMARY_go
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|PRIMARY_go_armL
+      takeName: brutallegendin_skeleton|PRIMARY_go_armL
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|PRIMARY_help
+      takeName: brutallegendin_skeleton|PRIMARY_help
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|PRIMARY_help_armL
+      takeName: brutallegendin_skeleton|PRIMARY_help_armL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|PRIMARY_positive
+      takeName: brutallegendin_skeleton|PRIMARY_positive
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|PRIMARY_positive_armL
+      takeName: brutallegendin_skeleton|PRIMARY_positive_armL
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|ragdollspawn
+      takeName: brutallegendin_skeleton|ragdollspawn
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|rps_paper
+      takeName: brutallegendin_skeleton|rps_paper
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|rps_paper_lose
+      takeName: brutallegendin_skeleton|rps_paper_lose
+      firstFrame: 0
+      lastFrame: 219
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|rps_paper_win
+      takeName: brutallegendin_skeleton|rps_paper_win
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|rps_rock
+      takeName: brutallegendin_skeleton|rps_rock
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|rps_rock_lose
+      takeName: brutallegendin_skeleton|rps_rock_lose
+      firstFrame: 0
+      lastFrame: 219
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|rps_rock_win
+      takeName: brutallegendin_skeleton|rps_rock_win
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|rps_scissors
+      takeName: brutallegendin_skeleton|rps_scissors
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|rps_scissors_lose
+      takeName: brutallegendin_skeleton|rps_scissors_lose
+      firstFrame: 0
+      lastFrame: 219
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|rps_scissors_win
+      takeName: brutallegendin_skeleton|rps_scissors_win
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|rps_start
+      takeName: brutallegendin_skeleton|rps_start
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|russian
+      takeName: brutallegendin_skeleton|russian
+      firstFrame: 0
+      lastFrame: 496
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|SECONDARY_cheer
+      takeName: brutallegendin_skeleton|SECONDARY_cheer
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|SECONDARY_cheer_armL
+      takeName: brutallegendin_skeleton|SECONDARY_cheer_armL
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|SECONDARY_go
+      takeName: brutallegendin_skeleton|SECONDARY_go
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|SECONDARY_go_armL
+      takeName: brutallegendin_skeleton|SECONDARY_go_armL
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|SECONDARY_help
+      takeName: brutallegendin_skeleton|SECONDARY_help
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|SECONDARY_help_armL
+      takeName: brutallegendin_skeleton|SECONDARY_help_armL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|SECONDARY_positive
+      takeName: brutallegendin_skeleton|SECONDARY_positive
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|SECONDARY_positive_armL
+      takeName: brutallegendin_skeleton|SECONDARY_positive_armL
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|selectionMenu_Anim01
+      takeName: brutallegendin_skeleton|selectionMenu_Anim01
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|table_flip_intro
+      takeName: brutallegendin_skeleton|table_flip_intro
+      firstFrame: 0
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|table_flip_outro
+      takeName: brutallegendin_skeleton|table_flip_outro
+      firstFrame: 0
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt01
+      takeName: brutallegendin_skeleton|taunt01
+      firstFrame: 0
+      lastFrame: 154
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt02
+      takeName: brutallegendin_skeleton|taunt02
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt03
+      takeName: brutallegendin_skeleton|taunt03
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt04
+      takeName: brutallegendin_skeleton|taunt04
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt05
+      takeName: brutallegendin_skeleton|taunt05
+      firstFrame: 0
+      lastFrame: 127
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt06
+      takeName: brutallegendin_skeleton|taunt06
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt07_Halloween
+      takeName: brutallegendin_skeleton|taunt07_Halloween
+      firstFrame: 0
+      lastFrame: 87
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_dosido_dance
+      takeName: brutallegendin_skeleton|taunt_dosido_dance
+      firstFrame: 0
+      lastFrame: 267
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_dosido_intro
+      takeName: brutallegendin_skeleton|taunt_dosido_intro
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_flip_success_initiator
+      takeName: brutallegendin_skeleton|taunt_flip_success_initiator
+      firstFrame: 0
+      lastFrame: 138
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_flip_success_receiver
+      takeName: brutallegendin_skeleton|taunt_flip_success_receiver
+      firstFrame: 0
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_headbutt_start
+      takeName: brutallegendin_skeleton|taunt_headbutt_start
+      firstFrame: 0
+      lastFrame: 216
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_headbutt_success
+      takeName: brutallegendin_skeleton|taunt_headbutt_success
+      firstFrame: 0
+      lastFrame: 173
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_highFiveSuccess
+      takeName: brutallegendin_skeleton|taunt_highFiveSuccess
+      firstFrame: 0
+      lastFrame: 114
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_highFiveSuccessFull
+      takeName: brutallegendin_skeleton|taunt_highFiveSuccessFull
+      firstFrame: 0
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_laugh
+      takeName: brutallegendin_skeleton|taunt_laugh
+      firstFrame: 0
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_rps_paper
+      takeName: brutallegendin_skeleton|taunt_rps_paper
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_rps_paper_lose
+      takeName: brutallegendin_skeleton|taunt_rps_paper_lose
+      firstFrame: 0
+      lastFrame: 219
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_rps_paper_win
+      takeName: brutallegendin_skeleton|taunt_rps_paper_win
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_rps_rock
+      takeName: brutallegendin_skeleton|taunt_rps_rock
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_rps_rock_lose
+      takeName: brutallegendin_skeleton|taunt_rps_rock_lose
+      firstFrame: 0
+      lastFrame: 219
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_rps_rock_win
+      takeName: brutallegendin_skeleton|taunt_rps_rock_win
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_rps_scissors
+      takeName: brutallegendin_skeleton|taunt_rps_scissors
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_rps_scissors_lose
+      takeName: brutallegendin_skeleton|taunt_rps_scissors_lose
+      firstFrame: 0
+      lastFrame: 219
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_rps_scissors_win
+      takeName: brutallegendin_skeleton|taunt_rps_scissors_win
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_table_flip_intro
+      takeName: brutallegendin_skeleton|taunt_table_flip_intro
+      firstFrame: 0
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_table_flip_outro
+      takeName: brutallegendin_skeleton|taunt_table_flip_outro
+      firstFrame: 0
+      lastFrame: 117
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_vehicle_allclass_end
+      takeName: brutallegendin_skeleton|taunt_vehicle_allclass_end
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_vehicle_allclass_honk
+      takeName: brutallegendin_skeleton|taunt_vehicle_allclass_honk
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|taunt_yetipunch
+      takeName: brutallegendin_skeleton|taunt_yetipunch
+      firstFrame: 0
+      lastFrame: 156
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|vehicle_allclass_end
+      takeName: brutallegendin_skeleton|vehicle_allclass_end
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|vehicle_allclass_honk
+      takeName: brutallegendin_skeleton|vehicle_allclass_honk
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|vehicle_allclass_spawn
+      takeName: brutallegendin_skeleton|vehicle_allclass_spawn
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|vehicle_allclass_start
+      takeName: brutallegendin_skeleton|vehicle_allclass_start
+      firstFrame: 0
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|vehicle_allclass_start_layer
+      takeName: brutallegendin_skeleton|vehicle_allclass_start_layer
+      firstFrame: 0
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|yeti
+      takeName: brutallegendin_skeleton|yeti
+      firstFrame: 0
+      lastFrame: 178
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|yeti_layer
+      takeName: brutallegendin_skeleton|yeti_layer
+      firstFrame: 0
+      lastFrame: 178
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|yeti_prop
+      takeName: brutallegendin_skeleton|yeti_prop
+      firstFrame: 0
+      lastFrame: 128
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: brutallegendin_skeleton|yetipunch
+      takeName: brutallegendin_skeleton|yetipunch
+      firstFrame: 0
+      lastFrame: 156
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: bip_pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_spine_1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_spine_3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_collar_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_collar_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_upperArm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_upperArm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_lowerArm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_lowerArm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_0_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_1_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_2_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_0_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_1_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_2_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_0_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_1_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_2_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_0_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_1_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_2_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_0_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_1_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_2_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_0_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_1_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_2_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_0_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_1_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_2_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_0_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_1_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_2_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_0_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_1_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_2_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_0_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_1_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_2_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Heavy animations(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: bip_pelvis
+      parentName: Heavy animations(Clone)
+      position: {x: -0.40862453, y: 0, z: -0.030965049}
+      rotation: {x: 0.7063767, y: 0.7063765, z: 0.032126594, w: 0.03212659}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_hip_L
+      parentName: bip_pelvis
+      position: {x: -0.060574293, y: 0.06073152, z: -0.022014273}
+      rotation: {x: 0.59525836, y: -0.5661493, z: 0.3578312, w: -0.44395867}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999994}
+    - name: bip_knee_L
+      parentName: bip_hip_L
+      position: {x: -0.13377917, y: 0.000000002235174, z: 0.0000000017136335}
+      rotation: {x: -0.7018521, y: -0.08604371, z: 0.08604373, w: 0.70185226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_foot_L
+      parentName: bip_knee_L
+      position: {x: -0.16792402, y: 0.000000007152557, z: 0.0000000011920929}
+      rotation: {x: -0.42064777, y: 0.38755107, z: -0.5514062, w: 0.6072981}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: bip_toe_L
+      parentName: bip_foot_L
+      position: {x: 0.0000000022528859, y: -0.07941188, z: 0.0000000011920929}
+      rotation: {x: -0.2697621, y: 8.11922e-10, z: 0.00000004242659, w: 0.962927}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: bip_toe_L_end
+      parentName: bip_toe_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_hip_R
+      parentName: bip_pelvis
+      position: {x: 0.060574293, y: 0.060731597, z: -0.022014271}
+      rotation: {x: -0.5661492, y: 0.5952585, z: 0.4439588, w: -0.35783127}
+      scale: {x: 0.99999994, y: 0.99999976, z: 1}
+    - name: bip_knee_R
+      parentName: bip_hip_R
+      position: {x: -0.13377912, y: -0.000000008940696, z: -0.000000007934868}
+      rotation: {x: -0.0000000086792316, y: -0.00000001595102, z: -0.12168422, w: 0.9925689}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: bip_foot_R
+      parentName: bip_knee_R
+      position: {x: -0.16792396, y: -0.0000000011920929, z: 0.0000000140070915}
+      rotation: {x: -0.663944, y: 0.13198425, z: 0.72686666, w: 0.115859695}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: bip_toe_R
+      parentName: bip_foot_R
+      position: {x: 0.00000043764027, y: 0.079412, z: -0.000000077486035}
+      rotation: {x: -0.26976225, y: 0.000000013182277, z: 0.00000002447216, w: 0.962927}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1}
+    - name: bip_toe_R_end
+      parentName: bip_toe_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_spine_0
+      parentName: bip_pelvis
+      position: {x: 0.0000000011920884, y: -0.060656145, z: -0.0000000023841864}
+      rotation: {x: -0.058040164, y: 0.000000055266067, z: -0.00000011619753, w: 0.99831426}
+      scale: {x: 1, y: 0.99999976, z: 0.99999994}
+    - name: bip_spine_1
+      parentName: bip_spine_0
+      position: {x: -0.00000000476837, y: -0.07446181, z: 1.2789769e-15}
+      rotation: {x: -0.021505939, y: 0.00000039667503, z: -0.00000059882996, w: 0.99976873}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: bip_spine_2
+      parentName: bip_spine_1
+      position: {x: 0.000000009536784, y: -0.08166989, z: -5.1194604e-14}
+      rotation: {x: 0.068142645, y: 0.000000020461055, z: 0.00000016289718, w: 0.9976756}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: bip_spine_3
+      parentName: bip_spine_2
+      position: {x: 0.0000000047684123, y: -0.070590384, z: -9.05942e-14}
+      rotation: {x: 0.21372615, y: -0.000000010118692, z: 0.00000009754896, w: 0.97689366}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: bip_collar_L
+      parentName: bip_spine_3
+      position: {x: -0.02131429, y: -0.05805779, z: -0.07194567}
+      rotation: {x: 0.75726426, y: 0.6270773, z: -0.18251798, w: -0.0034699389}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: bip_upperArm_L
+      parentName: bip_collar_L
+      position: {x: 0.000000079436354, y: -0.14061874, z: 0.000000019073486}
+      rotation: {x: 0.5253461, y: 0.58356327, z: 0.31841153, w: 0.5311117}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: bip_lowerArm_L
+      parentName: bip_upperArm_L
+      position: {x: -0.1767092, y: -0.000000007152557, z: -0.0000000011920929}
+      rotation: {x: -0.7087852, y: 0.009645159, z: -0.027242212, w: 0.7048322}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: bip_hand_L
+      parentName: bip_lowerArm_L
+      position: {x: -0.15175502, y: -0.0000000115670264, z: -0.000000022873282}
+      rotation: {x: 0.0022473324, y: -0.0022473999, z: -0.7140378, w: 0.7001}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: bip_index_0_L
+      parentName: bip_hand_L
+      position: {x: 0.007515944, y: -0.06859743, z: 0.046006314}
+      rotation: {x: 0.013499351, y: -0.778433, z: 0.08853786, w: 0.6213059}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_index_1_L
+      parentName: bip_index_0_L
+      position: {x: -0.000000014305114, y: -0.036006954, z: -0.00000003159046}
+      rotation: {x: 0.020220958, y: -0.000000059604602, z: -0.0000017154949, w: 0.99979556}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: bip_index_2_L
+      parentName: bip_index_1_L
+      position: {x: 0.000000026226044, y: -0.022627695, z: 0.000000015497207}
+      rotation: {x: 1, y: 0.00000041626254, z: -0.000006223821, w: -0.0000014845165}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: bip_index_2_L_end
+      parentName: bip_index_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_middle_0_L
+      parentName: bip_hand_L
+      position: {x: 0.0071304296, y: -0.067834474, z: 0.019471988}
+      rotation: {x: 0.042217046, y: -0.82845646, z: 0.1264792, w: 0.5439491}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: bip_middle_1_L
+      parentName: bip_middle_0_L
+      position: {x: 0.000000023841856, y: -0.047297668, z: -0.00000002771616}
+      rotation: {x: 0.023117138, y: -0.0000003576277, z: -0.0000008419152, w: 0.99973285}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: bip_middle_2_L
+      parentName: bip_middle_1_L
+      position: {x: 0.000000042915342, y: -0.027584327, z: 0.000000028610229}
+      rotation: {x: 1, y: 0.0000008024883, z: -0.000022825274, w: 0.000002391653}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000001}
+    - name: bip_middle_2_L_end
+      parentName: bip_middle_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_pinky_0_L
+      parentName: bip_hand_L
+      position: {x: 0.026396992, y: -0.06552835, z: -0.02641658}
+      rotation: {x: -0.0511061, y: 0.8712292, z: -0.13415542, w: -0.4694149}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: bip_pinky_1_L
+      parentName: bip_pinky_0_L
+      position: {x: 0.00000006616116, y: -0.030150387, z: -0.000000014528632}
+      rotation: {x: 0.029738316, y: -0.00000083446474, z: -0.00000017508859, w: 0.99955773}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: bip_pinky_2_L
+      parentName: bip_pinky_1_L
+      position: {x: 0.0000000023841857, y: -0.01878251, z: 0.000000026524066}
+      rotation: {x: 1, y: -0.0000006127859, z: 0.000004457011, w: -0.0000017452974}
+      scale: {x: 0.9999991, y: 1.0000005, z: 1.0000001}
+    - name: bip_pinky_2_L_end
+      parentName: bip_pinky_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_ring_0_L
+      parentName: bip_hand_L
+      position: {x: 0.016810833, y: -0.06576663, z: -0.006397874}
+      rotation: {x: 0.047204975, y: -0.84154886, z: 0.13515688, w: 0.52086455}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: bip_ring_1_L
+      parentName: bip_ring_0_L
+      position: {x: 0.00000007390976, y: -0.03781087, z: 0.00000003799796}
+      rotation: {x: 0.028227733, y: -0.00000008940692, z: 0.0000011883669, w: 0.9996015}
+      scale: {x: 0.9999999, y: 1, z: 1.0000002}
+    - name: bip_ring_2_L
+      parentName: bip_ring_1_L
+      position: {x: 0.000000007152557, y: -0.02398433, z: -0.000000009536743}
+      rotation: {x: 1, y: -0.0000013267015, z: 0.00000184868, w: -0.0000029709154}
+      scale: {x: 1.0000005, y: 1, z: 0.99999994}
+    - name: bip_ring_2_L_end
+      parentName: bip_ring_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_thumb_0_L
+      parentName: bip_hand_L
+      position: {x: 0.024400832, y: -0.019741604, z: 0.038365703}
+      rotation: {x: -0.4427734, y: -0.23673052, z: 0.10580637, w: 0.85832125}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: bip_thumb_1_L
+      parentName: bip_thumb_0_L
+      position: {x: -0.00000022172928, y: -0.04365019, z: 0.00000012040138}
+      rotation: {x: 0.03133597, y: 0.0000009685751, z: -0.0000010281798, w: 0.999509}
+      scale: {x: 0.99999976, y: 1, z: 0.9999999}
+    - name: bip_thumb_2_L
+      parentName: bip_thumb_1_L
+      position: {x: -0.0000000023841857, y: -0.017932152, z: -0.000000008940696}
+      rotation: {x: -1, y: -0.0000015616346, z: -0.000006775396, w: -0.00000029429208}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: bip_thumb_2_L_end
+      parentName: bip_thumb_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: effect_hand_L
+      parentName: bip_hand_L
+      position: {x: 0.03254997, y: -0.033283032, z: 0.0070149954}
+      rotation: {x: -0.12697408, y: -0.0072024404, z: 0.9914337, w: -0.02974896}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: effect_hand_L_end
+      parentName: effect_hand_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_3
+      parentName: bip_hand_L
+      position: {x: 0.049661357, y: -0.06026172, z: 0.021727005}
+      rotation: {x: 0.00000030174843, y: 0.000000057741993, z: 0.000000011175872,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: weapon_bone_3_end
+      parentName: weapon_bone_3
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_4
+      parentName: bip_hand_L
+      position: {x: 0.049661357, y: -0.06026172, z: 0.021727005}
+      rotation: {x: 0.00000030174843, y: 0.000000057741993, z: 0.000000011175872,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: weapon_bone_4_end
+      parentName: weapon_bone_4
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_L
+      parentName: bip_hand_L
+      position: {x: 0.049661357, y: -0.06026172, z: 0.021727005}
+      rotation: {x: 0.00000030174843, y: 0.000000057741993, z: 0.000000011175872,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: weapon_bone_L_end
+      parentName: weapon_bone_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_collar_R
+      parentName: bip_spine_3
+      position: {x: 0.021314299, y: -0.058057453, z: -0.071945824}
+      rotation: {x: 0.0034694816, y: -0.18251827, z: -0.62707645, w: 0.757265}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: bip_upperArm_R
+      parentName: bip_collar_R
+      position: {x: 0.0000002497477, y: 0.14061865, z: 0.000000085830685}
+      rotation: {x: 0.31841123, y: -0.5311117, z: -0.52534616, w: 0.58356327}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999976}
+    - name: bip_lowerArm_R
+      parentName: bip_upperArm_R
+      position: {x: -0.17670934, y: -0.000000030994414, z: -0.0000000011920929}
+      rotation: {x: 0.0027955314, y: -0.01244321, z: 0.026083445, w: 0.9995785}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: bip_hand_R
+      parentName: bip_lowerArm_R
+      position: {x: -0.15175536, y: 0.000000021979213, z: -0.000000012274831}
+      rotation: {x: -0.5033117, y: 0.49663472, z: 0.4934574, w: 0.506489}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: bip_index_0_R
+      parentName: bip_hand_R
+      position: {x: -0.007515559, y: 0.06859694, z: -0.04600636}
+      rotation: {x: 0.020303056, y: -0.80421066, z: 0.17625931, w: 0.567244}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: bip_index_1_R
+      parentName: bip_index_0_R
+      position: {x: 0.000000038146972, y: 0.036007173, z: 0.000000034570693}
+      rotation: {x: 0.016083755, y: 0.0000009834761, z: 0.000000029802305, w: 0.99987066}
+      scale: {x: 1, y: 0.99999976, z: 1.0000001}
+    - name: bip_index_2_R
+      parentName: bip_index_1_R
+      position: {x: 0.0000000333786, y: 0.02262795, z: 0.0000007176399}
+      rotation: {x: 0.015041065, y: -0.0000000589771, z: 0.00000006045574, w: 0.9998869}
+      scale: {x: 1, y: 0.9999995, z: 0.9999998}
+    - name: bip_index_2_R_end
+      parentName: bip_index_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_middle_0_R
+      parentName: bip_hand_R
+      position: {x: -0.007130351, y: 0.06783427, z: -0.01947195}
+      rotation: {x: 0.02241568, y: -0.8247055, z: 0.17786361, w: 0.5363981}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: bip_middle_1_R
+      parentName: bip_middle_0_R
+      position: {x: 0.00000010967254, y: 0.047297623, z: 0.0000007367134}
+      rotation: {x: 0.011320815, y: -0.0000016987316, z: -0.000005464998, w: 0.9999359}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: bip_middle_2_R
+      parentName: bip_middle_1_R
+      position: {x: -0.00000014066696, y: 0.027584635, z: -0.0000007355213}
+      rotation: {x: 0.0247014, y: -0.0000011611814, z: 0.0000040210266, w: 0.99969494}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: bip_middle_2_R_end
+      parentName: bip_middle_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_pinky_0_R
+      parentName: bip_hand_R
+      position: {x: -0.026397564, y: 0.06552796, z: 0.026416395}
+      rotation: {x: 0.041287016, y: -0.8367148, z: 0.1644673, w: 0.5207248}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: bip_pinky_1_R
+      parentName: bip_pinky_0_R
+      position: {x: -0.00000011980534, y: 0.030150305, z: -0.00000042900442}
+      rotation: {x: 0.029778851, y: 0.0000014305103, z: 0.0000075921353, w: 0.99955654}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: bip_pinky_2_R
+      parentName: bip_pinky_1_R
+      position: {x: 0.00000023603438, y: 0.018782133, z: 0.00000045359133}
+      rotation: {x: 0.025858575, y: 0.0000023872162, z: -0.0000063673706, w: 0.9996656}
+      scale: {x: 1.0000002, y: 0.9999986, z: 0.9999995}
+    - name: bip_pinky_2_R_end
+      parentName: bip_pinky_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_ring_0_R
+      parentName: bip_hand_R
+      position: {x: -0.01681057, y: 0.06576618, z: 0.006397885}
+      rotation: {x: -0.037268206, y: 0.8509886, z: -0.17335369, w: -0.49434608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_ring_1_R
+      parentName: bip_ring_0_R
+      position: {x: -0.00000004529953, y: 0.037811406, z: -0.00000003159046}
+      rotation: {x: 0.027971944, y: 0.0000002682207, z: 0.0000034086381, w: 0.9996087}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: bip_ring_2_R
+      parentName: bip_ring_1_R
+      position: {x: 0.00000008702278, y: 0.02398338, z: 0.00000059008596}
+      rotation: {x: 0.020116901, y: 0.0000012644089, z: -0.000003506348, w: 0.9997977}
+      scale: {x: 0.9999996, y: 1.0000005, z: 1.0000001}
+    - name: bip_ring_2_R_end
+      parentName: bip_ring_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_thumb_0_R
+      parentName: bip_hand_R
+      position: {x: -0.02440124, y: 0.019740842, z: -0.038365852}
+      rotation: {x: -0.4767913, y: -0.15412734, z: 0.06419248, w: 0.8630146}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: bip_thumb_1_R
+      parentName: bip_thumb_0_R
+      position: {x: 0.0000006866455, y: 0.0436502, z: -0.00000005483627}
+      rotation: {x: 0.031249203, y: 0.000002577899, z: -0.0000012218943, w: 0.9995116}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: bip_thumb_2_R
+      parentName: bip_thumb_1_R
+      position: {x: 0.0000000333786, y: 0.017932573, z: 0.00000014781952}
+      rotation: {x: 0.019951051, y: 0.0000021392582, z: -0.0000038993157, w: 0.9998009}
+      scale: {x: 1.0000014, y: 1.0000002, z: 1.0000004}
+    - name: bip_thumb_2_R_end
+      parentName: bip_thumb_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: effect_hand_R
+      parentName: bip_hand_R
+      position: {x: -0.03255001, y: 0.033282638, z: -0.0070151174}
+      rotation: {x: 0.0072037773, y: -0.12697782, z: 0.029749112, w: 0.9914332}
+      scale: {x: 1, y: 1, z: 1}
+    - name: effect_hand_R_end
+      parentName: effect_hand_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone
+      parentName: bip_hand_R
+      position: {x: -0.038925767, y: 0.06238286, z: -0.063359395}
+      rotation: {x: -0.6686934, y: -0.122680634, z: -0.12269411, w: 0.7230109}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_end
+      parentName: weapon_bone
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_1
+      parentName: bip_hand_R
+      position: {x: -0.044984937, y: 0.08357077, z: -0.020194305}
+      rotation: {x: -0.7071067, y: 0.000000013170888, z: 0.000000018439247, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_1_end
+      parentName: weapon_bone_1
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_2
+      parentName: bip_hand_R
+      position: {x: -0.008796719, y: 0.031761654, z: -0.007234709}
+      rotation: {x: -0.68780357, y: -0.19710276, z: -0.02138355, w: 0.69829756}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: weapon_bone_2_end
+      parentName: weapon_bone_2
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_bullet_shoulder
+      parentName: bip_collar_R
+      position: {x: 0.0606274, y: 0.10213035, z: 0.017571254}
+      rotation: {x: 0.76349837, y: 0.5991763, z: -0.14875567, w: 0.1895515}
+      scale: {x: 1.0000001, y: 1, z: 0.99999964}
+    - name: prp_bullet_shoulder_end
+      parentName: prp_bullet_shoulder
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_neck
+      parentName: bip_spine_3
+      position: {x: -0.0000000047684123, y: -0.0766763, z: -0.000000052452155}
+      rotation: {x: 0.08811186, y: 0.00000012094547, z: 0.00000037083862, w: 0.9961106}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: bip_head
+      parentName: bip_neck
+      position: {x: -0.0000000047683875, y: -0.038806573, z: -0.00000001668939}
+      rotation: {x: -0.30502862, y: 0.0000000062063608, z: -0.0000001231869, w: 0.9523432}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: bip_head_end
+      parentName: bip_head
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: medal_bone
+      parentName: bip_spine_2
+      position: {x: -0.07768008, y: -0.04344556, z: -0.117137745}
+      rotation: {x: 0.96701473, y: -0.013058159, z: -0.14834307, w: 0.20665517}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: medal_bone_end
+      parentName: medal_bone
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_bullet_backUpper
+      parentName: bip_spine_2
+      position: {x: 0.057417873, y: -0.02861074, z: 0.07700543}
+      rotation: {x: 0.99838537, y: 0.000000094727724, z: 0.000000025394186, w: -0.05680353}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: prp_bullet_backUpper_end
+      parentName: prp_bullet_backUpper
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_bullet_backLower
+      parentName: bip_spine_1
+      position: {x: -0.04930018, y: -0.006893195, z: 0.07043407}
+      rotation: {x: 0.99219406, y: 0.0000001614723, z: -0.000000029680798, w: -0.12470353}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: prp_bullet_backLower_end
+      parentName: prp_bullet_backLower
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_bullet_chestUpper
+      parentName: bip_spine_1
+      position: {x: 0.057260677, y: -0.078740835, z: -0.15299928}
+      rotation: {x: 0.99219406, y: 0.0000001614723, z: -0.000000029680798, w: -0.12470353}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: prp_bullet_chestUpper_end
+      parentName: prp_bullet_chestUpper
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_bullet_chestLower
+      parentName: bip_spine_0
+      position: {x: -0.05866311, y: -0.041248836, z: -0.15939292}
+      rotation: {x: 0.99464643, y: -0.0000006436225, z: -0.00000031890238, w: -0.10333693}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: prp_bullet_chestLower_end
+      parentName: prp_bullet_chestLower
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_bullet_side
+      parentName: bip_spine_0
+      position: {x: -0.14513288, y: -0.022944309, z: -0.037748676}
+      rotation: {x: 0.99464643, y: -0.0000006436225, z: -0.00000031890238, w: -0.10333693}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: prp_bullet_side_end
+      parentName: prp_bullet_side
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mvm
+      parentName: bip_pelvis
+      position: {x: 0.03656913, y: -0.01769769, z: 0.035345774}
+      rotation: {x: 0.09548454, y: 0.023097431, z: 0.9950563, w: -0.014570149}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999994}
+    - name: mvm_end
+      parentName: mvm
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone
+      parentName: bip_pelvis
+      position: {x: -0.0000000154972, y: 0.4669887, z: -0.008271805}
+      rotation: {x: 0.9999852, y: -0.00000011947125, z: -0.00000004777892, w: -0.005445472}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: prop_bone_end
+      parentName: prop_bone
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_1
+      parentName: bip_pelvis
+      position: {x: -0.0000000154972, y: 0.4669887, z: -0.008271805}
+      rotation: {x: 0.9999852, y: -0.00000011947125, z: -0.00000004777892, w: -0.005445472}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: prop_bone_1_end
+      parentName: prop_bone_1
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_2
+      parentName: bip_pelvis
+      position: {x: -0.0000000154972, y: 0.4669887, z: -0.008271805}
+      rotation: {x: 0.9999852, y: -0.00000011947125, z: -0.00000004777892, w: -0.005445472}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: prop_bone_2_end
+      parentName: prop_bone_2
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_3
+      parentName: bip_pelvis
+      position: {x: -0.0000000154972, y: 0.4669887, z: -0.008271805}
+      rotation: {x: 0.9999852, y: -0.00000011947125, z: -0.00000004777892, w: -0.005445472}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: prop_bone_3_end
+      parentName: prop_bone_3
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_4
+      parentName: bip_pelvis
+      position: {x: -0.0000000154972, y: 0.4669887, z: -0.008271805}
+      rotation: {x: 0.9999852, y: -0.00000011947125, z: -0.00000004777892, w: -0.005445472}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: prop_bone_4_end
+      parentName: prop_bone_4
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_5
+      parentName: bip_pelvis
+      position: {x: -0.0000000154972, y: 0.4669887, z: -0.008271805}
+      rotation: {x: 0.9999852, y: -0.00000011947125, z: -0.00000004777892, w: -0.005445472}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: prop_bone_5_end
+      parentName: prop_bone_5
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_6
+      parentName: bip_pelvis
+      position: {x: -0.0000000154972, y: 0.4669887, z: -0.008271805}
+      rotation: {x: 0.9999852, y: -0.00000011947125, z: -0.00000004777892, w: -0.005445472}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: prop_bone_6_end
+      parentName: prop_bone_6
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_pack
+      parentName: bip_pelvis
+      position: {x: -0.100524336, y: 0.0200987, z: -0.04948869}
+      rotation: {x: 0.9743012, y: -0.019179562, z: 0.19734597, w: -0.10688244}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: prp_pack_end
+      parentName: prp_pack
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

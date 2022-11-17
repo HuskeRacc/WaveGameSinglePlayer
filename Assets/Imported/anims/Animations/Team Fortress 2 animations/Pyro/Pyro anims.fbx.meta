@@ -1,0 +1,5237 @@
+fileFormatVersion: 2
+guid: c2cd0efeadaa80648bdee9c948e8af97
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bip_collar_L
+    100002: bip_collar_R
+    100004: bip_foot_L
+    100006: bip_foot_R
+    100008: bip_hand_L
+    100010: bip_hand_R
+    100012: bip_head
+    100014: bip_head_end
+    100016: bip_hip_L
+    100018: bip_hip_R
+    100020: bip_index_0_L
+    100022: bip_index_0_R
+    100024: bip_index_1_L
+    100026: bip_index_1_R
+    100028: bip_index_2_L
+    100030: bip_index_2_L_end
+    100032: bip_index_2_R
+    100034: bip_index_2_R_end
+    100036: bip_knee_L
+    100038: bip_knee_R
+    100040: bip_lowerArm_L
+    100042: bip_lowerArm_R
+    100044: bip_middle_0_L
+    100046: bip_middle_0_R
+    100048: bip_middle_1_L
+    100050: bip_middle_1_R
+    100052: bip_middle_2_L
+    100054: bip_middle_2_L_end
+    100056: bip_middle_2_R
+    100058: bip_middle_2_R_end
+    100060: bip_neck
+    100062: bip_pelvis
+    100064: bip_pinky_0_L
+    100066: bip_pinky_0_R
+    100068: bip_pinky_1_L
+    100070: bip_pinky_1_R
+    100072: bip_pinky_2_L
+    100074: bip_pinky_2_L_end
+    100076: bip_pinky_2_R
+    100078: bip_pinky_2_R_end
+    100080: bip_ring_0_L
+    100082: bip_ring_0_R
+    100084: bip_ring_1_L
+    100086: bip_ring_1_R
+    100088: bip_ring_2_L
+    100090: bip_ring_2_L_end
+    100092: bip_ring_2_R
+    100094: bip_ring_2_R_end
+    100096: bip_spine_0
+    100098: bip_spine_1
+    100100: bip_spine_2
+    100102: bip_spine_3
+    100104: bip_thumb_0_L
+    100106: bip_thumb_0_R
+    100108: bip_thumb_1_L
+    100110: bip_thumb_1_R
+    100112: bip_thumb_2_L
+    100114: bip_thumb_2_L_end
+    100116: bip_thumb_2_R
+    100118: bip_thumb_2_R_end
+    100120: bip_toe_L
+    100122: bip_toe_L_end
+    100124: bip_toe_R
+    100126: bip_toe_R_end
+    100128: bip_upperArm_L
+    100130: bip_upperArm_R
+    100132: effect_hand_L
+    100134: effect_hand_L_end
+    100136: effect_hand_R
+    100138: effect_hand_R_end
+    100140: medal_bone
+    100142: medal_bone_end
+    100144: mvm
+    100146: mvm_end
+    100148: prop_bone
+    100150: prop_bone_1
+    100152: prop_bone_1_end
+    100154: prop_bone_2
+    100156: prop_bone_2_end
+    100158: prop_bone_3
+    100160: prop_bone_3_end
+    100162: prop_bone_4
+    100164: prop_bone_4_end
+    100166: prop_bone_5
+    100168: prop_bone_5_end
+    100170: prop_bone_6
+    100172: prop_bone_6_end
+    100174: prop_bone_end
+    100176: prp_cannister1
+    100178: prp_cannister1_end
+    100180: prp_cannister2
+    100182: prp_cannister2_end
+    100184: prp_cannister3
+    100186: prp_cannister3_end
+    100188: prp_fuelTank
+    100190: prp_fuelTank_end
+    100192: prp_pouch
+    100194: prp_pouch_end
+    100196: //RootNode
+    100198: taunt_effect
+    100200: taunt_effect_end
+    100202: weapon_bone
+    100204: weapon_bone_1
+    100206: weapon_bone_1_end
+    100208: weapon_bone_2
+    100210: weapon_bone_2_end
+    100212: weapon_bone_3
+    100214: weapon_bone_3_end
+    100216: weapon_bone_4
+    100218: weapon_bone_4_end
+    100220: weapon_bone_end
+    100222: weapon_bone_L
+    100224: weapon_bone_L_end
+    400000: bip_collar_L
+    400002: bip_collar_R
+    400004: bip_foot_L
+    400006: bip_foot_R
+    400008: bip_hand_L
+    400010: bip_hand_R
+    400012: bip_head
+    400014: bip_head_end
+    400016: bip_hip_L
+    400018: bip_hip_R
+    400020: bip_index_0_L
+    400022: bip_index_0_R
+    400024: bip_index_1_L
+    400026: bip_index_1_R
+    400028: bip_index_2_L
+    400030: bip_index_2_L_end
+    400032: bip_index_2_R
+    400034: bip_index_2_R_end
+    400036: bip_knee_L
+    400038: bip_knee_R
+    400040: bip_lowerArm_L
+    400042: bip_lowerArm_R
+    400044: bip_middle_0_L
+    400046: bip_middle_0_R
+    400048: bip_middle_1_L
+    400050: bip_middle_1_R
+    400052: bip_middle_2_L
+    400054: bip_middle_2_L_end
+    400056: bip_middle_2_R
+    400058: bip_middle_2_R_end
+    400060: bip_neck
+    400062: bip_pelvis
+    400064: bip_pinky_0_L
+    400066: bip_pinky_0_R
+    400068: bip_pinky_1_L
+    400070: bip_pinky_1_R
+    400072: bip_pinky_2_L
+    400074: bip_pinky_2_L_end
+    400076: bip_pinky_2_R
+    400078: bip_pinky_2_R_end
+    400080: bip_ring_0_L
+    400082: bip_ring_0_R
+    400084: bip_ring_1_L
+    400086: bip_ring_1_R
+    400088: bip_ring_2_L
+    400090: bip_ring_2_L_end
+    400092: bip_ring_2_R
+    400094: bip_ring_2_R_end
+    400096: bip_spine_0
+    400098: bip_spine_1
+    400100: bip_spine_2
+    400102: bip_spine_3
+    400104: bip_thumb_0_L
+    400106: bip_thumb_0_R
+    400108: bip_thumb_1_L
+    400110: bip_thumb_1_R
+    400112: bip_thumb_2_L
+    400114: bip_thumb_2_L_end
+    400116: bip_thumb_2_R
+    400118: bip_thumb_2_R_end
+    400120: bip_toe_L
+    400122: bip_toe_L_end
+    400124: bip_toe_R
+    400126: bip_toe_R_end
+    400128: bip_upperArm_L
+    400130: bip_upperArm_R
+    400132: effect_hand_L
+    400134: effect_hand_L_end
+    400136: effect_hand_R
+    400138: effect_hand_R_end
+    400140: medal_bone
+    400142: medal_bone_end
+    400144: mvm
+    400146: mvm_end
+    400148: prop_bone
+    400150: prop_bone_1
+    400152: prop_bone_1_end
+    400154: prop_bone_2
+    400156: prop_bone_2_end
+    400158: prop_bone_3
+    400160: prop_bone_3_end
+    400162: prop_bone_4
+    400164: prop_bone_4_end
+    400166: prop_bone_5
+    400168: prop_bone_5_end
+    400170: prop_bone_6
+    400172: prop_bone_6_end
+    400174: prop_bone_end
+    400176: prp_cannister1
+    400178: prp_cannister1_end
+    400180: prp_cannister2
+    400182: prp_cannister2_end
+    400184: prp_cannister3
+    400186: prp_cannister3_end
+    400188: prp_fuelTank
+    400190: prp_fuelTank_end
+    400192: prp_pouch
+    400194: prp_pouch_end
+    400196: //RootNode
+    400198: taunt_effect
+    400200: taunt_effect_end
+    400202: weapon_bone
+    400204: weapon_bone_1
+    400206: weapon_bone_1_end
+    400208: weapon_bone_2
+    400210: weapon_bone_2_end
+    400212: weapon_bone_3
+    400214: weapon_bone_3_end
+    400216: weapon_bone_4
+    400218: weapon_bone_4_end
+    400220: weapon_bone_end
+    400222: weapon_bone_L
+    400224: weapon_bone_L_end
+    7400000: aerobic_B_START_skeleton|.1 saxxy_pose
+    7400002: aerobic_B_START_skeleton|01
+    7400004: aerobic_B_START_skeleton|02
+    7400006: aerobic_B_START_skeleton|03
+    7400008: aerobic_B_START_skeleton|a_reference
+    7400010: aerobic_B_START_skeleton|aerobic_A
+    7400012: aerobic_B_START_skeleton|aerobic_A_START
+    7400014: aerobic_B_START_skeleton|aerobic_B
+    7400016: aerobic_B_START_skeleton|aerobic_B_START
+    7400018: aerobic_B_START_skeleton|brutallegend
+    7400020: aerobic_B_START_skeleton|brutallegendin
+    7400022: aerobic_B_START_skeleton|brutallegendinblend
+    7400024: aerobic_B_START_skeleton|brutallegendinterior
+    7400026: aerobic_B_START_skeleton|brutallegendout
+    7400028: aerobic_B_START_skeleton|brutallegendoutblend
+    7400030: aerobic_B_START_skeleton|bubbles
+    7400032: aerobic_B_START_skeleton|conga
+    7400034: aerobic_B_START_skeleton|dieviolent
+    7400036: aerobic_B_START_skeleton|dosido_dance
+    7400038: aerobic_B_START_skeleton|dosido_intro
+    7400040: aerobic_B_START_skeleton|flip_start
+    7400042: aerobic_B_START_skeleton|flip_success_initiator
+    7400044: aerobic_B_START_skeleton|flip_success_receiver
+    7400046: aerobic_B_START_skeleton|gasblast
+    7400048: aerobic_B_START_skeleton|headbutt_start
+    7400050: aerobic_B_START_skeleton|headbutt_success
+    7400052: aerobic_B_START_skeleton|highFiveStart
+    7400054: aerobic_B_START_skeleton|highFiveSuccess
+    7400056: aerobic_B_START_skeleton|highFiveSuccessFull
+    7400058: aerobic_B_START_skeleton|item1_cheer
+    7400060: aerobic_B_START_skeleton|item1_cheer_armL
+    7400062: aerobic_B_START_skeleton|item1_go
+    7400064: aerobic_B_START_skeleton|item1_go_armL
+    7400066: aerobic_B_START_skeleton|item1_help
+    7400068: aerobic_B_START_skeleton|item1_help_armL
+    7400070: aerobic_B_START_skeleton|item1_positive
+    7400072: aerobic_B_START_skeleton|item1_positive_armL
+    7400074: aerobic_B_START_skeleton|laugh
+    7400076: aerobic_B_START_skeleton|layer_dieviolent
+    7400078: aerobic_B_START_skeleton|lollichop
+    7400080: aerobic_B_START_skeleton|melee_cheer
+    7400082: aerobic_B_START_skeleton|melee_cheer_armL
+    7400084: aerobic_B_START_skeleton|melee_go
+    7400086: aerobic_B_START_skeleton|melee_go_armL
+    7400088: aerobic_B_START_skeleton|melee_help
+    7400090: aerobic_B_START_skeleton|melee_help_armL
+    7400092: aerobic_B_START_skeleton|melee_positive
+    7400094: aerobic_B_START_skeleton|melee_positive_armL
+    7400096: aerobic_B_START_skeleton|party_trick
+    7400098: aerobic_B_START_skeleton|primary_cheer
+    7400100: aerobic_B_START_skeleton|primary_cheer_armL
+    7400102: aerobic_B_START_skeleton|primary_death_backstab
+    7400104: aerobic_B_START_skeleton|primary_death_headshot
+    7400106: aerobic_B_START_skeleton|primary_fire
+    7400108: aerobic_B_START_skeleton|primary_go
+    7400110: aerobic_B_START_skeleton|primary_go_armL
+    7400112: aerobic_B_START_skeleton|primary_help
+    7400114: aerobic_B_START_skeleton|primary_help_armL
+    7400116: aerobic_B_START_skeleton|primary_positive
+    7400118: aerobic_B_START_skeleton|primary_positive_armL
+    7400120: aerobic_B_START_skeleton|pyro_replay
+    7400122: aerobic_B_START_skeleton|pyro_replay2
+    7400124: aerobic_B_START_skeleton|ragdollspawn
+    7400126: aerobic_B_START_skeleton|rps_paper
+    7400128: aerobic_B_START_skeleton|rps_paper_lose
+    7400130: aerobic_B_START_skeleton|rps_paper_win
+    7400132: aerobic_B_START_skeleton|rps_rock
+    7400134: aerobic_B_START_skeleton|rps_rock_lose
+    7400136: aerobic_B_START_skeleton|rps_rock_win
+    7400138: aerobic_B_START_skeleton|rps_scissors
+    7400140: aerobic_B_START_skeleton|rps_scissors_lose
+    7400142: aerobic_B_START_skeleton|rps_scissors_win
+    7400144: aerobic_B_START_skeleton|rps_start
+    7400146: aerobic_B_START_skeleton|russian
+    7400148: aerobic_B_START_skeleton|scorch_shot
+    7400150: aerobic_B_START_skeleton|secondary_cheer
+    7400152: aerobic_B_START_skeleton|secondary_cheer_armL
+    7400154: aerobic_B_START_skeleton|secondary_go
+    7400156: aerobic_B_START_skeleton|secondary_go_armL
+    7400158: aerobic_B_START_skeleton|secondary_help
+    7400160: aerobic_B_START_skeleton|secondary_help_armL
+    7400162: aerobic_B_START_skeleton|secondary_positive
+    7400164: aerobic_B_START_skeleton|secondary_positive_armL
+    7400166: aerobic_B_START_skeleton|selectionMenu_Anim01
+    7400168: aerobic_B_START_skeleton|taunt01
+    7400170: aerobic_B_START_skeleton|taunt02
+    7400172: aerobic_B_START_skeleton|taunt03
+    7400174: aerobic_B_START_skeleton|taunt06
+    7400176: aerobic_B_START_skeleton|taunt_bubbles
+    7400178: aerobic_B_START_skeleton|taunt_dosido_dance
+    7400180: aerobic_B_START_skeleton|taunt_dosido_intro
+    7400182: aerobic_B_START_skeleton|taunt_flip_success_initiator
+    7400184: aerobic_B_START_skeleton|taunt_flip_success_receiver
+    7400186: aerobic_B_START_skeleton|taunt_gasblast
+    7400188: aerobic_B_START_skeleton|taunt_headbutt_start
+    7400190: aerobic_B_START_skeleton|taunt_headbutt_success
+    7400192: aerobic_B_START_skeleton|taunt_laugh
+    7400194: aerobic_B_START_skeleton|taunt_lollichop
+    7400196: aerobic_B_START_skeleton|taunt_party_trick
+    7400198: aerobic_B_START_skeleton|taunt_rps_paper
+    7400200: aerobic_B_START_skeleton|taunt_rps_paper_lose
+    7400202: aerobic_B_START_skeleton|taunt_rps_paper_win
+    7400204: aerobic_B_START_skeleton|taunt_rps_rock
+    7400206: aerobic_B_START_skeleton|taunt_rps_rock_lose
+    7400208: aerobic_B_START_skeleton|taunt_rps_rock_win
+    7400210: aerobic_B_START_skeleton|taunt_rps_scissors
+    7400212: aerobic_B_START_skeleton|taunt_rps_scissors_lose
+    7400214: aerobic_B_START_skeleton|taunt_rps_scissors_win
+    7400216: aerobic_B_START_skeleton|taunt_scorch_shot
+    7400218: aerobic_B_START_skeleton|taunt_vehicle_allclass_end
+    7400220: aerobic_B_START_skeleton|taunt_vehicle_allclass_honk
+    7400222: aerobic_B_START_skeleton|taunt_yetipunch
+    7400224: aerobic_B_START_skeleton|vehicle_allclass_end
+    7400226: aerobic_B_START_skeleton|vehicle_allclass_honk
+    7400228: aerobic_B_START_skeleton|vehicle_allclass_spawn
+    7400230: aerobic_B_START_skeleton|vehicle_allclass_start
+    7400232: aerobic_B_START_skeleton|vehicle_allclass_start_layer
+    7400234: aerobic_B_START_skeleton|yeti
+    7400236: aerobic_B_START_skeleton|yeti_layer
+    7400238: aerobic_B_START_skeleton|yeti_prop
+    7400240: aerobic_B_START_skeleton|yetipunch
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'aerobic_B_START_skeleton|01' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_0' has translation animation
+      that will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|02' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'bip_spine_0' has translation animation that will be discarded.\n\t'bip_spine_0'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|03' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|a_reference' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|aerobic_A'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|aerobic_A_START'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|aerobic_B'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|aerobic_B_START'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|brutallegendinblend'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|brutallegendinterior' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' has translation animation that
+      will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|brutallegendoutblend'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|bubbles' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|conga'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_head'
+      has translation animation that will be discarded.\n\t'bip_knee_L' has translation
+      animation that will be discarded.\n\t'bip_foot_L' has translation animation
+      that will be discarded.\n\t'bip_knee_R' has translation animation that will
+      be discarded.\n\t'bip_foot_R' has translation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|dosido_dance' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_head' has translation
+      animation that will be discarded.\n\t'bip_knee_L' has translation animation
+      that will be discarded.\n\t'bip_foot_L' has translation animation that will
+      be discarded.\n\t'bip_knee_R' has translation animation that will be discarded.\n\t'bip_foot_R'
+      has translation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|dosido_intro'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_head'
+      has translation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|flip_start'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_knee_L' has translation
+      animation that will be discarded.\n\t'bip_foot_L' has translation animation
+      that will be discarded.\n\t'bip_knee_R' has translation animation that will
+      be discarded.\n\t'bip_foot_R' has translation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|flip_success_initiator' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_head' has translation
+      animation that will be discarded.\n\t'bip_knee_L' has translation animation
+      that will be discarded.\n\t'bip_foot_L' has translation animation that will
+      be discarded.\n\nClip 'aerobic_B_START_skeleton|flip_success_receiver' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has translation
+      animation that will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_head' has translation
+      animation that will be discarded.\n\t'bip_lowerArm_L' has translation animation
+      that will be discarded.\n\t'bip_hand_L' has translation animation that will
+      be discarded.\n\nClip 'aerobic_B_START_skeleton|gasblast' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_0' has translation animation
+      that will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|headbutt_start' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_3'
+      has translation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|headbutt_success'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_head'
+      has translation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|highFiveStart'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|highFiveSuccess' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'bip_spine_0' has translation animation that
+      will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|highFiveSuccessFull'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|item1_cheer' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|item1_go'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|item1_help' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|item1_positive'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|laugh' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_1' has translation animation
+      that will be discarded.\n\t'bip_spine_2' has translation animation that will
+      be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|layer_dieviolent'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|lollichop' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|melee_cheer'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|melee_go' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|melee_help'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|melee_positive' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|party_trick' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'bip_collar_L'
+      has translation animation that will be discarded.\n\t'bip_thumb_0_L' has translation
+      animation that will be discarded.\n\t'bip_collar_R' has translation animation
+      that will be discarded.\n\t'bip_thumb_0_R' has translation animation that will
+      be discarded.\n\nClip 'aerobic_B_START_skeleton|primary_cheer' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|primary_death_backstab' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|primary_death_headshot' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' has translation animation that
+      will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'bip_hip_L'
+      has translation animation that will be discarded.\n\t'bip_knee_L' has translation
+      animation that will be discarded.\n\t'bip_foot_L' has translation animation
+      that will be discarded.\n\t'bip_toe_L' has translation animation that will be
+      discarded.\n\t'bip_knee_R' has translation animation that will be discarded.\n\t'bip_foot_R'
+      has translation animation that will be discarded.\n\t'bip_toe_R' has translation
+      animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|primary_go'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|primary_help' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|primary_positive'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|pyro_replay' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' has translation animation that will be
+      discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_collar_L' has translation
+      animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|pyro_replay2'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|ragdollspawn' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|rps_paper'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|rps_paper_lose'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|rps_paper_win'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|rps_rock'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|rps_rock_lose'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|rps_rock_win'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|rps_scissors'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|rps_scissors_lose'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|rps_scissors_win'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has
+      translation animation that will be discarded.\n\t'bip_spine_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|rps_start'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|russian' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'bip_knee_L'
+      has translation animation that will be discarded.\n\t'bip_foot_L' has translation
+      animation that will be discarded.\n\t'bip_knee_R' has translation animation
+      that will be discarded.\n\t'bip_foot_R' has translation animation that will
+      be discarded.\n\nClip 'aerobic_B_START_skeleton|scorch_shot' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|secondary_cheer' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|secondary_go' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|secondary_help'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_1'
+      has translation animation that will be discarded.\n\t'bip_spine_2' has translation
+      animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|secondary_positive'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|selectionMenu_Anim01' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|taunt06' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|taunt_vehicle_allclass_honk'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|vehicle_allclass_end' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' has translation animation that
+      will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|vehicle_allclass_honk'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|vehicle_allclass_spawn' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'bip_spine_0' has translation animation that
+      will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|vehicle_allclass_start_layer'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'aerobic_B_START_skeleton|yeti_layer' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'bip_spine_0' has translation animation that will be
+      discarded.\n\t'bip_spine_0' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_1' has translation animation
+      that will be discarded.\n\t'bip_spine_2' has translation animation that will
+      be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'bip_spine_3' has translation animation
+      that will be discarded.\n\nClip 'aerobic_B_START_skeleton|yeti_prop' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' has translation
+      animation that will be discarded.\n\t'bip_spine_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'bip_spine_1' has translation
+      animation that will be discarded.\n\t'bip_spine_2' has translation animation
+      that will be discarded.\n\t'bip_spine_2' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'bip_spine_3' has translation
+      animation that will be discarded.\n\nClip 'aerobic_B_START_skeleton|yetipunch'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'bip_spine_0' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'bip_spine_2'
+      has translation animation that will be discarded.\n\t'bip_spine_2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|.1 saxxy_pose
+      takeName: aerobic_B_START_skeleton|.1 saxxy_pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|01
+      takeName: aerobic_B_START_skeleton|01
+      firstFrame: 0
+      lastFrame: 68
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|02
+      takeName: aerobic_B_START_skeleton|02
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|03
+      takeName: aerobic_B_START_skeleton|03
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|a_reference
+      takeName: aerobic_B_START_skeleton|a_reference
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|aerobic_A
+      takeName: aerobic_B_START_skeleton|aerobic_A
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|aerobic_A_START
+      takeName: aerobic_B_START_skeleton|aerobic_A_START
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|aerobic_B
+      takeName: aerobic_B_START_skeleton|aerobic_B
+      firstFrame: 0
+      lastFrame: 163
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|aerobic_B_START
+      takeName: aerobic_B_START_skeleton|aerobic_B_START
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|brutallegend
+      takeName: aerobic_B_START_skeleton|brutallegend
+      firstFrame: 0
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|brutallegendin
+      takeName: aerobic_B_START_skeleton|brutallegendin
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|brutallegendinblend
+      takeName: aerobic_B_START_skeleton|brutallegendinblend
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|brutallegendinterior
+      takeName: aerobic_B_START_skeleton|brutallegendinterior
+      firstFrame: 0
+      lastFrame: 116
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|brutallegendout
+      takeName: aerobic_B_START_skeleton|brutallegendout
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|brutallegendoutblend
+      takeName: aerobic_B_START_skeleton|brutallegendoutblend
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|bubbles
+      takeName: aerobic_B_START_skeleton|bubbles
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|conga
+      takeName: aerobic_B_START_skeleton|conga
+      firstFrame: 0
+      lastFrame: 345
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|dieviolent
+      takeName: aerobic_B_START_skeleton|dieviolent
+      firstFrame: 0
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|dosido_dance
+      takeName: aerobic_B_START_skeleton|dosido_dance
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|dosido_intro
+      takeName: aerobic_B_START_skeleton|dosido_intro
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|flip_start
+      takeName: aerobic_B_START_skeleton|flip_start
+      firstFrame: 0
+      lastFrame: 213
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|flip_success_initiator
+      takeName: aerobic_B_START_skeleton|flip_success_initiator
+      firstFrame: 0
+      lastFrame: 121
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|flip_success_receiver
+      takeName: aerobic_B_START_skeleton|flip_success_receiver
+      firstFrame: 0
+      lastFrame: 136
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|gasblast
+      takeName: aerobic_B_START_skeleton|gasblast
+      firstFrame: 0
+      lastFrame: 193
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|headbutt_start
+      takeName: aerobic_B_START_skeleton|headbutt_start
+      firstFrame: 0
+      lastFrame: 133
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|headbutt_success
+      takeName: aerobic_B_START_skeleton|headbutt_success
+      firstFrame: 0
+      lastFrame: 142
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|highFiveStart
+      takeName: aerobic_B_START_skeleton|highFiveStart
+      firstFrame: 0
+      lastFrame: 86
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|highFiveSuccess
+      takeName: aerobic_B_START_skeleton|highFiveSuccess
+      firstFrame: 0
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|highFiveSuccessFull
+      takeName: aerobic_B_START_skeleton|highFiveSuccessFull
+      firstFrame: 0
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|item1_cheer
+      takeName: aerobic_B_START_skeleton|item1_cheer
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|item1_cheer_armL
+      takeName: aerobic_B_START_skeleton|item1_cheer_armL
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|item1_go
+      takeName: aerobic_B_START_skeleton|item1_go
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|item1_go_armL
+      takeName: aerobic_B_START_skeleton|item1_go_armL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|item1_help
+      takeName: aerobic_B_START_skeleton|item1_help
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|item1_help_armL
+      takeName: aerobic_B_START_skeleton|item1_help_armL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|item1_positive
+      takeName: aerobic_B_START_skeleton|item1_positive
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|item1_positive_armL
+      takeName: aerobic_B_START_skeleton|item1_positive_armL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|laugh
+      takeName: aerobic_B_START_skeleton|laugh
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|layer_dieviolent
+      takeName: aerobic_B_START_skeleton|layer_dieviolent
+      firstFrame: 0
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|lollichop
+      takeName: aerobic_B_START_skeleton|lollichop
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|melee_cheer
+      takeName: aerobic_B_START_skeleton|melee_cheer
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|melee_cheer_armL
+      takeName: aerobic_B_START_skeleton|melee_cheer_armL
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|melee_go
+      takeName: aerobic_B_START_skeleton|melee_go
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|melee_go_armL
+      takeName: aerobic_B_START_skeleton|melee_go_armL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|melee_help
+      takeName: aerobic_B_START_skeleton|melee_help
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|melee_help_armL
+      takeName: aerobic_B_START_skeleton|melee_help_armL
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|melee_positive
+      takeName: aerobic_B_START_skeleton|melee_positive
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|melee_positive_armL
+      takeName: aerobic_B_START_skeleton|melee_positive_armL
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|party_trick
+      takeName: aerobic_B_START_skeleton|party_trick
+      firstFrame: 0
+      lastFrame: 223
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|primary_cheer
+      takeName: aerobic_B_START_skeleton|primary_cheer
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|primary_cheer_armL
+      takeName: aerobic_B_START_skeleton|primary_cheer_armL
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|primary_death_backstab
+      takeName: aerobic_B_START_skeleton|primary_death_backstab
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|primary_death_headshot
+      takeName: aerobic_B_START_skeleton|primary_death_headshot
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|primary_fire
+      takeName: aerobic_B_START_skeleton|primary_fire
+      firstFrame: 0
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|primary_go
+      takeName: aerobic_B_START_skeleton|primary_go
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|primary_go_armL
+      takeName: aerobic_B_START_skeleton|primary_go_armL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|primary_help
+      takeName: aerobic_B_START_skeleton|primary_help
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|primary_help_armL
+      takeName: aerobic_B_START_skeleton|primary_help_armL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|primary_positive
+      takeName: aerobic_B_START_skeleton|primary_positive
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|primary_positive_armL
+      takeName: aerobic_B_START_skeleton|primary_positive_armL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|pyro_replay
+      takeName: aerobic_B_START_skeleton|pyro_replay
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|pyro_replay2
+      takeName: aerobic_B_START_skeleton|pyro_replay2
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|ragdollspawn
+      takeName: aerobic_B_START_skeleton|ragdollspawn
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|rps_paper
+      takeName: aerobic_B_START_skeleton|rps_paper
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|rps_paper_lose
+      takeName: aerobic_B_START_skeleton|rps_paper_lose
+      firstFrame: 0
+      lastFrame: 209
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|rps_paper_win
+      takeName: aerobic_B_START_skeleton|rps_paper_win
+      firstFrame: 0
+      lastFrame: 202
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|rps_rock
+      takeName: aerobic_B_START_skeleton|rps_rock
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|rps_rock_lose
+      takeName: aerobic_B_START_skeleton|rps_rock_lose
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|rps_rock_win
+      takeName: aerobic_B_START_skeleton|rps_rock_win
+      firstFrame: 0
+      lastFrame: 202
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|rps_scissors
+      takeName: aerobic_B_START_skeleton|rps_scissors
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|rps_scissors_lose
+      takeName: aerobic_B_START_skeleton|rps_scissors_lose
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|rps_scissors_win
+      takeName: aerobic_B_START_skeleton|rps_scissors_win
+      firstFrame: 0
+      lastFrame: 202
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|rps_start
+      takeName: aerobic_B_START_skeleton|rps_start
+      firstFrame: 0
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|russian
+      takeName: aerobic_B_START_skeleton|russian
+      firstFrame: 0
+      lastFrame: 354
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|scorch_shot
+      takeName: aerobic_B_START_skeleton|scorch_shot
+      firstFrame: 0
+      lastFrame: 113
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|secondary_cheer
+      takeName: aerobic_B_START_skeleton|secondary_cheer
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|secondary_cheer_armL
+      takeName: aerobic_B_START_skeleton|secondary_cheer_armL
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|secondary_go
+      takeName: aerobic_B_START_skeleton|secondary_go
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|secondary_go_armL
+      takeName: aerobic_B_START_skeleton|secondary_go_armL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|secondary_help
+      takeName: aerobic_B_START_skeleton|secondary_help
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|secondary_help_armL
+      takeName: aerobic_B_START_skeleton|secondary_help_armL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|secondary_positive
+      takeName: aerobic_B_START_skeleton|secondary_positive
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|secondary_positive_armL
+      takeName: aerobic_B_START_skeleton|secondary_positive_armL
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|selectionMenu_Anim01
+      takeName: aerobic_B_START_skeleton|selectionMenu_Anim01
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt01
+      takeName: aerobic_B_START_skeleton|taunt01
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt02
+      takeName: aerobic_B_START_skeleton|taunt02
+      firstFrame: 0
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt03
+      takeName: aerobic_B_START_skeleton|taunt03
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt06
+      takeName: aerobic_B_START_skeleton|taunt06
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_bubbles
+      takeName: aerobic_B_START_skeleton|taunt_bubbles
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_dosido_dance
+      takeName: aerobic_B_START_skeleton|taunt_dosido_dance
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_dosido_intro
+      takeName: aerobic_B_START_skeleton|taunt_dosido_intro
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_flip_success_initiator
+      takeName: aerobic_B_START_skeleton|taunt_flip_success_initiator
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_flip_success_receiver
+      takeName: aerobic_B_START_skeleton|taunt_flip_success_receiver
+      firstFrame: 0
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_gasblast
+      takeName: aerobic_B_START_skeleton|taunt_gasblast
+      firstFrame: 0
+      lastFrame: 193
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_headbutt_start
+      takeName: aerobic_B_START_skeleton|taunt_headbutt_start
+      firstFrame: 0
+      lastFrame: 132
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_headbutt_success
+      takeName: aerobic_B_START_skeleton|taunt_headbutt_success
+      firstFrame: 0
+      lastFrame: 142
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_laugh
+      takeName: aerobic_B_START_skeleton|taunt_laugh
+      firstFrame: 0
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_lollichop
+      takeName: aerobic_B_START_skeleton|taunt_lollichop
+      firstFrame: 0
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_party_trick
+      takeName: aerobic_B_START_skeleton|taunt_party_trick
+      firstFrame: 0
+      lastFrame: 224
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_rps_paper
+      takeName: aerobic_B_START_skeleton|taunt_rps_paper
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_rps_paper_lose
+      takeName: aerobic_B_START_skeleton|taunt_rps_paper_lose
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_rps_paper_win
+      takeName: aerobic_B_START_skeleton|taunt_rps_paper_win
+      firstFrame: 0
+      lastFrame: 202
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_rps_rock
+      takeName: aerobic_B_START_skeleton|taunt_rps_rock
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_rps_rock_lose
+      takeName: aerobic_B_START_skeleton|taunt_rps_rock_lose
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_rps_rock_win
+      takeName: aerobic_B_START_skeleton|taunt_rps_rock_win
+      firstFrame: 0
+      lastFrame: 202
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_rps_scissors
+      takeName: aerobic_B_START_skeleton|taunt_rps_scissors
+      firstFrame: 0
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_rps_scissors_lose
+      takeName: aerobic_B_START_skeleton|taunt_rps_scissors_lose
+      firstFrame: 0
+      lastFrame: 208
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_rps_scissors_win
+      takeName: aerobic_B_START_skeleton|taunt_rps_scissors_win
+      firstFrame: 0
+      lastFrame: 202
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_scorch_shot
+      takeName: aerobic_B_START_skeleton|taunt_scorch_shot
+      firstFrame: 0
+      lastFrame: 91
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_vehicle_allclass_end
+      takeName: aerobic_B_START_skeleton|taunt_vehicle_allclass_end
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_vehicle_allclass_honk
+      takeName: aerobic_B_START_skeleton|taunt_vehicle_allclass_honk
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|taunt_yetipunch
+      takeName: aerobic_B_START_skeleton|taunt_yetipunch
+      firstFrame: 0
+      lastFrame: 162
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|vehicle_allclass_end
+      takeName: aerobic_B_START_skeleton|vehicle_allclass_end
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|vehicle_allclass_honk
+      takeName: aerobic_B_START_skeleton|vehicle_allclass_honk
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|vehicle_allclass_spawn
+      takeName: aerobic_B_START_skeleton|vehicle_allclass_spawn
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|vehicle_allclass_start
+      takeName: aerobic_B_START_skeleton|vehicle_allclass_start
+      firstFrame: 0
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|vehicle_allclass_start_layer
+      takeName: aerobic_B_START_skeleton|vehicle_allclass_start_layer
+      firstFrame: 0
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|yeti
+      takeName: aerobic_B_START_skeleton|yeti
+      firstFrame: 0
+      lastFrame: 221
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|yeti_layer
+      takeName: aerobic_B_START_skeleton|yeti_layer
+      firstFrame: 0
+      lastFrame: 221
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|yeti_prop
+      takeName: aerobic_B_START_skeleton|yeti_prop
+      firstFrame: 0
+      lastFrame: 128
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aerobic_B_START_skeleton|yetipunch
+      takeName: aerobic_B_START_skeleton|yetipunch
+      firstFrame: 0
+      lastFrame: 162
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: bip_pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_spine_1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_spine_3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_collar_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_collar_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_upperArm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_upperArm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_lowerArm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_lowerArm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_0_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_1_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_2_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_0_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_1_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_2_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_0_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_1_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_2_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_0_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_1_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_2_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_0_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_1_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_2_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_0_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_1_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_thumb_2_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_0_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_1_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_index_2_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_0_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_1_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_middle_2_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_0_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_1_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_ring_2_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_0_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_1_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_pinky_2_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Pyro anims(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: bip_pelvis
+      parentName: Pyro anims(Clone)
+      position: {x: 0.000000038146972, y: -0.000000038146972, z: 0.44792843}
+      rotation: {x: -0.861528, y: 0.00000022513731, z: 0.0000002266719, w: 0.50771016}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: bip_hip_L
+      parentName: bip_pelvis
+      position: {x: -0.05434127, y: 0.037821762, z: 0.024128731}
+      rotation: {x: 0.7322484, y: -0.6295248, z: -0.2502439, w: -0.069919795}
+      scale: {x: 1.0000005, y: 1, z: 0.99999964}
+    - name: bip_knee_L
+      parentName: bip_hip_L
+      position: {x: -0.15896472, y: 5.9604643e-10, z: -0.0000000035762786}
+      rotation: {x: 0.6955206, y: -0.12748197, z: 0.12748209, w: 0.6955198}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999998}
+    - name: bip_foot_L
+      parentName: bip_knee_L
+      position: {x: -0.21120225, y: 0.0000000011920929, z: -0.000000007152557}
+      rotation: {x: 0.73279965, y: 0.0700854, z: 0.67429423, w: -0.058480915}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: bip_toe_L
+      parentName: bip_foot_L
+      position: {x: 0.000000015659387, y: -0.068803005, z: -0.000000014305114}
+      rotation: {x: -0.24213767, y: -0.0000000057159464, z: 0.0000000058307306, w: 0.9702419}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: bip_toe_L_end
+      parentName: bip_toe_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_hip_R
+      parentName: bip_pelvis
+      position: {x: 0.054341286, y: 0.037821833, z: 0.024128802}
+      rotation: {x: -0.629525, y: 0.73224837, z: 0.0699207, w: 0.25024334}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: bip_knee_R
+      parentName: bip_hip_R
+      position: {x: -0.15896443, y: -0.000000015497207, z: 0.0000000166893}
+      rotation: {x: 0.000000028760185, y: -0.18028675, z: -0.000000009231664, w: 0.9836141}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: bip_foot_R
+      parentName: bip_knee_R
+      position: {x: -0.21120231, y: -0.000000005066395, z: -0.000000013113022}
+      rotation: {x: -0.52635545, y: 0.5595205, z: 0.47681528, w: -0.42723992}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: bip_toe_R
+      parentName: bip_foot_R
+      position: {x: -0.000000053131483, y: 0.06880301, z: 0.000000053048133}
+      rotation: {x: -0.24213766, y: 0.000000010278786, z: -0.000000012342776, w: 0.9702419}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: bip_toe_R_end
+      parentName: bip_toe_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_spine_0
+      parentName: bip_pelvis
+      position: {x: 0.000000014305107, y: -0.064130485, z: 0.000000029206271}
+      rotation: {x: 0.17946333, y: 0.00000038662924, z: -0.00000065180024, w: 0.9837647}
+      scale: {x: 0.99999994, y: 1.0000005, z: 0.9999996}
+    - name: bip_spine_1
+      parentName: bip_spine_0
+      position: {x: 0.0000000023841773, y: -0.0646249, z: -0.000000028610247}
+      rotation: {x: 0.09517837, y: 0.00000003184545, z: 0.00000015693763, w: 0.9954603}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_spine_2
+      parentName: bip_spine_1
+      position: {x: 5.96051e-10, y: -0.06385773, z: 0.000000020265544}
+      rotation: {x: 0.15337968, y: 0.000000154026, z: 0.00000021359627, w: 0.98816735}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: bip_spine_3
+      parentName: bip_spine_2
+      position: {x: 0.000000003129254, y: -0.04094555, z: 0.000000045597503}
+      rotation: {x: 0.07139227, y: -0.00000005336298, z: -0.000000018472956, w: 0.9974484}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: bip_collar_L
+      parentName: bip_spine_3
+      position: {x: -0.03126702, y: 0.0067866156, z: 0.010359986}
+      rotation: {x: 0.8076673, y: 0.5833254, z: -0.041548785, w: 0.07535755}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: bip_upperArm_L
+      parentName: bip_collar_L
+      position: {x: 0.000000045895575, y: -0.07373512, z: 0.00000007867813}
+      rotation: {x: 0.5881295, y: 0.43196225, z: 0.41676226, w: 0.5420531}
+      scale: {x: 1.0000004, y: 0.9999994, z: 1.0000002}
+    - name: bip_lowerArm_L
+      parentName: bip_upperArm_L
+      position: {x: -0.13734315, y: 0.0000000166893, z: -0.000000019073486}
+      rotation: {x: -0.71165407, y: 0.0047072447, z: -0.0300287, w: 0.7018722}
+      scale: {x: 0.9999999, y: 0.9999997, z: 1}
+    - name: bip_hand_L
+      parentName: bip_lowerArm_L
+      position: {x: -0.115822494, y: -0.000000067949294, z: -0.000000069141386}
+      rotation: {x: -0.030573815, y: 0.030573718, z: -0.63633084, w: 0.77020365}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: bip_index_0_L
+      parentName: bip_hand_L
+      position: {x: -0.018796667, y: -0.04974638, z: 0.01665423}
+      rotation: {x: -0.068492986, y: -0.79379565, z: -0.09724685, w: 0.5964397}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: bip_index_1_L
+      parentName: bip_index_0_L
+      position: {x: 0.0000000016391277, y: -0.029925477, z: 0.000000007897615}
+      rotation: {x: 0.024530552, y: 0.000000089406925, z: -0.0000013262027, w: 0.9996991}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: bip_index_2_L
+      parentName: bip_index_1_L
+      position: {x: 0.00000000461936, y: -0.02008634, z: 0.00000001952052}
+      rotation: {x: 1, y: 0.0000018594366, z: -0.000007746713, w: 0.0000033546316}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: bip_index_2_L_end
+      parentName: bip_index_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_middle_0_L
+      parentName: bip_hand_L
+      position: {x: -0.019879412, y: -0.049293544, z: -0.0017788458}
+      rotation: {x: -0.086475305, y: -0.83974314, z: -0.08563626, w: 0.52916914}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999976}
+    - name: bip_middle_1_L
+      parentName: bip_middle_0_L
+      position: {x: 0.000000002980232, y: -0.034789152, z: 0.0000000023841857}
+      rotation: {x: 0.02808516, y: 0.0000007152554, z: 0.0000005513427, w: 0.99960554}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: bip_middle_2_L
+      parentName: bip_middle_1_L
+      position: {x: -0.000000079125165, y: -0.026500722, z: 0.000000069867816}
+      rotation: {x: 1, y: -0.0000011617561, z: 0.00000998355, w: 0.0000014063005}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999998}
+    - name: bip_middle_2_L_end
+      parentName: bip_middle_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_pinky_0_L
+      parentName: bip_hand_L
+      position: {x: -0.0018570607, y: -0.044530034, z: -0.030886132}
+      rotation: {x: -0.097323924, y: -0.84809023, z: -0.07887263, w: 0.5148302}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: bip_pinky_1_L
+      parentName: bip_pinky_0_L
+      position: {x: -0.0000000047683715, y: -0.022000965, z: 0.0000000166893}
+      rotation: {x: 0.03821791, y: -0.00000017881383, z: -0.000000685453, w: 0.9992695}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: bip_pinky_2_L
+      parentName: bip_pinky_1_L
+      position: {x: 0.00000004053116, y: -0.017005185, z: -0.00000004053116}
+      rotation: {x: 1, y: -0.00000014491764, z: 0.0000012795906, w: 0.00000018626356}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: bip_pinky_2_L_end
+      parentName: bip_pinky_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_ring_0_L
+      parentName: bip_hand_L
+      position: {x: -0.006836438, y: -0.04697073, z: -0.016690232}
+      rotation: {x: -0.08682322, y: -0.84661436, z: -0.08559349, w: 0.5180537}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    - name: bip_ring_1_L
+      parentName: bip_ring_0_L
+      position: {x: -0.0000000023841857, y: -0.024272889, z: -0.00000000834465}
+      rotation: {x: 0.03385971, y: 0.00000011920925, z: 0.0000005960462, w: 0.99942666}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: bip_ring_2_L
+      parentName: bip_ring_1_L
+      position: {x: 0.0000000023841857, y: -0.02378668, z: 0.000000029206275}
+      rotation: {x: 1, y: -0.0000010923542, z: 0.0000018639118, w: 0.00000064075044}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: bip_ring_2_L_end
+      parentName: bip_ring_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_thumb_0_L
+      parentName: bip_hand_L
+      position: {x: 0.010498201, y: -0.016825875, z: 0.03037967}
+      rotation: {x: -0.37866202, y: -0.16095766, z: -0.16749808, w: 0.89590853}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: bip_thumb_1_L
+      parentName: bip_thumb_0_L
+      position: {x: 0.000000007897615, y: -0.021800816, z: 0.00000007152557}
+      rotation: {x: 0.032307047, y: 0.00000007450578, z: 0.00000014901156, w: 0.999478}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: bip_thumb_2_L
+      parentName: bip_thumb_1_L
+      position: {x: 0.000000017881392, y: -0.021498384, z: -0.000000035762785}
+      rotation: {x: -1, y: 0.0000004797919, z: -0.00000060813926, w: 0.0000012926752}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: bip_thumb_2_L_end
+      parentName: bip_thumb_2_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: effect_hand_L
+      parentName: bip_hand_L
+      position: {x: 0.020822767, y: -0.013141645, z: -0.0007715368}
+      rotation: {x: -0.27077085, y: 0.023859719, z: 0.96221703, w: -0.015881723}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: effect_hand_L_end
+      parentName: effect_hand_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_L
+      parentName: bip_hand_L
+      position: {x: 0.01420309, y: -0.052152105, z: 0.0031921242}
+      rotation: {x: 0.7990255, y: 0.012438078, z: 0.1868686, w: 0.5713876}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1.0000001}
+    - name: weapon_bone_L_end
+      parentName: weapon_bone_L
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_collar_R
+      parentName: bip_spine_3
+      position: {x: 0.031267002, y: 0.0067867786, z: 0.0103599345}
+      rotation: {x: -0.07535777, y: -0.041549593, z: -0.58332276, w: 0.8076691}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.9999998}
+    - name: bip_upperArm_R
+      parentName: bip_collar_R
+      position: {x: 0.00000030636787, y: 0.07373484, z: 0.00000007241964}
+      rotation: {x: 0.41676053, y: -0.54205406, z: -0.58813095, w: 0.43196073}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+    - name: bip_lowerArm_R
+      parentName: bip_upperArm_R
+      position: {x: -0.13734308, y: 0.000000030994414, z: 0.0000000047683715}
+      rotation: {x: 0.0069159833, y: -0.017905002, z: 0.024561394, w: 0.99951404}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    - name: bip_hand_R
+      parentName: bip_lowerArm_R
+      position: {x: -0.11582262, y: 0.000000019073486, z: 0.000000013709068}
+      rotation: {x: 0.47157362, y: -0.5229965, z: -0.5662345, w: -0.42833573}
+      scale: {x: 1, y: 1.0000002, z: 0.99999976}
+    - name: bip_index_0_R
+      parentName: bip_hand_R
+      position: {x: 0.018797094, y: 0.049746785, z: -0.016654113}
+      rotation: {x: -0.0964375, y: -0.81901765, z: -0.08314782, w: 0.55946076}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: bip_index_1_R
+      parentName: bip_index_0_R
+      position: {x: -0.00000019311905, y: 0.029924938, z: -0.00000037029386}
+      rotation: {x: 0.02177888, y: -0.000000029802305, z: 0.0000056698887, w: 0.9997629}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: bip_index_2_R
+      parentName: bip_index_1_R
+      position: {x: 0.00000010848045, y: 0.020086985, z: -0.000000032484532}
+      rotation: {x: 0.012361865, y: 0.0000019778859, z: -0.0000031431953, w: 0.99992365}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: bip_index_2_R_end
+      parentName: bip_index_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_middle_0_R
+      parentName: bip_hand_R
+      position: {x: 0.019879326, y: 0.049293354, z: 0.0017787182}
+      rotation: {x: -0.10638886, y: -0.83995336, z: -0.07737156, w: 0.5264727}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: bip_middle_1_R
+      parentName: bip_middle_0_R
+      position: {x: -0.00000011980534, y: 0.03478944, z: -0.0000005752593}
+      rotation: {x: 0.006793197, y: -0.0000036954857, z: 0.00000011920922, w: 0.99997693}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_middle_2_R
+      parentName: bip_middle_1_R
+      position: {x: -0.00000011056661, y: 0.026500236, z: 0.0000005763769}
+      rotation: {x: 0.018000793, y: -0.0000007098315, z: 0.0000012049459, w: 0.99983805}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999998}
+    - name: bip_middle_2_R_end
+      parentName: bip_middle_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_pinky_0_R
+      parentName: bip_hand_R
+      position: {x: 0.0018575042, y: 0.044530123, z: 0.030886123}
+      rotation: {x: 0.12310161, y: 0.8906612, z: 0.05700058, w: -0.433958}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: bip_pinky_1_R
+      parentName: bip_pinky_0_R
+      position: {x: 0.00000004529953, y: 0.022000726, z: 0.0000006207824}
+      rotation: {x: 0.031127136, y: 0.00000017881383, z: -0.0000029727798, w: 0.9995155}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: bip_pinky_2_R
+      parentName: bip_pinky_1_R
+      position: {x: -0.000000021457671, y: 0.017005583, z: -0.00000065028667}
+      rotation: {x: 0.022261593, y: -0.00000068092925, z: 0.0000018581813, w: 0.9997522}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: bip_pinky_2_R_end
+      parentName: bip_pinky_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_ring_0_R
+      parentName: bip_hand_R
+      position: {x: 0.006836442, y: 0.04697113, z: 0.016690318}
+      rotation: {x: 0.107906125, y: 0.86170644, z: 0.07051874, w: -0.49076015}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: bip_ring_1_R
+      parentName: bip_ring_0_R
+      position: {x: -0.00000021934508, y: 0.024272839, z: -0.00000046044588}
+      rotation: {x: 0.020607196, y: -0.0000027120104, z: 0.000004149972, w: 0.9997876}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: bip_ring_2_R
+      parentName: bip_ring_1_R
+      position: {x: -0.000000034570693, y: 0.023786495, z: 0.0000003954768}
+      rotation: {x: 0.02295765, y: -0.0000002646429, z: 0.0000004957335, w: 0.9997365}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: bip_ring_2_R_end
+      parentName: bip_ring_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_thumb_0_R
+      parentName: bip_hand_R
+      position: {x: -0.010497764, y: 0.016826143, z: -0.030379517}
+      rotation: {x: -0.40512452, y: -0.32246098, z: -0.10323132, w: 0.84925634}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: bip_thumb_1_R
+      parentName: bip_thumb_0_R
+      position: {x: -0.0000004446134, y: 0.021801013, z: -0.000000042319297}
+      rotation: {x: 0.0254388, y: -0.000003039835, z: 0.000012338154, w: 0.9996764}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: bip_thumb_2_R
+      parentName: bip_thumb_1_R
+      position: {x: 0.00000010911375, y: 0.021498475, z: 0.00000011578202}
+      rotation: {x: 0.034088943, y: 0.0000005285329, z: -0.000001287504, w: 0.99941885}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999999}
+    - name: bip_thumb_2_R_end
+      parentName: bip_thumb_2_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: effect_hand_R
+      parentName: bip_hand_R
+      position: {x: -0.0208225, y: 0.01314172, z: 0.0007715058}
+      rotation: {x: -0.023858478, y: -0.27077568, z: 0.01588212, w: 0.9622157}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: effect_hand_R_end
+      parentName: effect_hand_R
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone
+      parentName: bip_hand_R
+      position: {x: -0.005205049, y: 0.05781247, z: -0.038925797}
+      rotation: {x: -0.573532, y: -0.13439365, z: -0.10261254, w: 0.80154234}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: weapon_bone_end
+      parentName: weapon_bone
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_1
+      parentName: bip_hand_R
+      position: {x: -0.03977388, y: 0.13795614, z: 0.023827784}
+      rotation: {x: -0.5713879, y: -0.18686873, z: 0.0124379285, w: 0.7990252}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: weapon_bone_1_end
+      parentName: weapon_bone_1
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_2
+      parentName: bip_hand_R
+      position: {x: -0.03977388, y: 0.13795614, z: 0.023827784}
+      rotation: {x: -0.5713879, y: -0.18686873, z: 0.0124379285, w: 0.7990252}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: weapon_bone_2_end
+      parentName: weapon_bone_2
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_3
+      parentName: bip_hand_R
+      position: {x: -0.03977388, y: 0.13795614, z: 0.023827784}
+      rotation: {x: -0.5713879, y: -0.18686873, z: 0.0124379285, w: 0.7990252}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: weapon_bone_3_end
+      parentName: weapon_bone_3
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: weapon_bone_4
+      parentName: bip_hand_R
+      position: {x: -0.03977388, y: 0.13795614, z: 0.023827784}
+      rotation: {x: -0.5713879, y: -0.18686873, z: 0.0124379285, w: 0.7990252}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: weapon_bone_4_end
+      parentName: weapon_bone_4
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip_neck
+      parentName: bip_spine_3
+      position: {x: 0.0000000044703334, y: -0.022363411, z: 0.000000095367405}
+      rotation: {x: -0.082296774, y: -0.0000007743584, z: -0.00000065477707, w: 0.9966079}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: bip_head
+      parentName: bip_neck
+      position: {x: 0.000000019073527, y: -0.023582112, z: 0.00000002980249}
+      rotation: {x: 0.033507273, y: -0.0000001797552, z: -0.00000024743568, w: 0.9994385}
+      scale: {x: 1, y: 1.0000002, z: 0.99999964}
+    - name: bip_head_end
+      parentName: bip_head
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: medal_bone
+      parentName: bip_spine_2
+      position: {x: 0.02323116, y: -0.0162949, z: -0.07201522}
+      rotation: {x: 0.8946609, y: 0.02698591, z: 0.12601548, w: 0.42775434}
+      scale: {x: 1, y: 0.9999999, z: 1.0000005}
+    - name: medal_bone_end
+      parentName: medal_bone
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_fuelTank
+      parentName: bip_spine_2
+      position: {x: 0.0013959612, y: 0.022788, z: 0.10677317}
+      rotation: {x: 0.9843979, y: -0.00000002798653, z: 0.000000042774655, w: 0.17595686}
+      scale: {x: 1.0000007, y: 0.99999976, z: 0.9999996}
+    - name: prp_fuelTank_end
+      parentName: prp_fuelTank
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_cannister1
+      parentName: bip_spine_1
+      position: {x: -0.048602022, y: -0.07185955, z: -0.07153743}
+      rotation: {x: 0.9997381, y: 0.00000023736452, z: -0.00000011403926, w: 0.022886273}
+      scale: {x: 0.9999997, y: 1, z: 1}
+    - name: prp_cannister1_end
+      parentName: prp_cannister1
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_cannister2
+      parentName: bip_spine_1
+      position: {x: -0.021568144, y: -0.042835135, z: -0.09766022}
+      rotation: {x: 0.9997381, y: 0.00000023736483, z: -0.000000114039565, w: 0.022886273}
+      scale: {x: 0.9999998, y: 0.99999976, z: 1.0000001}
+    - name: prp_cannister2_end
+      parentName: prp_cannister2
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_cannister3
+      parentName: bip_spine_1
+      position: {x: 0.010605235, y: -0.01834194, z: -0.11987604}
+      rotation: {x: 0.9997381, y: 0.00000023736469, z: -0.00000011403957, w: 0.022886273}
+      scale: {x: 1, y: 0.9999994, z: 1.0000004}
+    - name: prp_cannister3_end
+      parentName: prp_cannister3
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mvm
+      parentName: bip_pelvis
+      position: {x: -0.04253817, y: -0.04764912, z: 0.054640856}
+      rotation: {x: -0.18426701, y: -0.2504031, z: 0.94580126, w: 0.093829304}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: mvm_end
+      parentName: mvm
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone
+      parentName: bip_pelvis
+      position: {x: 4.892952e-15, y: 0.0000000035762786, z: 0.000000014305114}
+      rotation: {x: -0.0000003203749, y: 0.0000004973266, z: -0.00000057183206, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: prop_bone_end
+      parentName: prop_bone
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_1
+      parentName: bip_pelvis
+      position: {x: 4.892952e-15, y: 0.0000000035762786, z: 0.000000014305114}
+      rotation: {x: -0.0000003203749, y: 0.0000004973266, z: -0.00000057183206, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: prop_bone_1_end
+      parentName: prop_bone_1
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_2
+      parentName: bip_pelvis
+      position: {x: 4.892952e-15, y: 0.0000000035762786, z: 0.000000014305114}
+      rotation: {x: -0.0000003203749, y: 0.0000004973266, z: -0.00000057183206, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: prop_bone_2_end
+      parentName: prop_bone_2
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_3
+      parentName: bip_pelvis
+      position: {x: 4.892952e-15, y: 0.0000000035762786, z: 0.000000014305114}
+      rotation: {x: -0.0000003203749, y: 0.0000004973266, z: -0.00000057183206, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: prop_bone_3_end
+      parentName: prop_bone_3
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_4
+      parentName: bip_pelvis
+      position: {x: 4.892952e-15, y: 0.0000000035762786, z: 0.000000014305114}
+      rotation: {x: -0.0000003203749, y: 0.0000004973266, z: -0.00000057183206, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: prop_bone_4_end
+      parentName: prop_bone_4
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_5
+      parentName: bip_pelvis
+      position: {x: 4.892952e-15, y: 0.0000000035762786, z: 0.000000014305114}
+      rotation: {x: -0.0000003203749, y: 0.0000004973266, z: -0.00000057183206, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: prop_bone_5_end
+      parentName: prop_bone_5
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_bone_6
+      parentName: bip_pelvis
+      position: {x: 4.892952e-15, y: 0.0000000035762786, z: 0.000000014305114}
+      rotation: {x: -0.0000003203749, y: 0.0000004973266, z: -0.00000057183206, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: prop_bone_6_end
+      parentName: prop_bone_6
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prp_pouch
+      parentName: bip_pelvis
+      position: {x: -0.05052603, y: 0.017170053, z: -0.07161281}
+      rotation: {x: 0.96819764, y: -0.0000006780712, z: -0.0000003384453, w: -0.25018677}
+      scale: {x: 1, y: 1.0000002, z: 0.99999976}
+    - name: prp_pouch_end
+      parentName: prp_pouch
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: taunt_effect
+      parentName: bip_pelvis
+      position: {x: -0.00000003337861, y: 0.38603026, z: 0.24152805}
+      rotation: {x: 0.96819764, y: -0.0000006780714, z: -0.00000033844518, w: -0.25018677}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: taunt_effect_end
+      parentName: taunt_effect
+      position: {x: -0, y: 0.049999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
