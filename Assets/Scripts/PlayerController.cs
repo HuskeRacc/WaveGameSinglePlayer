@@ -5,6 +5,9 @@ public class PlayerController : MonoBehaviour
 {
     #region Variables
 
+    [Header("Pausing")]
+    [SerializeField] bool isPaused;
+
     [Header("Animation")]
     [SerializeField] Animator animator;
     [SerializeField] float animationSmoothingTime;
@@ -31,6 +34,7 @@ public class PlayerController : MonoBehaviour
     [Header("KeyCodes")]
     [SerializeField] KeyCode runKey;
     [SerializeField] KeyCode jumpKey;
+    [SerializeField] KeyCode pauseKey;
 
     [Header("Slope")]
     [SerializeField] float slopeForce;
@@ -54,17 +58,18 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         controller = GetComponent<CharacterController>();
-        if(lockCursor)
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-        }
     }
 
     private void Update()
     {
-        MouseLook();
-        Movement();
+
+
+        if (isPaused == false)
+        {
+            MouseLook();
+            Movement();
+        }
+        PauseController();
     }
 
     void MouseLook()
@@ -80,6 +85,28 @@ public class PlayerController : MonoBehaviour
         playerCam.localEulerAngles = Vector3.right * cameraPitch;
 
         transform.Rotate(currentMouseDelta.x * mouseSens * Vector3.up);
+    }
+
+    void PauseController()
+    {
+        if (Input.GetKeyDown(pauseKey))
+        {
+            if (lockCursor)
+                lockCursor = false;
+            else lockCursor = true;
+        }
+        if (lockCursor)
+        {
+            isPaused = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        else
+        {
+            isPaused = true;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 
     void Movement()
@@ -142,10 +169,11 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKeyDown(jumpKey) && !isJumping)
         {
             isJumping = true;
-            StartCoroutine(JumpEvent());
         }
     }
 
+    //disabled
+    /*
     IEnumerator JumpEvent()
     {
         controller.slopeLimit = 90.0f;
@@ -163,4 +191,5 @@ public class PlayerController : MonoBehaviour
         controller.slopeLimit = 45f;
         isJumping = false;
     }
+    */
 }

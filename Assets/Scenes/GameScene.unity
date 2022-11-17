@@ -11722,8 +11722,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10
   range: 100
-  fireRate: 3
-  timeToFire: 0
   maxAmmo: 17
   currentAmmo: 0
   reloadTime: 4
@@ -12669,7 +12667,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148754721289}
   m_LocalRotation: {x: 0.002396047, y: 0.00000012202517, z: -2.21263e-11, w: 0.99999714}
-  m_LocalPosition: {x: -0.00121, y: -0.01085, z: -0.00005}
+  m_LocalPosition: {x: -0.00111, y: -0.01088, z: -0.00005}
   m_LocalScale: {x: 0.0068965508, y: 0.006896552, z: 0.006896552}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12886,6 +12884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93bde92f7ed2c047b50bb5aa03211f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPaused: 0
   animator: {fileID: 0}
   animationSmoothingTime: 6
   playerCam: {fileID: 698313531881349118}
@@ -12924,6 +12923,7 @@ MonoBehaviour:
   jumpMultiplier: 10
   runKey: 304
   jumpKey: 32
+  pauseKey: 9
   slopeForce: 6
   slopeForceRayLength: 1.5
 --- !u!1 &919132148754721289
