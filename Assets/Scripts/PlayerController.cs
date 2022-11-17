@@ -103,9 +103,6 @@ public class PlayerController : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        animator.SetFloat("Forward", Mathf.Lerp(animator.GetFloat("Forward"), targetDir.y, animationSmoothingTime * Time.deltaTime));
-        animator.SetFloat("Sideways", Mathf.Lerp(animator.GetFloat("Sideways"), targetDir.x, animationSmoothingTime * Time.deltaTime));
-
 
         JumpInput();
         SetMovementSpeed();
@@ -115,12 +112,10 @@ public class PlayerController : MonoBehaviour
     {
         if(Input.GetKey(runKey))
         {
-            animator.SetBool("Running", true);
             moveSpeed = Mathf.Lerp(moveSpeed, runSpeed, Time.deltaTime * runBuildUpSpeed);
         }
         else
         {
-            animator.SetBool("Running", false);
             moveSpeed = Mathf.Lerp(moveSpeed, walkSpeed, Time.deltaTime * runBuildUpSpeed);
         }
     }
