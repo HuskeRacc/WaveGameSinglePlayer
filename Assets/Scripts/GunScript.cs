@@ -22,6 +22,8 @@ public class GunScript : MonoBehaviour
 
     [SerializeField] PoolManager pool;
 
+    [SerializeField] Canvas xHairCanvas;
+
     private void Start()
     {
         fpsCam = Camera.main;
@@ -73,11 +75,13 @@ public class GunScript : MonoBehaviour
 
     void ADS()
     {
+        xHairCanvas.gameObject.SetActive(false);
         armAnim.SetBool("ads", true);
     }
 
     void ADSOut()
     {
+        xHairCanvas.gameObject.SetActive(true);
         armAnim.SetBool("ads", false);
     }
 
