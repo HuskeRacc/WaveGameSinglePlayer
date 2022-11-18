@@ -14,7 +14,7 @@ public class GunScript : MonoBehaviour
     [SerializeField] Camera fpsCam;
 
     [SerializeField] ParticleSystem muzzleFlash;
-    [SerializeField] Animator armAnim;
+    public Animator armAnim;
 
     [SerializeField] GameObject[] bulletHolePrefabs;
 
@@ -51,11 +51,11 @@ public class GunScript : MonoBehaviour
             StartCoroutine(Reload());
         }
 
-        if(Input.GetMouseButtonDown(1) && !armAnim.GetBool("shoot") && !armAnim.GetBool("reload") && !armAnim.GetBool("ads"))
+        if(Input.GetMouseButtonDown(1) && !armAnim.GetBool("reload") && !armAnim.GetBool("ads"))
         {
             ADS();
         }
-        else if(Input.GetMouseButtonDown(1) && !armAnim.GetBool("shoot") && !armAnim.GetBool("reload") && armAnim.GetBool("ads"))
+        else if(Input.GetMouseButtonDown(1) && !armAnim.GetBool("reload") && armAnim.GetBool("ads"))
         {
             ADSOut();
         }
