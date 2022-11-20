@@ -9,6 +9,7 @@ TagManager:
   - NetworkPlayer
   - env
   - enemy
+  - spawner
   layers:
   - Default
   - TransparentFX

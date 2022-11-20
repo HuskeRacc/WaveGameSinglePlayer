@@ -39,6 +39,8 @@ public class EnemyController : MonoBehaviour
     [Header("Enemy Stats")]
     [SerializeField] float health;
     [SerializeField] GunScript gunScript;
+    [SerializeField] float patrolSpeed;
+    [SerializeField] float chaseSpeed;
 
     [Header("Optimization")]
     [SerializeField] float ragdollDeletionTime = 3f;
@@ -97,7 +99,7 @@ public class EnemyController : MonoBehaviour
 
         if (walkPointSet)
         {
-            agent.speed = 4f;
+            agent.speed = patrolSpeed;
             agent.SetDestination(walkPoint);
             anim.SetFloat("Forward", 1);
             anim.SetBool("Running", false);
@@ -122,7 +124,7 @@ public class EnemyController : MonoBehaviour
 
     void Chase()
     {
-        agent.speed = 7;
+        agent.speed = chaseSpeed;
         agent.SetDestination(player.position);
         anim.SetFloat("Forward", 1);
         anim.SetBool("Running", true);
@@ -132,7 +134,7 @@ public class EnemyController : MonoBehaviour
     void ForceChase()
     {
         sightRange = 100f;
-        agent.speed = 7;
+        agent.speed = chaseSpeed;
         agent.SetDestination(player.position);
         anim.SetFloat("Forward", 1);
         anim.SetBool("Running", true);
@@ -174,7 +176,6 @@ public class EnemyController : MonoBehaviour
             AiDisabled = true;
             TurnOnRagdoll();
             Invoke(nameof(DestroyRagdoll), ragdollDeletionTime);
-            
         }
     }
 

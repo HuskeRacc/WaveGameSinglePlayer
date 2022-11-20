@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log("Player is Dead");
         //Restart scene?
         //Respawn & clear enemies and relevant stats?
+        SceneManager.LoadScene(0);
     }
 
 }
