@@ -3,8 +3,11 @@ using UnityEngine;
 
 public class GunScript : MonoBehaviour
 {
+    [SerializeField] float minDamage;
+    [SerializeField] float maxDamage;
 
-    [SerializeField] float damage = 10f;
+
+    [SerializeField] float damage;
     [SerializeField] float range = 100f;
     public int maxAmmo = 17;
     public int currentAmmo;
@@ -85,8 +88,15 @@ public class GunScript : MonoBehaviour
         armAnim.SetBool("ads", false);
     }
 
+    void DamageRNG()
+    {
+        damage = Random.Range(minDamage, maxDamage);
+    }
+
     IEnumerator Shoot()
     {
+        DamageRNG();
+
         if (currentAmmo > 1)
         {
             armAnim.SetBool("shoot", true);
@@ -106,11 +116,17 @@ public class GunScript : MonoBehaviour
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range, rayLayerMask))
         {
             Target target = hit.transform.GetComponent<Target>();
+            EnemyController enemy = hit.transform.GetComponent<EnemyController>();
             Debug.Log(hit.transform.name);
             CreateDecalBulletHole(hit);
 
+            if(enemy != null && target == null)
+            {
+                Debug.Log("Hit " + hit.transform.name);
+                enemy.TakeDamage(damage);
+            }
 
-            if (target != null)
+            if (target != null && enemy == null)
             {
                 Debug.Log("Hit " + hit.transform.name);
                 target.TakeDamage(damage);
@@ -124,14 +140,12 @@ public class GunScript : MonoBehaviour
         armAnim.SetBool("lastround", false);
     }
 
-    void CreateDecalBulletHole(RaycastHit hit)
+    public void CreateDecalBulletHole(RaycastHit hit)
     {
         GameObject randomBullet = bulletHolePrefabs[Random.Range(0, bulletHolePrefabs.Length)];
 
-
         //Iterate through hole pool list
         //enable objects that are active false
-        //Instantiate(randomBullet, hit.point, Quaternion.LookRotation(hit.normal));
 
         //Unecessary but fuck it
         Vector3 hitRotation = hit.normal; 
@@ -143,10 +157,13 @@ public class GunScript : MonoBehaviour
 
             if (currentBulletHole.activeInHierarchy == false)
             {
-                currentBulletHole.SetActive(true);
-                currentBulletHole.transform.position = hitPosition;
-                currentBulletHole.transform.rotation = Quaternion.LookRotation(hitRotation);
-                break;
+                if (hit.collider.gameObject.CompareTag("env"))
+                {
+                    currentBulletHole.SetActive(true);
+                    currentBulletHole.transform.position = hitPosition;
+                    currentBulletHole.transform.rotation = Quaternion.LookRotation(hitRotation);
+                    break;
+                }
             }
             else
             {

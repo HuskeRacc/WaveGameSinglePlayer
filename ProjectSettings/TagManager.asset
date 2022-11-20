@@ -8,6 +8,7 @@ TagManager:
   - lobbyslot
   - NetworkPlayer
   - env
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - PlayerGFX
   - Player
   - ENV
-  - 
-  - 
+  - Walkable
+  - Enemy
   - 
   - 
   - 
