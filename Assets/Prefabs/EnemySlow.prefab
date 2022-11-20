@@ -2987,10 +2987,11 @@ MonoBehaviour:
   attackRange: 2.3
   playerInSightRange: 0
   playerInAttackRange: 0
-  health: 100
+  health: 80
   gunScript: {fileID: 0}
   patrolSpeed: 4
   chaseSpeed: 5
+  waveSpawner: {fileID: 0}
   ragdollDeletionTime: 5
   AiDisabled: 0
 --- !u!95 &7439318186471887371

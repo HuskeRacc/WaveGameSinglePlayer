@@ -5,16 +5,16 @@ public class WaveSpawner : MonoBehaviour
 {
     public List<Enemy> enemies = new();
     public List<GameObject> enemiesToSpawn = new();
+    public List<GameObject> enemiesAlive = new();
     public int currWave;
-    public int waveValue;
+    int waveValue;
 
     public GameObject[] spawnLocations;
     public int waveDuration;
-    float waveTimer;
+    public float waveTimer;
     public float spawnInterval;
     public float spawnTimer;
-
-    public List<GameObject> spawnedEnemies = new();
+    public float enemiesKilled;
 
     private void Start()
     {
@@ -22,9 +22,12 @@ public class WaveSpawner : MonoBehaviour
         GenerateWave();
     }
 
-    void IncreaseWave()
+    private void Update()
     {
-            currWave++;
+        if (enemiesToSpawn.Count == 0 && enemiesKilled >= enemiesAlive.Count)
+        {
+            IncreaseWave();
+        }
     }
 
     private void FixedUpdate()
@@ -34,9 +37,17 @@ public class WaveSpawner : MonoBehaviour
             //spawn enemy
             if(enemiesToSpawn.Count > 0)
             {
-                Instantiate(enemiesToSpawn[0], spawnLocations[Random.Range(0,spawnLocations.Length)].transform.position,Quaternion.identity);
-                enemiesToSpawn.RemoveAt(0);
-                spawnTimer = spawnInterval;
+                if (enemiesToSpawn[0] != null)
+                {
+                    Instantiate(enemiesToSpawn[0], spawnLocations[Random.Range(0, spawnLocations.Length)].transform.position, Quaternion.identity);
+                    enemiesAlive.Add(enemiesToSpawn[0]);
+                    enemiesToSpawn.Remove(enemiesToSpawn[0]);
+                    spawnTimer = spawnInterval;
+                }
+                else
+                {
+                    Debug.LogError("EnemiesToSpawn[0] is empty!");
+                }
             }
             else
             {
@@ -57,14 +68,23 @@ public class WaveSpawner : MonoBehaviour
         if(enemiesToSpawn.Count != 0)
         {
             spawnInterval = waveDuration / enemiesToSpawn.Count; // fixed time between enemies spawned
-            waveTimer = waveDuration;        
+            waveTimer = waveDuration;
         }
+    }
+
+    public void IncreaseWave()
+    {
+        currWave++;
+        enemiesKilled = 0;
+        enemiesAlive.Clear();
+        GenerateWave();
     }
 
     public void GenerateEnemies()
     {
         List<GameObject> generatedEnemies = new List<GameObject>();
-        while(waveValue > 0)
+
+        while (waveValue > 0)
         {
             int randomEnemyId = Random.Range(0, enemies.Count);
             int randomEnemyCost = enemies[randomEnemyId].cost;
@@ -77,8 +97,13 @@ public class WaveSpawner : MonoBehaviour
             {
                 break;
             }
+            else
+            {
+                break;
+            }
         }
         enemiesToSpawn.Clear();
+        enemiesKilled = 0;
         enemiesToSpawn = generatedEnemies;
     }
 }

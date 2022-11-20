@@ -2949,7 +2949,7 @@ Transform:
   - {fileID: 980850265913225860}
   - {fileID: 4662138991941020787}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 1.649, y: 360, z: 0}
 --- !u!114 &7834707561138735345
 MonoBehaviour:
@@ -2987,10 +2987,12 @@ MonoBehaviour:
   attackRange: 2.3
   playerInSightRange: 0
   playerInAttackRange: 0
-  health: 25
+  health: 30
   gunScript: {fileID: 0}
   patrolSpeed: 4
   chaseSpeed: 8
+  waveSpawner: {fileID: 0}
+  enemiesAlive: {fileID: 0}
   ragdollDeletionTime: 5
   AiDisabled: 0
 --- !u!95 &7439318186471887371

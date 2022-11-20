@@ -41,6 +41,8 @@ public class EnemyController : MonoBehaviour
     [SerializeField] GunScript gunScript;
     [SerializeField] float patrolSpeed;
     [SerializeField] float chaseSpeed;
+    [SerializeField] WaveSpawner waveSpawner;
+    [SerializeField] EnemiesAlive enemiesAlive;
 
     [Header("Optimization")]
     [SerializeField] float ragdollDeletionTime = 3f;
@@ -70,6 +72,8 @@ public class EnemyController : MonoBehaviour
         rbs = gameObject.GetComponents<Rigidbody>();
         rbs = gameObject.GetComponentsInChildren<Rigidbody>();
         mainRb = gameObject.GetComponent<Rigidbody>();
+        waveSpawner = GameObject.Find("WaveSpawner").GetComponent<WaveSpawner>();
+        
     }
 
     #endregion
@@ -227,6 +231,7 @@ public class EnemyController : MonoBehaviour
             c.isTrigger = false;
             c.attachedRigidbody.velocity = Vector3.zero;
         }
+            waveSpawner.enemiesKilled++;
     }
 
     #endregion
