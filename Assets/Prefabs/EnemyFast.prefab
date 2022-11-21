@@ -2983,7 +2983,7 @@ MonoBehaviour:
   timeBetweenAttacks: 2
   alreadyAttacked: 0
   playerHealth: {fileID: 0}
-  sightRange: 10.3
+  sightRange: 256.08
   attackRange: 2.3
   playerInSightRange: 0
   playerInAttackRange: 0

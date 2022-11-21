@@ -2983,7 +2983,7 @@ MonoBehaviour:
   timeBetweenAttacks: 2
   alreadyAttacked: 0
   playerHealth: {fileID: 0}
-  sightRange: 10.3
+  sightRange: 256.08
   attackRange: 2.3
   playerInSightRange: 0
   playerInAttackRange: 0
@@ -2992,6 +2992,7 @@ MonoBehaviour:
   patrolSpeed: 4
   chaseSpeed: 5
   waveSpawner: {fileID: 0}
+  enemiesAlive: {fileID: 0}
   ragdollDeletionTime: 5
   AiDisabled: 0
 --- !u!95 &7439318186471887371
