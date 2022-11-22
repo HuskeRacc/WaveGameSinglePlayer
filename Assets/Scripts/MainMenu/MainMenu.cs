@@ -6,6 +6,12 @@ public class MainMenu : MonoBehaviour
     public GameObject optionsPanel;
     public GameObject mainMenuGO;
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
     public void Play()
     {
         // can add a level selection.

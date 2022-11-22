@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float runSpeed;
     [SerializeField] float runBuildUpSpeed;
     [SerializeField] float gravity = -13f;
+    public bool isSprinting;
 
     [Header("Mouse")]
     [SerializeField] bool lockCursor = true;
@@ -39,7 +40,6 @@ public class PlayerController : MonoBehaviour
     [Header("Slope")]
     [SerializeField] float slopeForce;
     [SerializeField] float slopeForceRayLength;
-
     float moveSpeed;
     float cameraPitch = 0.0f;
     float velocityY = 0.0f;
@@ -139,10 +139,12 @@ public class PlayerController : MonoBehaviour
     {
         if(Input.GetKey(runKey))
         {
+            isSprinting = true;
             moveSpeed = Mathf.Lerp(moveSpeed, runSpeed, Time.deltaTime * runBuildUpSpeed);
         }
         else
         {
+            isSprinting = false;
             moveSpeed = Mathf.Lerp(moveSpeed, walkSpeed, Time.deltaTime * runBuildUpSpeed);
         }
     }

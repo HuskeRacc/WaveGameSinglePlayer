@@ -27,6 +27,8 @@ public class GunScript : MonoBehaviour
 
     [SerializeField] Canvas xHairCanvas;
 
+    [SerializeField] PlayerController player;
+
     private void Start()
     {
         fpsCam = Camera.main;
@@ -45,22 +47,22 @@ public class GunScript : MonoBehaviour
 
     void InputHandler()
     {
-        if (Input.GetMouseButton(0) && currentAmmo > 0 && !armAnim.GetBool("shoot") && !armAnim.GetBool("reload"))
+        if (Input.GetMouseButton(0) && currentAmmo > 0 && !armAnim.GetBool("shoot") && !armAnim.GetBool("reload") && !player.isSprinting)
         {
             StartCoroutine(Shoot());
         }
 
-        if (currentAmmo <= 0 && currentAmmo != maxAmmo && !armAnim.GetBool("reload") && !armAnim.GetBool("lastround") ||
-            currentAmmo != maxAmmo && Input.GetKeyDown(KeyCode.R) && !armAnim.GetBool("reload") && !armAnim.GetBool("lastround"))
+        if (currentAmmo <= 0 && currentAmmo != maxAmmo && !armAnim.GetBool("reload") && !armAnim.GetBool("lastround") && !player.isSprinting ||
+            currentAmmo != maxAmmo && Input.GetKeyDown(KeyCode.R) && !armAnim.GetBool("reload") && !armAnim.GetBool("lastround") && !player.isSprinting)
         {
             StartCoroutine(Reload());
         }
 
-        if(Input.GetMouseButtonDown(1) && !armAnim.GetBool("reload") && !armAnim.GetBool("ads"))
+        if(Input.GetMouseButtonDown(1) && !armAnim.GetBool("reload") && !armAnim.GetBool("ads") && !player.isSprinting)
         {
             ADS();
         }
-        else if(Input.GetMouseButtonDown(1) && !armAnim.GetBool("reload") && armAnim.GetBool("ads"))
+        else if(Input.GetMouseButtonDown(1) && !armAnim.GetBool("reload") && armAnim.GetBool("ads") && !player.isSprinting)
         {
             ADSOut();
         }
