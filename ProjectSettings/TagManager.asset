@@ -10,6 +10,7 @@ TagManager:
   - env
   - enemy
   - spawner
+  - health
   layers:
   - Default
   - TransparentFX
