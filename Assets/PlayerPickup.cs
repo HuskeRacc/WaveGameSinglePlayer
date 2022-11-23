@@ -4,20 +4,50 @@ using UnityEngine;
 
 public class PlayerPickup : MonoBehaviour
 {
-    PlayerHealth playerHealth;
-    
+    [SerializeField] PlayerHealth playerHealth;
+    [SerializeField] float respawnTime = 10f;
+    [SerializeField] float healAmount = 30f;
+    [SerializeField] MeshRenderer[] componentsToDisable;
 
     private void Start()
     {
-        playerHealth = GetComponent<PlayerHealth>();
+        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
+        componentsToDisable = gameObject.GetComponentsInChildren<MeshRenderer>();
     }
 
-    private void OnControllerColliderHit(ControllerColliderHit hit)
+    private void OnTriggerEnter(Collider other)
     {
-        if (hit.gameObject.CompareTag("health"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("health picked up");
-            playerHealth.health += 30f;
+            if (playerHealth.health != 100)
+            StartCoroutine(DisableHealthBox());
         }
+    }
+
+    IEnumerator DisableHealthBox()
+    {
+        Debug.Log("health picked up");
+        playerHealth.health += healAmount;
+        DisableHealth();
+        yield return new WaitForSeconds(respawnTime);
+        EnableHealth();
+    }
+
+    void DisableHealth()
+    {
+        for (int i = 0; i < componentsToDisable.Length; i++)
+        {
+            componentsToDisable[i].enabled = false;
+        }   
+        gameObject.GetComponent<BoxCollider>().enabled = false;
+    }
+
+    void EnableHealth()
+    {
+        for (int i = 0; i < componentsToDisable.Length; i++)
+        {
+            componentsToDisable[i].enabled = true;
+        }
+        gameObject.GetComponent<BoxCollider>().enabled = true;
     }
 }

@@ -4,10 +4,12 @@ using UnityEngine;
 public class GUIManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI ammoCounter;
-    [SerializeField] TextMeshProUGUI healthTXT;
+    [SerializeField] TextMeshProUGUI healthCounter;
+    [SerializeField] TextMeshProUGUI waveCounter;
     [SerializeField] GunScript gunScript;
     [SerializeField] PlayerHealth playerHealth;
-    
+    [SerializeField] WaveSpawner waveSpawner;
+
     private void Update()
     {
         if (gunScript.armAnim.GetBool("reload"))
@@ -19,6 +21,8 @@ public class GUIManager : MonoBehaviour
             ammoCounter.text = gunScript.currentAmmo + " / " + gunScript.maxAmmo;
         }
 
-        healthTXT.text = playerHealth.health.ToString("F0");
+        healthCounter.text = playerHealth.health.ToString("F0");
+
+        waveCounter.text = waveSpawner.currWave.ToString("F0");
     }
 }

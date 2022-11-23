@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2227070300065578172}
   - component: {fileID: 1829197975801715541}
   - component: {fileID: 1829197975801715546}
+  - component: {fileID: 8047341803517350476}
   m_Layer: 0
   m_Name: Healthkit
   m_TagString: health
@@ -33,7 +34,7 @@ Transform:
   - {fileID: 7757329196171974104}
   - {fileID: 7438793445375978035}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -56.462, y: -128.912, z: 0}
 --- !u!65 &1829197975801715541
 BoxCollider:
@@ -76,6 +77,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8047341803517350476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559358245415118342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 273303c403424614a9e1d4601b54816d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnTime: 10
+  healAmount: 30
 --- !u!1 &3350971561870439187
 GameObject:
   m_ObjectHideFlags: 0
