@@ -25086,11 +25086,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canSprint: 1
   canJump: 1
+  canCrouch: 1
+  canUseHeadbob: 1
   sprintKey: 304
   jumpKey: 32
   pauseKey: 27
+  crouchKey: 306
   walkSpeed: 6
   sprintSpeed: 10
+  crouchSpeed: 3
   lookSpeed: 2
   upperLookLimit: 90
   lowerLookLimit: 90
@@ -25099,6 +25103,15 @@ MonoBehaviour:
   gravity: 30
   crouchHeight: 1.35
   standingHeight: 2.7
+  timeToCrouch: 0.25
+  crouchingCenter: {x: 0, y: 0.5, z: 0}
+  standingCenter: {x: 0, y: 0.5, z: 0}
+  walkBobSpeed: 14
+  walkBobAmount: 0.05
+  sprintBobSpeed: 18
+  sprintBobAmount: 0.05
+  crouchBobSpeed: 8
+  crouchBobAmount: 0.01
 --- !u!1 &919132148754721289
 GameObject:
   m_ObjectHideFlags: 0
