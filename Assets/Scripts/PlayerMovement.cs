@@ -12,16 +12,18 @@ public class PlayerMovement : MonoBehaviour
     private bool ShouldCrouch => Input.GetKeyDown(crouchKey) && !duringCrouchAnim && characterController.isGrounded;
 
     [Header("Functional Options")]
-    [SerializeField] private bool canSprint = true;
-    [SerializeField] private bool canJump = true;
-    [SerializeField] private bool canCrouch = true;
-    [SerializeField] private bool canUseHeadbob = true;
+    [SerializeField] bool canSprint = true;
+    [SerializeField] bool canJump = true;
+    [SerializeField] bool canCrouch = true;
+    [SerializeField] bool canUseHeadbob = true;
+    [SerializeField] bool canInteract = true;
 
     [Header("Controls")]
     [SerializeField] KeyCode sprintKey = KeyCode.LeftShift;
     [SerializeField] KeyCode jumpKey = KeyCode.Space;
     [SerializeField] KeyCode pauseKey = KeyCode.Escape;
     [SerializeField] KeyCode crouchKey = KeyCode.LeftControl;
+    [SerializeField] KeyCode interactKey = KeyCode.F;
 
     [Header("Movement Params")]
     [SerializeField] float walkSpeed = 6.0f;
@@ -61,6 +63,12 @@ public class PlayerMovement : MonoBehaviour
     float defaultYPos = 0;
     float timer;
 
+    [Header("Interaction")]
+    [SerializeField] Vector3 interactionRayPoint = default;
+    [SerializeField] float interactionDistance = default;
+    [SerializeField] LayerMask interactionLayer = default;
+    Interactable currentInteractable;
+
     private Camera playerCam;
     private CharacterController characterController;
 
@@ -68,6 +76,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 currentInput;
 
     private float rotX = 0;
+
+
+
 
     private void Awake()
     {
@@ -106,6 +117,12 @@ public class PlayerMovement : MonoBehaviour
             if (canUseHeadbob)
                 HandleHeadBob();
 
+            if(canInteract)
+            {
+                HandleInteractionCheck();
+                HandleInteractionInput();
+            }
+
             ApplyFinalMovements();
         }
     }
@@ -127,6 +144,34 @@ public class PlayerMovement : MonoBehaviour
         {
             CanMove = false;
             UnlockCursor();
+        }
+    }
+
+    void HandleInteractionCheck()
+    {
+        if(Physics.Raycast(playerCam.ViewportPointToRay(interactionRayPoint), out RaycastHit hit, interactionDistance))
+        {
+            if(hit.collider.gameObject.layer == 12 && (currentInteractable == null || hit.collider.gameObject.GetInstanceID() != currentInteractable.GetInstanceID()))
+            {
+                hit.collider.TryGetComponent(out currentInteractable);
+
+                if (currentInteractable) currentInteractable.OnFocus();
+            }
+        }
+        else if(currentInteractable)
+        { 
+            currentInteractable.OnLoseFocus();
+            currentInteractable = null;
+        }
+    }
+
+    void HandleInteractionInput()
+    {
+        if(Input.GetKeyDown(interactKey) && currentInteractable != null 
+            && Physics.Raycast(playerCam.ViewportPointToRay(interactionRayPoint), 
+            out RaycastHit hit, interactionDistance, interactionLayer))
+        {
+            currentInteractable.OnInteract();
         }
     }
 
