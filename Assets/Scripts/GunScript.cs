@@ -3,31 +3,27 @@ using UnityEngine;
 
 public class GunScript : MonoBehaviour
 {
+    [Header("Damage")]
     [SerializeField] float minDamage;
     [SerializeField] float maxDamage;
-
-
     [SerializeField] float damage;
     [SerializeField] float range = 100f;
+
+    [Header("Ammo")]
     public int maxAmmo = 17;
     public int currentAmmo;
     [SerializeField] float reloadTime = 6f;
     [SerializeField] float timeBetweenShots;
 
+    [Header("Assignables")]
     [SerializeField] Camera fpsCam;
-
     [SerializeField] ParticleSystem muzzleFlash;
     public Animator armAnim;
-
     [SerializeField] GameObject[] bulletHolePrefabs;
-
     [SerializeField] LayerMask rayLayerMask;
-
     [SerializeField] PoolManager pool;
-
     [SerializeField] Canvas xHairCanvas;
-
-    [SerializeField] PlayerController player;
+    [SerializeField] PlayerMovement player;
 
     private void Start()
     {
@@ -47,22 +43,22 @@ public class GunScript : MonoBehaviour
 
     void InputHandler()
     {
-        if (Input.GetMouseButton(0) && currentAmmo > 0 && !armAnim.GetBool("shoot") && !armAnim.GetBool("reload") && !player.isSprinting)
+        if (Input.GetMouseButton(0) && currentAmmo > 0 && !armAnim.GetBool("shoot") && !armAnim.GetBool("reload") && !player.IsSprinting)
         {
             StartCoroutine(Shoot());
         }
 
-        if (currentAmmo <= 0 && currentAmmo != maxAmmo && !armAnim.GetBool("reload") && !armAnim.GetBool("lastround") && !player.isSprinting ||
-            currentAmmo != maxAmmo && Input.GetKeyDown(KeyCode.R) && !armAnim.GetBool("reload") && !armAnim.GetBool("lastround") && !player.isSprinting)
+        if (currentAmmo <= 0 && currentAmmo != maxAmmo && !armAnim.GetBool("reload") && !armAnim.GetBool("lastround") && !player.IsSprinting ||
+            currentAmmo != maxAmmo && Input.GetKeyDown(KeyCode.R) && !armAnim.GetBool("reload") && !armAnim.GetBool("lastround") && !player.IsSprinting)
         {
             StartCoroutine(Reload());
         }
 
-        if(Input.GetMouseButtonDown(1) && !armAnim.GetBool("reload") && !armAnim.GetBool("ads") && !player.isSprinting)
+        if(Input.GetMouseButtonDown(1) && !armAnim.GetBool("reload") && !armAnim.GetBool("ads") && !player.IsSprinting)
         {
             ADS();
         }
-        else if(Input.GetMouseButtonDown(1) && !armAnim.GetBool("reload") && armAnim.GetBool("ads") && !player.isSprinting)
+        else if(Input.GetMouseButtonDown(1) && !armAnim.GetBool("reload") && armAnim.GetBool("ads") && !player.IsSprinting)
         {
             ADSOut();
         }

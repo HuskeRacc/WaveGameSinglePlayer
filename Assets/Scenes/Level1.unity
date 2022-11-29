@@ -16011,7 +16011,7 @@ MonoBehaviour:
     m_Bits: 1280
   pool: {fileID: 0}
   xHairCanvas: {fileID: 1084427230}
-  player: {fileID: 698313532695980076}
+  player: {fileID: 698313532695980081}
 --- !u!1001 &1392225661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24960,7 +24960,7 @@ GameObject:
   - component: {fileID: 698313532695980055}
   - component: {fileID: 698313532695980072}
   - component: {fileID: 698313532695980075}
-  - component: {fileID: 698313532695980076}
+  - component: {fileID: 698313532695980081}
   - component: {fileID: 698313532695980077}
   - component: {fileID: 698313532695980078}
   - component: {fileID: 698313532695980080}
@@ -25023,61 +25023,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.35, z: 0}
---- !u!114 &698313532695980076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 698313532695980054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b93bde92f7ed2c047b50bb5aa03211f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPaused: 0
-  animator: {fileID: 0}
-  animationSmoothingTime: 6
-  playerCam: {fileID: 698313531881349118}
-  mouseSens: 4
-  walkSpeed: 6
-  runSpeed: 12
-  runBuildUpSpeed: 6
-  gravity: -13
-  isSprinting: 0
-  lockCursor: 1
-  moveSmoothTime: 0.02
-  mouseSmoothTime: 0.02
-  jumpFallOff:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1.0047302
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.70428586
-      value: 0.005034454
-      inSlope: 0.024122804
-      outSlope: 0.024122804
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.09676278
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  jumpMultiplier: 10
-  runKey: 304
-  jumpKey: 32
-  pauseKey: 27
-  slopeForce: 6
-  slopeForceRayLength: 1.5
 --- !u!114 &698313532695980077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25127,6 +25072,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: -0.42, z: 0}
+--- !u!114 &698313532695980081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698313532695980054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a163c5b456cfc1c4c92092b414d20edb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canSprint: 1
+  canJump: 1
+  sprintKey: 304
+  jumpKey: 32
+  pauseKey: 27
+  walkSpeed: 6
+  sprintSpeed: 10
+  lookSpeed: 2
+  upperLookLimit: 90
+  lowerLookLimit: 90
+  lockCursor: 1
+  jumpForce: 8
+  gravity: 30
+  crouchHeight: 1.35
+  standingHeight: 2.7
 --- !u!1 &919132148754721289
 GameObject:
   m_ObjectHideFlags: 0

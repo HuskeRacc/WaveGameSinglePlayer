@@ -18,7 +18,7 @@ public class PlayerNet : MonoBehaviour
     IEnumerator ResetPosition()
     {
         CharacterController controller = GetComponent<CharacterController>();
-        PlayerController player = GetComponent<PlayerController>();
+        PlayerMovement player = GetComponent<PlayerMovement>();
         player.enabled = false;
         controller.enabled = false;
         Debug.Log("Player fell under map!");
@@ -26,8 +26,5 @@ public class PlayerNet : MonoBehaviour
         yield return new WaitForSeconds(.1f);
         player.enabled = true;
         controller.enabled = true;
-
-
-
     }
 }
