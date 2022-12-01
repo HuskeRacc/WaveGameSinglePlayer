@@ -28,7 +28,6 @@ public class EnemyController : MonoBehaviour
     [SerializeField] float attackDamage = 25f;
     [SerializeField] float timeBetweenAttacks;
     [SerializeField] bool alreadyAttacked;
-    [SerializeField] PlayerHealth playerHealth;
 
     [Header("Ranges")]
     [SerializeField] float sightRange;
@@ -38,9 +37,11 @@ public class EnemyController : MonoBehaviour
 
     [Header("Enemy Stats")]
     [SerializeField] float health;
-    [SerializeField] GunScript gunScript;
     [SerializeField] float patrolSpeed;
     [SerializeField] float chaseSpeed;
+
+    [Header("Script References")]
+    [SerializeField] GunScript gunScript;
     [SerializeField] WaveSpawner waveSpawner;
     [SerializeField] EnemiesAlive enemiesAlive;
 
@@ -63,7 +64,6 @@ public class EnemyController : MonoBehaviour
     void Reference()
     {
         playerGO = GameObject.Find("Player");
-        playerHealth = playerGO.GetComponent<PlayerHealth>();
         player = GameObject.Find("Player").transform;
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.Find("Player").transform;
@@ -156,7 +156,7 @@ public class EnemyController : MonoBehaviour
 
         if (!alreadyAttacked)
         {
-            playerHealth.health -= attackDamage;
+            PlayerMovement.OnTakeDamage(attackDamage);
 
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);

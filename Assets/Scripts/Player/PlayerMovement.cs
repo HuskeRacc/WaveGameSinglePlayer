@@ -1,8 +1,10 @@
 using JetBrains.Annotations;
+using System;
 using System.Collections;
 using System.Configuration;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -17,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] bool canCrouch = true;
     [SerializeField] bool canUseHeadbob = true;
     [SerializeField] bool canInteract = true;
+    [SerializeField] bool useStamina = true;
 
     [Header("Controls")]
     [SerializeField] KeyCode sprintKey = KeyCode.LeftShift;
@@ -37,6 +40,27 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField, Range(1, 180)] private float lowerLookLimit = 80f;
 
     [SerializeField] private bool lockCursor = true;
+
+    [Header("Health Params")]
+    [SerializeField] float maxHealth = 100f;
+    [SerializeField] float timeBeforeRegenStarts = 3f;
+    [SerializeField] float healthValueIncrement = 1f;
+    [SerializeField] float healthTimeIncrement = 0.1f;
+    float currentHealth;
+    Coroutine RegenHealth;
+    public static Action<float> OnTakeDamage;
+    public static Action<float> OnDamage;
+    public static Action<float> OnHeal;
+
+    [Header("Stamina Params")]
+    [SerializeField] float maxStamina = 100f;
+    [SerializeField] float staminaUseMultiplier = 5f;
+    [SerializeField] float timeBeforeStaminaRegenStarts = 5f;
+    [SerializeField] float staminaValueIncrement = 2f;
+    [SerializeField] float staminaTimeIncrement = 0.1f;
+    float currentStamina;
+    private Coroutine regeneratingStamina;
+    public static Action<float> OnStaminaChange;
 
     [Header("Jump Params")]
     [SerializeField] float jumpForce = 8.0f;
@@ -77,14 +101,26 @@ public class PlayerMovement : MonoBehaviour
 
     private float rotX = 0;
 
+    public static PlayerMovement instance;
 
+    private void OnEnable()
+    {
+        OnTakeDamage += ApplyDamage;
+    }
 
+    private void OnDisable()
+    {
+        OnTakeDamage -= ApplyDamage;
+    }
 
     private void Awake()
     {
+        instance = this;
         playerCam = GetComponentInChildren<Camera>();
         characterController = GetComponent<CharacterController>();
         defaultYPos = playerCam.transform.localPosition.y;
+        currentHealth = maxHealth;
+        currentStamina = maxStamina;
         LockCursor();
     }
 
@@ -122,6 +158,9 @@ public class PlayerMovement : MonoBehaviour
                 HandleInteractionCheck();
                 HandleInteractionInput();
             }
+
+            if (useStamina)
+                HandleStamina();
 
             ApplyFinalMovements();
         }
@@ -221,6 +260,57 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    void HandleStamina()
+    {
+        if(IsSprinting && currentInput != Vector2.zero)
+        {
+            if(regeneratingStamina != null)
+            {
+                StopCoroutine(RegenerateStamina());
+                regeneratingStamina = null;
+            }
+            currentStamina -= staminaUseMultiplier * Time.deltaTime;
+
+            if (currentStamina < 0)
+                currentStamina = 0;
+
+            OnStaminaChange?.Invoke(currentStamina);
+
+            if (currentStamina <= 0)
+                canSprint = false;
+        }
+
+        if(!IsSprinting && currentStamina < maxStamina && regeneratingStamina == null)
+        {
+            regeneratingStamina = StartCoroutine(RegenerateStamina());
+        }
+    }
+
+    private void ApplyDamage(float dmg)
+    {
+        currentHealth -= dmg;
+        OnDamage?.Invoke(currentHealth);
+
+        if (currentHealth <= 0)
+        {
+            KillPlayer();
+        }
+        else if (RegenHealth != null)
+            StopCoroutine(RegenerateHealth());
+
+        RegenHealth = StartCoroutine(RegenerateHealth());
+    }
+
+    private void KillPlayer()
+    {
+        currentHealth = 0;
+        if(RegenHealth != null)
+        {
+            StopCoroutine(RegenerateHealth());
+            print("Dead");
+        }
+    }
+
     void ApplyFinalMovements()
     {
         if (!characterController.isGrounded) moveDir.y -= gravity * Time.deltaTime;
@@ -254,5 +344,47 @@ public class PlayerMovement : MonoBehaviour
         isCrouching = !isCrouching;
 
         duringCrouchAnim = false;
+    }
+
+    IEnumerator RegenerateHealth()
+    {
+        yield return new WaitForSeconds(timeBeforeRegenStarts);
+        WaitForSeconds timeToWait = new WaitForSeconds(healthTimeIncrement);
+
+        while(currentHealth < maxHealth)
+        {
+            currentHealth += healthValueIncrement;
+
+            if (currentHealth > maxHealth)
+                currentHealth = maxHealth;
+
+            OnHeal?.Invoke(currentHealth);
+            yield return timeToWait;
+        }
+
+        RegenHealth = null;
+    }
+
+    IEnumerator RegenerateStamina()
+    {
+        yield return new WaitForSeconds(timeBeforeStaminaRegenStarts);
+        WaitForSeconds timeToWait = new WaitForSeconds(staminaTimeIncrement);
+
+        while(currentStamina < maxStamina)
+        {
+            if (currentStamina > 0)
+                canSprint = true;
+
+            currentStamina += staminaValueIncrement;
+
+            if (currentStamina > maxStamina)
+                currentStamina = maxStamina;
+
+            OnStaminaChange?.Invoke(currentStamina);
+
+            yield return timeToWait;
+        }
+
+        regeneratingStamina = null;
     }
 }

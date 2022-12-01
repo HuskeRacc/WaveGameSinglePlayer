@@ -3,36 +3,24 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject optionsPanel;
-    public GameObject mainMenuGO;
-
     private void Start()
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
 
-    public void Play()
+    public void OnClick_Play()
     {
         // can add a level selection.
         SceneManager.LoadScene(1);
     }
 
-    public void Options()
+    public void OnClick_Options()
     {
-        optionsPanel.SetActive(true);
-
-        mainMenuGO.SetActive(false);
+        MenuManager.OpenMenu(Menu.SETTINGS, gameObject);
     }
 
-    public void OptionsBackButton()
-    {
-        optionsPanel.SetActive(false);
-
-        mainMenuGO.SetActive(true);
-    }
-
-    public void QuitGame()
+    public void OnClick_QuitGame()
     {
         Application.Quit();
     }
